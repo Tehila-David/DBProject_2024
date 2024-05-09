@@ -1,5 +1,6 @@
-
-# **אגף שומא וגביה עיריית ירושלים** 
+<p align="center">
+  <h1># **אגף שומא וגביה עיריית ירושלים** </h1>
+</p>
 
 <p align="middle">
 <img src="https://github.com/Tehila-David/database6419_6037/blob/main/Photos/Emblem_of_Jerusalem.svg.png" width="20%">
