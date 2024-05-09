@@ -1,2 +1,2 @@
-# database5784
+# מחלקת גבייה ושומא עיירית ירושלים
 A mini-project in a database course
