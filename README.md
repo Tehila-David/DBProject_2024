@@ -1,4 +1,4 @@
-<p align="center">
+<p align="middle">
    <h1> אגף שומא וגביה עיריית ירושלים </h1>
 </p>
 
