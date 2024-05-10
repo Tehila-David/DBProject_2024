@@ -28,7 +28,7 @@
 
 
 ## דיאגרמת ERD
-<img src="https://github.com/Tehila-David/database6419_6037/blob/main/Photos/ERD.png" width="98%">
+<img src="https://github.com/Tehila-David/database6419_6037/blob/main/Photos/ERD%20diagram.png" width="98%">
 
 ## דיאגרמת DSD
 
