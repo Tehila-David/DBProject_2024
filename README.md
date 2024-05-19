@@ -32,6 +32,6 @@
 
 ## דיאגרמת DSD
 
-
+<img src="https://github.com/Tehila-David/database6419_6037/blob/main/Photos/DSD%20diagram.png" width="98%">
 
 
