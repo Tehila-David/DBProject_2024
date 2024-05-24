@@ -36,6 +36,6 @@
 
 ## דיאגרמת DSD in Oracle
 
-<img src="https://github.com/Tehila-David/database6419_6037/blob/main/Photos/tabels%20diagram.png" width="98%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/DSD%20Oracle.png" width="98%">
 
 
