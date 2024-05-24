@@ -52,7 +52,7 @@ CreateTable Commands
 </h1>  
 <img src="" width="98%">
 
-\'\'\'CREATE TABLE Resident
+'''CREATE TABLE Resident
 (
   resident_id NUMERIC(9) NOT NULL,
   resident_fname VARCHAR(16) NOT NULL,
@@ -62,7 +62,7 @@ CreateTable Commands
   resident_phone NUMERIC(10) NOT NULL,
   resident_joining DATE NOT NULL,
   PRIMARY KEY (resident_id)
-);\'\'\'
+);'''
 
 CREATE TABLE Tax_Account
 (
