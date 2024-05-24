@@ -51,7 +51,8 @@ Oracle DSD Diagram
 CreateTable Commands
 </h1>  
 <img src="" width="98%">
-CREATE TABLE Resident
+
+\'\'\'CREATE TABLE Resident
 (
   resident_id NUMERIC(9) NOT NULL,
   resident_fname VARCHAR(16) NOT NULL,
@@ -127,7 +128,7 @@ CREATE TABLE Ownership
   PRIMARY KEY (asset_id, resident_id),
   FOREIGN KEY (asset_id) REFERENCES Asset(asset_id),
   FOREIGN KEY (resident_id) REFERENCES Resident(resident_id)
-);
+);\'\'\'
 
 <h1 align="right">
 Desc Command
