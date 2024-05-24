@@ -47,4 +47,22 @@ Oracle DSD Diagram
 </h1>  
 <img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/DSD%20Oracle.png" width="98%">
 
+<h1 align="right">
+CreateTable Commands
+</h1>  
+<img src="" width="98%">
+
+<h1 align="right">
+Desc Command
+</h1>  
+<img src="" width="98%">
+
+#  3 שיטות להכנסת נתונים
+## שיטה 1: ייבוא נתונים מקובץ טבלאי 
+
+## שיטה 2: ייבוא נתונים מקובץ טקסט
+
+## שיטה 3: הכנסת נתונים ע"י Data Generator
+
+
 
