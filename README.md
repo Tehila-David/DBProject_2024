@@ -139,14 +139,27 @@ Desc Command
 <img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/Desc2.png" width="80%">
 
 #  שיטות להכנסת נתונים
-##  ייבוא נתונים מקובץ טבלאי 
-
-
 ##  ייבוא נתונים מקובץ טקסט
+<p align="middle">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/data_gd.png" width="60%">
+</p>
+
+
+##  הכנסת נתונים ע"י insert
+<p align="middle">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/data_insert.png" width="50%">
+</p>
 
 ##  הכנסת נתונים ע"י Data Generator
+<p align="middle">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/data_txt.png" width="20%">
+</p>
+
 # גיבוי ושחזור נתונים
 ## גיבוי נתונים
+<p align="middle">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/backup_24_05_2024.png" width="80%">
+</p>
 ## שחזור נתונים
 
 
