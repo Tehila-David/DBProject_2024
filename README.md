@@ -50,7 +50,6 @@ Oracle DSD Diagram
 <h1 align="right">
 CreateTable Commands
 </h1>  
-<img src="" width="98%">
 
 ```SQL
 CREATE TABLE Resident
