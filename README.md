@@ -63,7 +63,8 @@ CREATE TABLE Resident
   resident_phone NUMERIC(10) NOT NULL,
   resident_joining DATE NOT NULL,
   PRIMARY KEY (resident_id)
-);'''
+);
+'''
 
 CREATE TABLE Tax_Account
 (
