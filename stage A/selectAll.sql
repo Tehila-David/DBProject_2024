@@ -4,6 +4,7 @@ select * from resident;
 select * from discount;
 select * from debt;
 select * from asset;
+select * from ownership;
 
 
 
