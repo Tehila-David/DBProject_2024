@@ -64,7 +64,6 @@ CREATE TABLE Resident
     resident_joining DATE NOT NULL,
     PRIMARY KEY (resident_id)
 );
-```
 
 CREATE TABLE Tax_Account
 (
@@ -131,6 +130,8 @@ CREATE TABLE Ownership
   FOREIGN KEY (asset_id) REFERENCES Asset(asset_id),
   FOREIGN KEY (resident_id) REFERENCES Resident(resident_id)
 );
+
+```
 
 <h1 align="right">
 Desc Command
