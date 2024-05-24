@@ -135,8 +135,9 @@ CREATE TABLE Ownership
 <h1 align="right">
 Desc Command
 </h1>  
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/Desc1.png" width="98%">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/Desc1.png" width="98%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/Desc1.png" width="80%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/Desc2.png" width="80%">
+
 #  שיטות להכנסת נתונים
 ##  ייבוא נתונים מקובץ טבלאי 
 
