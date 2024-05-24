@@ -51,8 +51,7 @@ Oracle DSD Diagram
 CreateTable Commands
 </h1>  
 <img src="" width="98%">
-
-'''SQL
+```sql
 CREATE TABLE Resident
 (
     resident_id NUMERIC(9) NOT NULL,
@@ -64,7 +63,7 @@ CREATE TABLE Resident
     resident_joining DATE NOT NULL,
     PRIMARY KEY (resident_id)
 );
-'''
+```
 
 CREATE TABLE Tax_Account
 (
