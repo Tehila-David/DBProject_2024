@@ -55,14 +55,14 @@ CreateTable Commands
 '''SQL
 CREATE TABLE Resident
 (
-  resident_id NUMERIC(9) NOT NULL,
-  resident_fname VARCHAR(16) NOT NULL,
-  resident_lname VARCHAR(16) NOT NULL,
-  resident_birth DATE NOT NULL,
-  resident_address VARCHAR(30) NOT NULL,
-  resident_phone NUMERIC(10) NOT NULL,
-  resident_joining DATE NOT NULL,
-  PRIMARY KEY (resident_id)
+    resident_id NUMERIC(9) NOT NULL,
+    resident_fname VARCHAR(16) NOT NULL,
+    resident_lname VARCHAR(16) NOT NULL,
+    resident_birth DATE NOT NULL,
+    resident_address VARCHAR(30) NOT NULL,
+    resident_phone NUMERIC(10) NOT NULL,
+    resident_joining DATE NOT NULL,
+    PRIMARY KEY (resident_id)
 );
 '''
 
