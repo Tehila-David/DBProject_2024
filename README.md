@@ -31,12 +31,14 @@ ERD Diagram
 </h1>  
 <img src="https://github.com/Tehila-David/database6419_6037/blob/main/Photos/ERD%20diagram.png" width="98%">
 
-## דיאגרמת DSD
-
+<h1 align="right">
+DSD Diagram
+</h1>  
 <img src="https://github.com/Tehila-David/database6419_6037/blob/main/Photos/DSD%20diagram.png" width="98%">
 
-## דיאגרמת DSD in Oracle
-
+<h1 align="right">
+Oracle DSD Diagram
+</h1>  
 <img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/DSD%20Oracle.png" width="98%">
 
 
