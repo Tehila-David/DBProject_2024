@@ -138,7 +138,7 @@ Desc Command
 <img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/Desc1.png" width="80%">
 <img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/Desc2.png" width="80%">
 
-#  שיטות להכנסת נתונים
+#  שיטות להכנסת נתונים:
 ##  ייבוא נתונים מקובץ טקסט
 <p align="middle">
 <img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/data_gd.png" width="70%">
