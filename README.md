@@ -145,9 +145,9 @@ Desc Command
 </p>
 
 
-##  הכנסת נתונים ע"י insert
+##  ייבוא נתונים מאתר mockaroo
 <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/data_insert.png" width="50%">
+<img src="" width="50%">
 </p>
 
 ##  הכנסת נתונים ע"י Data Generator
