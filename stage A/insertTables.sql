@@ -797,7 +797,7 @@ insert into SIVAN.ASSET (ASSET_ID, ASSET_ADDRESS, ASSET_TYPE, ASSET_AREA, ASSET_
 values (1945544828, '12 Laurence Ave', 'office', 513, to_date('25-08-2021', 'dd-mm-yyyy'), to_date('20-03-2021', 'dd-mm-yyyy'), 2363661557);
 
 insert into SIVAN.ASSET (ASSET_ID, ASSET_ADDRESS, ASSET_TYPE, ASSET_AREA, ASSET_PURCHASE, ASSET_CHANGE, TAX_ID)
-values (3114358471, '94 Pétion-ville Blvd', 'Apartment', 579, to_date('13-12-2015', 'dd-mm-yyyy'), to_date('21-09-2005', 'dd-mm-yyyy'), 2343668464);
+values (3114358471, '94 PÃ©tion-ville Blvd', 'Apartment', 579, to_date('13-12-2015', 'dd-mm-yyyy'), to_date('21-09-2005', 'dd-mm-yyyy'), 2343668464);
 
 insert into SIVAN.ASSET (ASSET_ID, ASSET_ADDRESS, ASSET_TYPE, ASSET_AREA, ASSET_PURCHASE, ASSET_CHANGE, TAX_ID)
 values (6918581283, '69 Zagreb Drive', 'land', 240, to_date('10-04-2022', 'dd-mm-yyyy'), to_date('28-01-2019', 'dd-mm-yyyy'), 8928992424);
@@ -2905,7 +2905,7 @@ insert into SIVAN.RESIDENT (RESIDENT_ID, RESIDENT_FNAME, RESIDENT_LNAME, RESIDEN
 values (813929629, 'Paul', 'Yankovic', to_date('27-08-1996', 'dd-mm-yyyy'), '54 Joe Ave', 502759161, to_date('18-11-2000', 'dd-mm-yyyy'));
 
 insert into SIVAN.RESIDENT (RESIDENT_ID, RESIDENT_FNAME, RESIDENT_LNAME, RESIDENT_BIRTH, RESIDENT_ADDRESS, RESIDENT_PHONE, RESIDENT_JOINING)
-values (269382986, 'Stockard', 'Broza', to_date('22-02-1988', 'dd-mm-yyyy'), '87 Wörth Road', 549850082, to_date('23-10-2015', 'dd-mm-yyyy'));
+values (269382986, 'Stockard', 'Broza', to_date('22-02-1988', 'dd-mm-yyyy'), '87 WÃ¶rth Road', 549850082, to_date('23-10-2015', 'dd-mm-yyyy'));
 
 insert into SIVAN.RESIDENT (RESIDENT_ID, RESIDENT_FNAME, RESIDENT_LNAME, RESIDENT_BIRTH, RESIDENT_ADDRESS, RESIDENT_PHONE, RESIDENT_JOINING)
 values (472361152, 'Jet', 'Brandt', to_date('15-08-1994', 'dd-mm-yyyy'), '984 Longueuil Drive', 522796966, to_date('20-09-2017', 'dd-mm-yyyy'));
@@ -3403,7 +3403,7 @@ insert into SIVAN.RESIDENT (RESIDENT_ID, RESIDENT_FNAME, RESIDENT_LNAME, RESIDEN
 values (551332455, 'Frances', 'Craddock', to_date('23-04-1985', 'dd-mm-yyyy'), '892 Johansson Street', 525829810, to_date('18-05-2018', 'dd-mm-yyyy'));
 
 insert into SIVAN.RESIDENT (RESIDENT_ID, RESIDENT_FNAME, RESIDENT_LNAME, RESIDENT_BIRTH, RESIDENT_ADDRESS, RESIDENT_PHONE, RESIDENT_JOINING)
-values (786776457, 'Allan', 'Begley', to_date('22-03-1991', 'dd-mm-yyyy'), '44 Brasília Drive', 546944976, to_date('28-04-2013', 'dd-mm-yyyy'));
+values (786776457, 'Allan', 'Begley', to_date('22-03-1991', 'dd-mm-yyyy'), '44 BrasÃ­lia Drive', 546944976, to_date('28-04-2013', 'dd-mm-yyyy'));
 
 insert into SIVAN.RESIDENT (RESIDENT_ID, RESIDENT_FNAME, RESIDENT_LNAME, RESIDENT_BIRTH, RESIDENT_ADDRESS, RESIDENT_PHONE, RESIDENT_JOINING)
 values (615692348, 'Timothy', 'Blackwell', to_date('04-11-1990', 'dd-mm-yyyy'), '68 Sal Road', 525285933, to_date('08-02-2013', 'dd-mm-yyyy'));
@@ -3439,7 +3439,7 @@ insert into SIVAN.RESIDENT (RESIDENT_ID, RESIDENT_FNAME, RESIDENT_LNAME, RESIDEN
 values (194347765, 'Suzanne', 'Tinsley', to_date('05-11-1982', 'dd-mm-yyyy'), '807 Levy Street', 500827146, to_date('31-03-2020', 'dd-mm-yyyy'));
 
 insert into SIVAN.RESIDENT (RESIDENT_ID, RESIDENT_FNAME, RESIDENT_LNAME, RESIDENT_BIRTH, RESIDENT_ADDRESS, RESIDENT_PHONE, RESIDENT_JOINING)
-values (733296747, 'Joaquin', 'Ford', to_date('22-04-1986', 'dd-mm-yyyy'), '102 Zürich Street', 546856273, to_date('08-01-2020', 'dd-mm-yyyy'));
+values (733296747, 'Joaquin', 'Ford', to_date('22-04-1986', 'dd-mm-yyyy'), '102 ZÃ¼rich Street', 546856273, to_date('08-01-2020', 'dd-mm-yyyy'));
 
 insert into SIVAN.RESIDENT (RESIDENT_ID, RESIDENT_FNAME, RESIDENT_LNAME, RESIDENT_BIRTH, RESIDENT_ADDRESS, RESIDENT_PHONE, RESIDENT_JOINING)
 values (585565635, 'Karon', 'Blanchett', to_date('14-03-1980', 'dd-mm-yyyy'), '71 Jay Road', 548278710, to_date('10-03-2013', 'dd-mm-yyyy'));
@@ -6043,1204 +6043,1204 @@ values (7915393513, 779255373);
 commit;
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (24431, 69, 'ùéøåú ìàåîé', to_date('23-03-2000', 'dd-mm-yyyy'), to_date('03-09-2005', 'dd-mm-yyyy'), 288236313);
+values (24431, 69, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('23-03-2000', 'dd-mm-yyyy'), to_date('03-09-2005', 'dd-mm-yyyy'), 288236313);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (54496, 45, 'øîú äëðñä ðîåëä', to_date('03-03-2004', 'dd-mm-yyyy'), to_date('08-08-2006', 'dd-mm-yyyy'), 935491328);
+values (54496, 45, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('03-03-2004', 'dd-mm-yyyy'), to_date('08-08-2006', 'dd-mm-yyyy'), 935491328);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (25634, 83, 'øîú äëðñä ðîåëä', to_date('22-12-2002', 'dd-mm-yyyy'), to_date('29-03-2006', 'dd-mm-yyyy'), 249277281);
+values (25634, 83, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('22-12-2002', 'dd-mm-yyyy'), to_date('29-03-2006', 'dd-mm-yyyy'), 249277281);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (49736, 96, 'ùéøåú ìàåîé', to_date('21-01-2004', 'dd-mm-yyyy'), to_date('03-07-2005', 'dd-mm-yyyy'), 375453865);
+values (49736, 96, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('21-01-2004', 'dd-mm-yyyy'), to_date('03-07-2005', 'dd-mm-yyyy'), 375453865);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (49148, 88, 'ùéøåú ìàåîé', to_date('01-10-2003', 'dd-mm-yyyy'), to_date('02-12-2005', 'dd-mm-yyyy'), 349583951);
+values (49148, 88, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('01-10-2003', 'dd-mm-yyyy'), to_date('02-12-2005', 'dd-mm-yyyy'), 349583951);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (64756, 71, 'ðëä', to_date('01-02-2002', 'dd-mm-yyyy'), to_date('18-01-2005', 'dd-mm-yyyy'), 232362661);
+values (64756, 71, 'Ã°Ã«Ã¤', to_date('01-02-2002', 'dd-mm-yyyy'), to_date('18-01-2005', 'dd-mm-yyyy'), 232362661);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (21147, 43, 'ùéøåú ìàåîé', to_date('22-11-2001', 'dd-mm-yyyy'), to_date('28-03-2007', 'dd-mm-yyyy'), 839293878);
+values (21147, 43, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('22-11-2001', 'dd-mm-yyyy'), to_date('28-03-2007', 'dd-mm-yyyy'), 839293878);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (38866, 72, 'ðëä', to_date('30-03-2001', 'dd-mm-yyyy'), to_date('06-09-2005', 'dd-mm-yyyy'), 214286441);
+values (38866, 72, 'Ã°Ã«Ã¤', to_date('30-03-2001', 'dd-mm-yyyy'), to_date('06-09-2005', 'dd-mm-yyyy'), 214286441);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (35464, 23, 'ùéøåú ìàåîé', to_date('19-05-2002', 'dd-mm-yyyy'), to_date('22-03-2006', 'dd-mm-yyyy'), 513496241);
+values (35464, 23, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('19-05-2002', 'dd-mm-yyyy'), to_date('22-03-2006', 'dd-mm-yyyy'), 513496241);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (11688, 68, ' àìîï/ä', to_date('09-03-2000', 'dd-mm-yyyy'), to_date('15-11-2005', 'dd-mm-yyyy'), 136268649);
+values (11688, 68, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('09-03-2000', 'dd-mm-yyyy'), to_date('15-11-2005', 'dd-mm-yyyy'), 136268649);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (19287, 85, 'ùéøåú ìàåîé', to_date('23-05-2001', 'dd-mm-yyyy'), to_date('15-02-2007', 'dd-mm-yyyy'), 783554776);
+values (19287, 85, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('23-05-2001', 'dd-mm-yyyy'), to_date('15-02-2007', 'dd-mm-yyyy'), 783554776);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (51197, 45, 'ðëä', to_date('12-06-2004', 'dd-mm-yyyy'), to_date('31-12-2006', 'dd-mm-yyyy'), 464846577);
+values (51197, 45, 'Ã°Ã«Ã¤', to_date('12-06-2004', 'dd-mm-yyyy'), to_date('31-12-2006', 'dd-mm-yyyy'), 464846577);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (83758, 43, 'ùéøåú öáàé', to_date('25-10-2004', 'dd-mm-yyyy'), to_date('13-02-2006', 'dd-mm-yyyy'), 818382624);
+values (83758, 43, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('25-10-2004', 'dd-mm-yyyy'), to_date('13-02-2006', 'dd-mm-yyyy'), 818382624);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (63512, 87, ' àìîï/ä', to_date('17-12-2000', 'dd-mm-yyyy'), to_date('19-11-2007', 'dd-mm-yyyy'), 393455922);
+values (63512, 87, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('17-12-2000', 'dd-mm-yyyy'), to_date('19-11-2007', 'dd-mm-yyyy'), 393455922);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (63464, 52, 'ðëä', to_date('18-01-2004', 'dd-mm-yyyy'), to_date('14-11-2005', 'dd-mm-yyyy'), 275982699);
+values (63464, 52, 'Ã°Ã«Ã¤', to_date('18-01-2004', 'dd-mm-yyyy'), to_date('14-11-2005', 'dd-mm-yyyy'), 275982699);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (17127, 33, 'ðëä', to_date('04-09-2002', 'dd-mm-yyyy'), to_date('14-03-2006', 'dd-mm-yyyy'), 338583256);
+values (17127, 33, 'Ã°Ã«Ã¤', to_date('04-09-2002', 'dd-mm-yyyy'), to_date('14-03-2006', 'dd-mm-yyyy'), 338583256);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (99995, 29, ' àìîï/ä', to_date('22-07-2004', 'dd-mm-yyyy'), to_date('30-09-2007', 'dd-mm-yyyy'), 335831479);
+values (99995, 29, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('22-07-2004', 'dd-mm-yyyy'), to_date('30-09-2007', 'dd-mm-yyyy'), 335831479);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (43217, 79, 'øîú äëðñä ðîåëä', to_date('30-03-2001', 'dd-mm-yyyy'), to_date('13-04-2007', 'dd-mm-yyyy'), 297367375);
+values (43217, 79, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('30-03-2001', 'dd-mm-yyyy'), to_date('13-04-2007', 'dd-mm-yyyy'), 297367375);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (94851, 97, 'ùéøåú ìàåîé', to_date('02-05-2003', 'dd-mm-yyyy'), to_date('17-08-2007', 'dd-mm-yyyy'), 243125164);
+values (94851, 97, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('02-05-2003', 'dd-mm-yyyy'), to_date('17-08-2007', 'dd-mm-yyyy'), 243125164);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (97238, 32, 'ùéøåú öáàé', to_date('08-03-2004', 'dd-mm-yyyy'), to_date('19-02-2006', 'dd-mm-yyyy'), 446783813);
+values (97238, 32, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('08-03-2004', 'dd-mm-yyyy'), to_date('19-02-2006', 'dd-mm-yyyy'), 446783813);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (78427, 11, 'ùéøåú öáàé', to_date('10-02-2000', 'dd-mm-yyyy'), to_date('30-08-2005', 'dd-mm-yyyy'), 278495136);
+values (78427, 11, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('10-02-2000', 'dd-mm-yyyy'), to_date('30-08-2005', 'dd-mm-yyyy'), 278495136);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (43671, 39, ' àìîï/ä', to_date('22-10-2000', 'dd-mm-yyyy'), to_date('21-04-2006', 'dd-mm-yyyy'), 827848646);
+values (43671, 39, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('22-10-2000', 'dd-mm-yyyy'), to_date('21-04-2006', 'dd-mm-yyyy'), 827848646);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (71812, 12, 'ùéøåú ìàåîé', to_date('27-06-2000', 'dd-mm-yyyy'), to_date('18-09-2005', 'dd-mm-yyyy'), 175694676);
+values (71812, 12, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('27-06-2000', 'dd-mm-yyyy'), to_date('18-09-2005', 'dd-mm-yyyy'), 175694676);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (21778, 56, ' àìîï/ä', to_date('15-05-2004', 'dd-mm-yyyy'), to_date('07-01-2006', 'dd-mm-yyyy'), 375453865);
+values (21778, 56, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('15-05-2004', 'dd-mm-yyyy'), to_date('07-01-2006', 'dd-mm-yyyy'), 375453865);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (27822, 27, 'ðëä', to_date('16-02-2001', 'dd-mm-yyyy'), to_date('19-08-2006', 'dd-mm-yyyy'), 578778765);
+values (27822, 27, 'Ã°Ã«Ã¤', to_date('16-02-2001', 'dd-mm-yyyy'), to_date('19-08-2006', 'dd-mm-yyyy'), 578778765);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (51187, 94, 'ùéøåú ìàåîé', to_date('16-09-2003', 'dd-mm-yyyy'), to_date('13-04-2006', 'dd-mm-yyyy'), 456235494);
+values (51187, 94, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('16-09-2003', 'dd-mm-yyyy'), to_date('13-04-2006', 'dd-mm-yyyy'), 456235494);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (66824, 97, 'øîú äëðñä ðîåëä', to_date('04-04-2004', 'dd-mm-yyyy'), to_date('09-10-2005', 'dd-mm-yyyy'), 627763311);
+values (66824, 97, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('04-04-2004', 'dd-mm-yyyy'), to_date('09-10-2005', 'dd-mm-yyyy'), 627763311);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (87872, 77, 'ùéøåú öáàé', to_date('03-10-2001', 'dd-mm-yyyy'), to_date('29-09-2006', 'dd-mm-yyyy'), 765393268);
+values (87872, 77, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('03-10-2001', 'dd-mm-yyyy'), to_date('29-09-2006', 'dd-mm-yyyy'), 765393268);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (67681, 67, ' àìîï/ä', to_date('26-01-2000', 'dd-mm-yyyy'), to_date('22-08-2006', 'dd-mm-yyyy'), 587947759);
+values (67681, 67, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('26-01-2000', 'dd-mm-yyyy'), to_date('22-08-2006', 'dd-mm-yyyy'), 587947759);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (91826, 21, 'ùéøåú öáàé', to_date('18-05-2003', 'dd-mm-yyyy'), to_date('20-11-2005', 'dd-mm-yyyy'), 687386167);
+values (91826, 21, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('18-05-2003', 'dd-mm-yyyy'), to_date('20-11-2005', 'dd-mm-yyyy'), 687386167);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (23745, 76, 'ðëä', to_date('22-12-2002', 'dd-mm-yyyy'), to_date('29-05-2005', 'dd-mm-yyyy'), 143878386);
+values (23745, 76, 'Ã°Ã«Ã¤', to_date('22-12-2002', 'dd-mm-yyyy'), to_date('29-05-2005', 'dd-mm-yyyy'), 143878386);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (57925, 74, ' äåøä éçéã', to_date('16-03-2001', 'dd-mm-yyyy'), to_date('17-01-2005', 'dd-mm-yyyy'), 574133492);
+values (57925, 74, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('16-03-2001', 'dd-mm-yyyy'), to_date('17-01-2005', 'dd-mm-yyyy'), 574133492);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (77381, 36, 'ùéøåú ìàåîé', to_date('13-07-2004', 'dd-mm-yyyy'), to_date('25-05-2005', 'dd-mm-yyyy'), 588954191);
+values (77381, 36, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('13-07-2004', 'dd-mm-yyyy'), to_date('25-05-2005', 'dd-mm-yyyy'), 588954191);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (16155, 47, 'ùéøåú öáàé', to_date('05-10-2003', 'dd-mm-yyyy'), to_date('26-05-2005', 'dd-mm-yyyy'), 116688813);
+values (16155, 47, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('05-10-2003', 'dd-mm-yyyy'), to_date('26-05-2005', 'dd-mm-yyyy'), 116688813);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (82316, 68, 'ùéøåú öáàé', to_date('29-08-2004', 'dd-mm-yyyy'), to_date('26-07-2006', 'dd-mm-yyyy'), 379629386);
+values (82316, 68, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('29-08-2004', 'dd-mm-yyyy'), to_date('26-07-2006', 'dd-mm-yyyy'), 379629386);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (92788, 13, ' àìîï/ä', to_date('09-10-2004', 'dd-mm-yyyy'), to_date('16-04-2007', 'dd-mm-yyyy'), 225231663);
+values (92788, 13, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('09-10-2004', 'dd-mm-yyyy'), to_date('16-04-2007', 'dd-mm-yyyy'), 225231663);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (91598, 74, 'øîú äëðñä ðîåëä', to_date('27-07-2001', 'dd-mm-yyyy'), to_date('18-12-2005', 'dd-mm-yyyy'), 851562463);
+values (91598, 74, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('27-07-2001', 'dd-mm-yyyy'), to_date('18-12-2005', 'dd-mm-yyyy'), 851562463);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (23936, 16, 'ðëä', to_date('13-12-2004', 'dd-mm-yyyy'), to_date('03-08-2006', 'dd-mm-yyyy'), 336514439);
+values (23936, 16, 'Ã°Ã«Ã¤', to_date('13-12-2004', 'dd-mm-yyyy'), to_date('03-08-2006', 'dd-mm-yyyy'), 336514439);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (44745, 85, 'ùéøåú öáàé', to_date('17-02-2002', 'dd-mm-yyyy'), to_date('05-02-2007', 'dd-mm-yyyy'), 264286847);
+values (44745, 85, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('17-02-2002', 'dd-mm-yyyy'), to_date('05-02-2007', 'dd-mm-yyyy'), 264286847);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (85874, 84, 'ùéøåú ìàåîé', to_date('13-10-2001', 'dd-mm-yyyy'), to_date('02-07-2005', 'dd-mm-yyyy'), 456235494);
+values (85874, 84, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('13-10-2001', 'dd-mm-yyyy'), to_date('02-07-2005', 'dd-mm-yyyy'), 456235494);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (83475, 79, ' àìîï/ä', to_date('23-07-2001', 'dd-mm-yyyy'), to_date('11-02-2007', 'dd-mm-yyyy'), 736463163);
+values (83475, 79, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('23-07-2001', 'dd-mm-yyyy'), to_date('11-02-2007', 'dd-mm-yyyy'), 736463163);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (61679, 27, ' àìîï/ä', to_date('03-03-2003', 'dd-mm-yyyy'), to_date('05-08-2007', 'dd-mm-yyyy'), 377243113);
+values (61679, 27, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('03-03-2003', 'dd-mm-yyyy'), to_date('05-08-2007', 'dd-mm-yyyy'), 377243113);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (82626, 21, 'øîú äëðñä ðîåëä', to_date('07-04-2001', 'dd-mm-yyyy'), to_date('14-09-2007', 'dd-mm-yyyy'), 113345784);
+values (82626, 21, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('07-04-2001', 'dd-mm-yyyy'), to_date('14-09-2007', 'dd-mm-yyyy'), 113345784);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (81111, 24, ' äåøä éçéã', to_date('11-02-2001', 'dd-mm-yyyy'), to_date('20-03-2007', 'dd-mm-yyyy'), 526917216);
+values (81111, 24, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('11-02-2001', 'dd-mm-yyyy'), to_date('20-03-2007', 'dd-mm-yyyy'), 526917216);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (88258, 41, ' äåøä éçéã', to_date('09-06-2000', 'dd-mm-yyyy'), to_date('05-10-2005', 'dd-mm-yyyy'), 259428855);
+values (88258, 41, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('09-06-2000', 'dd-mm-yyyy'), to_date('05-10-2005', 'dd-mm-yyyy'), 259428855);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (86168, 63, 'ùéøåú öáàé', to_date('05-01-2001', 'dd-mm-yyyy'), to_date('21-08-2007', 'dd-mm-yyyy'), 768124319);
+values (86168, 63, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('05-01-2001', 'dd-mm-yyyy'), to_date('21-08-2007', 'dd-mm-yyyy'), 768124319);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (96543, 43, ' äåøä éçéã', to_date('07-12-2001', 'dd-mm-yyyy'), to_date('20-12-2005', 'dd-mm-yyyy'), 524453385);
+values (96543, 43, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('07-12-2001', 'dd-mm-yyyy'), to_date('20-12-2005', 'dd-mm-yyyy'), 524453385);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (13971, 19, 'ðëä', to_date('22-09-2004', 'dd-mm-yyyy'), to_date('23-11-2006', 'dd-mm-yyyy'), 237259246);
+values (13971, 19, 'Ã°Ã«Ã¤', to_date('22-09-2004', 'dd-mm-yyyy'), to_date('23-11-2006', 'dd-mm-yyyy'), 237259246);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (94949, 84, 'øîú äëðñä ðîåëä', to_date('05-06-2000', 'dd-mm-yyyy'), to_date('22-08-2006', 'dd-mm-yyyy'), 599664992);
+values (94949, 84, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('05-06-2000', 'dd-mm-yyyy'), to_date('22-08-2006', 'dd-mm-yyyy'), 599664992);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (36172, 35, ' àìîï/ä', to_date('06-05-2000', 'dd-mm-yyyy'), to_date('12-07-2007', 'dd-mm-yyyy'), 247769836);
+values (36172, 35, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('06-05-2000', 'dd-mm-yyyy'), to_date('12-07-2007', 'dd-mm-yyyy'), 247769836);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (25594, 79, 'øîú äëðñä ðîåëä', to_date('05-04-2002', 'dd-mm-yyyy'), to_date('24-03-2006', 'dd-mm-yyyy'), 813198268);
+values (25594, 79, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('05-04-2002', 'dd-mm-yyyy'), to_date('24-03-2006', 'dd-mm-yyyy'), 813198268);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (49955, 35, 'øîú äëðñä ðîåëä', to_date('22-11-2002', 'dd-mm-yyyy'), to_date('26-10-2006', 'dd-mm-yyyy'), 139239877);
+values (49955, 35, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('22-11-2002', 'dd-mm-yyyy'), to_date('26-10-2006', 'dd-mm-yyyy'), 139239877);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (43385, 31, 'øîú äëðñä ðîåëä', to_date('11-07-2000', 'dd-mm-yyyy'), to_date('05-09-2007', 'dd-mm-yyyy'), 963512184);
+values (43385, 31, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('11-07-2000', 'dd-mm-yyyy'), to_date('05-09-2007', 'dd-mm-yyyy'), 963512184);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (77647, 28, 'ðëä', to_date('21-03-2001', 'dd-mm-yyyy'), to_date('25-06-2007', 'dd-mm-yyyy'), 498595597);
+values (77647, 28, 'Ã°Ã«Ã¤', to_date('21-03-2001', 'dd-mm-yyyy'), to_date('25-06-2007', 'dd-mm-yyyy'), 498595597);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (84628, 17, ' àìîï/ä', to_date('15-03-2003', 'dd-mm-yyyy'), to_date('12-08-2006', 'dd-mm-yyyy'), 211278519);
+values (84628, 17, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('15-03-2003', 'dd-mm-yyyy'), to_date('12-08-2006', 'dd-mm-yyyy'), 211278519);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (79312, 26, 'ùéøåú öáàé', to_date('11-10-2002', 'dd-mm-yyyy'), to_date('03-05-2006', 'dd-mm-yyyy'), 446783813);
+values (79312, 26, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('11-10-2002', 'dd-mm-yyyy'), to_date('03-05-2006', 'dd-mm-yyyy'), 446783813);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (44428, 83, 'ùéøåú ìàåîé', to_date('17-05-2004', 'dd-mm-yyyy'), to_date('20-03-2007', 'dd-mm-yyyy'), 893866938);
+values (44428, 83, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('17-05-2004', 'dd-mm-yyyy'), to_date('20-03-2007', 'dd-mm-yyyy'), 893866938);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (55244, 86, ' äåøä éçéã', to_date('21-09-2001', 'dd-mm-yyyy'), to_date('12-07-2007', 'dd-mm-yyyy'), 436819126);
+values (55244, 86, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('21-09-2001', 'dd-mm-yyyy'), to_date('12-07-2007', 'dd-mm-yyyy'), 436819126);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (28839, 92, 'ùéøåú öáàé', to_date('08-08-2001', 'dd-mm-yyyy'), to_date('11-05-2005', 'dd-mm-yyyy'), 691737316);
+values (28839, 92, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('08-08-2001', 'dd-mm-yyyy'), to_date('11-05-2005', 'dd-mm-yyyy'), 691737316);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (16562, 79, 'øîú äëðñä ðîåëä', to_date('13-03-2003', 'dd-mm-yyyy'), to_date('22-07-2006', 'dd-mm-yyyy'), 125349632);
+values (16562, 79, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('13-03-2003', 'dd-mm-yyyy'), to_date('22-07-2006', 'dd-mm-yyyy'), 125349632);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (29382, 64, 'øîú äëðñä ðîåëä', to_date('02-05-2004', 'dd-mm-yyyy'), to_date('07-11-2005', 'dd-mm-yyyy'), 827848646);
+values (29382, 64, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('02-05-2004', 'dd-mm-yyyy'), to_date('07-11-2005', 'dd-mm-yyyy'), 827848646);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (63655, 92, 'ùéøåú ìàåîé', to_date('01-09-2004', 'dd-mm-yyyy'), to_date('22-07-2007', 'dd-mm-yyyy'), 819944515);
+values (63655, 92, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('01-09-2004', 'dd-mm-yyyy'), to_date('22-07-2007', 'dd-mm-yyyy'), 819944515);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (48132, 41, 'ðëä', to_date('21-03-2001', 'dd-mm-yyyy'), to_date('27-12-2006', 'dd-mm-yyyy'), 992942225);
+values (48132, 41, 'Ã°Ã«Ã¤', to_date('21-03-2001', 'dd-mm-yyyy'), to_date('27-12-2006', 'dd-mm-yyyy'), 992942225);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (59458, 98, 'ùéøåú ìàåîé', to_date('01-10-2004', 'dd-mm-yyyy'), to_date('22-03-2007', 'dd-mm-yyyy'), 482269464);
+values (59458, 98, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('01-10-2004', 'dd-mm-yyyy'), to_date('22-03-2007', 'dd-mm-yyyy'), 482269464);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (93213, 72, 'øîú äëðñä ðîåëä', to_date('25-10-2001', 'dd-mm-yyyy'), to_date('26-02-2006', 'dd-mm-yyyy'), 614763397);
+values (93213, 72, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('25-10-2001', 'dd-mm-yyyy'), to_date('26-02-2006', 'dd-mm-yyyy'), 614763397);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (36268, 85, ' àìîï/ä', to_date('10-06-2003', 'dd-mm-yyyy'), to_date('07-10-2007', 'dd-mm-yyyy'), 747336372);
+values (36268, 85, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('10-06-2003', 'dd-mm-yyyy'), to_date('07-10-2007', 'dd-mm-yyyy'), 747336372);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (26191, 26, 'ùéøåú ìàåîé', to_date('25-05-2002', 'dd-mm-yyyy'), to_date('15-09-2006', 'dd-mm-yyyy'), 612262453);
+values (26191, 26, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('25-05-2002', 'dd-mm-yyyy'), to_date('15-09-2006', 'dd-mm-yyyy'), 612262453);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (44895, 63, 'ùéøåú ìàåîé', to_date('12-09-2000', 'dd-mm-yyyy'), to_date('17-10-2005', 'dd-mm-yyyy'), 896461191);
+values (44895, 63, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('12-09-2000', 'dd-mm-yyyy'), to_date('17-10-2005', 'dd-mm-yyyy'), 896461191);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (98537, 24, ' äåøä éçéã', to_date('22-03-2000', 'dd-mm-yyyy'), to_date('13-04-2005', 'dd-mm-yyyy'), 818382624);
+values (98537, 24, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('22-03-2000', 'dd-mm-yyyy'), to_date('13-04-2005', 'dd-mm-yyyy'), 818382624);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (12433, 26, ' äåøä éçéã', to_date('03-07-2000', 'dd-mm-yyyy'), to_date('09-03-2005', 'dd-mm-yyyy'), 988272792);
+values (12433, 26, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('03-07-2000', 'dd-mm-yyyy'), to_date('09-03-2005', 'dd-mm-yyyy'), 988272792);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (53865, 49, 'øîú äëðñä ðîåëä', to_date('13-05-2002', 'dd-mm-yyyy'), to_date('11-04-2006', 'dd-mm-yyyy'), 436819126);
+values (53865, 49, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('13-05-2002', 'dd-mm-yyyy'), to_date('11-04-2006', 'dd-mm-yyyy'), 436819126);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (63258, 28, 'ðëä', to_date('28-03-2000', 'dd-mm-yyyy'), to_date('29-07-2006', 'dd-mm-yyyy'), 335831479);
+values (63258, 28, 'Ã°Ã«Ã¤', to_date('28-03-2000', 'dd-mm-yyyy'), to_date('29-07-2006', 'dd-mm-yyyy'), 335831479);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (38312, 86, ' äåøä éçéã', to_date('30-01-2003', 'dd-mm-yyyy'), to_date('18-11-2005', 'dd-mm-yyyy'), 136268649);
+values (38312, 86, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('30-01-2003', 'dd-mm-yyyy'), to_date('18-11-2005', 'dd-mm-yyyy'), 136268649);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (47268, 18, ' äåøä éçéã', to_date('08-05-2003', 'dd-mm-yyyy'), to_date('03-04-2006', 'dd-mm-yyyy'), 275782165);
+values (47268, 18, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('08-05-2003', 'dd-mm-yyyy'), to_date('03-04-2006', 'dd-mm-yyyy'), 275782165);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (27388, 48, ' äåøä éçéã', to_date('27-04-2004', 'dd-mm-yyyy'), to_date('10-08-2005', 'dd-mm-yyyy'), 444249235);
+values (27388, 48, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('27-04-2004', 'dd-mm-yyyy'), to_date('10-08-2005', 'dd-mm-yyyy'), 444249235);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (68513, 46, ' àìîï/ä', to_date('12-01-2002', 'dd-mm-yyyy'), to_date('12-12-2006', 'dd-mm-yyyy'), 683777489);
+values (68513, 46, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('12-01-2002', 'dd-mm-yyyy'), to_date('12-12-2006', 'dd-mm-yyyy'), 683777489);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (29716, 19, 'ùéøåú öáàé', to_date('28-02-2001', 'dd-mm-yyyy'), to_date('24-04-2006', 'dd-mm-yyyy'), 264286847);
+values (29716, 19, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('28-02-2001', 'dd-mm-yyyy'), to_date('24-04-2006', 'dd-mm-yyyy'), 264286847);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (93723, 39, 'ùéøåú ìàåîé', to_date('04-11-2003', 'dd-mm-yyyy'), to_date('24-02-2005', 'dd-mm-yyyy'), 697658135);
+values (93723, 39, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('04-11-2003', 'dd-mm-yyyy'), to_date('24-02-2005', 'dd-mm-yyyy'), 697658135);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (84868, 75, ' àìîï/ä', to_date('28-10-2004', 'dd-mm-yyyy'), to_date('30-12-2006', 'dd-mm-yyyy'), 831131253);
+values (84868, 75, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('28-10-2004', 'dd-mm-yyyy'), to_date('30-12-2006', 'dd-mm-yyyy'), 831131253);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (42946, 88, 'ðëä', to_date('08-03-2002', 'dd-mm-yyyy'), to_date('04-08-2005', 'dd-mm-yyyy'), 326161891);
+values (42946, 88, 'Ã°Ã«Ã¤', to_date('08-03-2002', 'dd-mm-yyyy'), to_date('04-08-2005', 'dd-mm-yyyy'), 326161891);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (86366, 44, 'ùéøåú ìàåîé', to_date('16-09-2003', 'dd-mm-yyyy'), to_date('27-11-2005', 'dd-mm-yyyy'), 139239877);
+values (86366, 44, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('16-09-2003', 'dd-mm-yyyy'), to_date('27-11-2005', 'dd-mm-yyyy'), 139239877);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (62997, 27, ' äåøä éçéã', to_date('01-05-2003', 'dd-mm-yyyy'), to_date('19-09-2005', 'dd-mm-yyyy'), 797751364);
+values (62997, 27, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('01-05-2003', 'dd-mm-yyyy'), to_date('19-09-2005', 'dd-mm-yyyy'), 797751364);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (35956, 68, ' àìîï/ä', to_date('11-02-2000', 'dd-mm-yyyy'), to_date('05-06-2007', 'dd-mm-yyyy'), 564113272);
+values (35956, 68, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('11-02-2000', 'dd-mm-yyyy'), to_date('05-06-2007', 'dd-mm-yyyy'), 564113272);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (32975, 84, ' àìîï/ä', to_date('31-12-2001', 'dd-mm-yyyy'), to_date('11-03-2007', 'dd-mm-yyyy'), 746686122);
+values (32975, 84, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('31-12-2001', 'dd-mm-yyyy'), to_date('11-03-2007', 'dd-mm-yyyy'), 746686122);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (15285, 48, 'ùéøåú ìàåîé', to_date('22-01-2000', 'dd-mm-yyyy'), to_date('26-07-2005', 'dd-mm-yyyy'), 245536542);
+values (15285, 48, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('22-01-2000', 'dd-mm-yyyy'), to_date('26-07-2005', 'dd-mm-yyyy'), 245536542);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (74211, 27, 'øîú äëðñä ðîåëä', to_date('12-12-2001', 'dd-mm-yyyy'), to_date('11-07-2005', 'dd-mm-yyyy'), 934135551);
+values (74211, 27, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('12-12-2001', 'dd-mm-yyyy'), to_date('11-07-2005', 'dd-mm-yyyy'), 934135551);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (83359, 14, 'ðëä', to_date('19-05-2003', 'dd-mm-yyyy'), to_date('12-06-2005', 'dd-mm-yyyy'), 891864598);
+values (83359, 14, 'Ã°Ã«Ã¤', to_date('19-05-2003', 'dd-mm-yyyy'), to_date('12-06-2005', 'dd-mm-yyyy'), 891864598);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (92875, 21, ' àìîï/ä', to_date('22-03-2002', 'dd-mm-yyyy'), to_date('19-09-2007', 'dd-mm-yyyy'), 865947552);
+values (92875, 21, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('22-03-2002', 'dd-mm-yyyy'), to_date('19-09-2007', 'dd-mm-yyyy'), 865947552);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (75541, 77, 'ðëä', to_date('16-04-2004', 'dd-mm-yyyy'), to_date('09-05-2005', 'dd-mm-yyyy'), 695717971);
+values (75541, 77, 'Ã°Ã«Ã¤', to_date('16-04-2004', 'dd-mm-yyyy'), to_date('09-05-2005', 'dd-mm-yyyy'), 695717971);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (29367, 51, 'ùéøåú öáàé', to_date('29-11-2001', 'dd-mm-yyyy'), to_date('24-07-2006', 'dd-mm-yyyy'), 998147894);
+values (29367, 51, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('29-11-2001', 'dd-mm-yyyy'), to_date('24-07-2006', 'dd-mm-yyyy'), 998147894);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (12147, 75, 'ùéøåú ìàåîé', to_date('22-02-2001', 'dd-mm-yyyy'), to_date('24-06-2005', 'dd-mm-yyyy'), 586499533);
+values (12147, 75, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('22-02-2001', 'dd-mm-yyyy'), to_date('24-06-2005', 'dd-mm-yyyy'), 586499533);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (79727, 11, ' äåøä éçéã', to_date('02-08-2001', 'dd-mm-yyyy'), to_date('25-05-2007', 'dd-mm-yyyy'), 147959435);
+values (79727, 11, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('02-08-2001', 'dd-mm-yyyy'), to_date('25-05-2007', 'dd-mm-yyyy'), 147959435);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (55284, 96, ' äåøä éçéã', to_date('23-08-2001', 'dd-mm-yyyy'), to_date('24-06-2007', 'dd-mm-yyyy'), 989919591);
+values (55284, 96, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('23-08-2001', 'dd-mm-yyyy'), to_date('24-06-2007', 'dd-mm-yyyy'), 989919591);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (23358, 16, ' äåøä éçéã', to_date('25-10-2000', 'dd-mm-yyyy'), to_date('13-03-2005', 'dd-mm-yyyy'), 134725436);
+values (23358, 16, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('25-10-2000', 'dd-mm-yyyy'), to_date('13-03-2005', 'dd-mm-yyyy'), 134725436);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (89135, 84, 'ùéøåú ìàåîé', to_date('29-03-2003', 'dd-mm-yyyy'), to_date('14-01-2006', 'dd-mm-yyyy'), 574546683);
+values (89135, 84, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('29-03-2003', 'dd-mm-yyyy'), to_date('14-01-2006', 'dd-mm-yyyy'), 574546683);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (79481, 23, 'ùéøåú ìàåîé', to_date('14-11-2003', 'dd-mm-yyyy'), to_date('01-05-2007', 'dd-mm-yyyy'), 544898831);
+values (79481, 23, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('14-11-2003', 'dd-mm-yyyy'), to_date('01-05-2007', 'dd-mm-yyyy'), 544898831);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (15646, 99, ' àìîï/ä', to_date('23-11-2001', 'dd-mm-yyyy'), to_date('27-02-2007', 'dd-mm-yyyy'), 484174443);
+values (15646, 99, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('23-11-2001', 'dd-mm-yyyy'), to_date('27-02-2007', 'dd-mm-yyyy'), 484174443);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (92143, 38, ' àìîï/ä', to_date('22-03-2002', 'dd-mm-yyyy'), to_date('05-09-2006', 'dd-mm-yyyy'), 272113621);
+values (92143, 38, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('22-03-2002', 'dd-mm-yyyy'), to_date('05-09-2006', 'dd-mm-yyyy'), 272113621);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (13461, 32, 'ðëä', to_date('13-01-2002', 'dd-mm-yyyy'), to_date('03-08-2006', 'dd-mm-yyyy'), 464846577);
+values (13461, 32, 'Ã°Ã«Ã¤', to_date('13-01-2002', 'dd-mm-yyyy'), to_date('03-08-2006', 'dd-mm-yyyy'), 464846577);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (25141, 19, 'ùéøåú öáàé', to_date('20-10-2003', 'dd-mm-yyyy'), to_date('18-09-2005', 'dd-mm-yyyy'), 599664992);
+values (25141, 19, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('20-10-2003', 'dd-mm-yyyy'), to_date('18-09-2005', 'dd-mm-yyyy'), 599664992);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (22732, 13, 'ùéøåú öáàé', to_date('28-11-2000', 'dd-mm-yyyy'), to_date('29-10-2007', 'dd-mm-yyyy'), 492957321);
+values (22732, 13, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('28-11-2000', 'dd-mm-yyyy'), to_date('29-10-2007', 'dd-mm-yyyy'), 492957321);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (64795, 18, 'ùéøåú öáàé', to_date('28-12-2001', 'dd-mm-yyyy'), to_date('10-05-2006', 'dd-mm-yyyy'), 783476834);
+values (64795, 18, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('28-12-2001', 'dd-mm-yyyy'), to_date('10-05-2006', 'dd-mm-yyyy'), 783476834);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (25863, 49, ' àìîï/ä', to_date('08-12-2002', 'dd-mm-yyyy'), to_date('10-03-2006', 'dd-mm-yyyy'), 335831479);
+values (25863, 49, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('08-12-2002', 'dd-mm-yyyy'), to_date('10-03-2006', 'dd-mm-yyyy'), 335831479);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (88535, 23, 'øîú äëðñä ðîåëä', to_date('02-07-2003', 'dd-mm-yyyy'), to_date('21-06-2007', 'dd-mm-yyyy'), 588954191);
+values (88535, 23, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('02-07-2003', 'dd-mm-yyyy'), to_date('21-06-2007', 'dd-mm-yyyy'), 588954191);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (19481, 98, ' äåøä éçéã', to_date('16-01-2003', 'dd-mm-yyyy'), to_date('25-02-2006', 'dd-mm-yyyy'), 363851854);
+values (19481, 98, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('16-01-2003', 'dd-mm-yyyy'), to_date('25-02-2006', 'dd-mm-yyyy'), 363851854);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (21159, 74, 'ùéøåú öáàé', to_date('23-03-2000', 'dd-mm-yyyy'), to_date('04-03-2005', 'dd-mm-yyyy'), 613976282);
+values (21159, 74, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('23-03-2000', 'dd-mm-yyyy'), to_date('04-03-2005', 'dd-mm-yyyy'), 613976282);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (22859, 11, 'ùéøåú ìàåîé', to_date('24-04-2004', 'dd-mm-yyyy'), to_date('05-06-2006', 'dd-mm-yyyy'), 877489359);
+values (22859, 11, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('24-04-2004', 'dd-mm-yyyy'), to_date('05-06-2006', 'dd-mm-yyyy'), 877489359);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (19283, 41, 'ðëä', to_date('22-04-2002', 'dd-mm-yyyy'), to_date('25-05-2005', 'dd-mm-yyyy'), 747312363);
+values (19283, 41, 'Ã°Ã«Ã¤', to_date('22-04-2002', 'dd-mm-yyyy'), to_date('25-05-2005', 'dd-mm-yyyy'), 747312363);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (24474, 48, 'øîú äëðñä ðîåëä', to_date('17-02-2003', 'dd-mm-yyyy'), to_date('12-08-2005', 'dd-mm-yyyy'), 814759218);
+values (24474, 48, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('17-02-2003', 'dd-mm-yyyy'), to_date('12-08-2005', 'dd-mm-yyyy'), 814759218);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (32748, 13, 'øîú äëðñä ðîåëä', to_date('22-09-2004', 'dd-mm-yyyy'), to_date('30-01-2006', 'dd-mm-yyyy'), 871125241);
+values (32748, 13, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('22-09-2004', 'dd-mm-yyyy'), to_date('30-01-2006', 'dd-mm-yyyy'), 871125241);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (31351, 28, 'ùéøåú öáàé', to_date('16-04-2001', 'dd-mm-yyyy'), to_date('07-02-2005', 'dd-mm-yyyy'), 452723368);
+values (31351, 28, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('16-04-2001', 'dd-mm-yyyy'), to_date('07-02-2005', 'dd-mm-yyyy'), 452723368);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (76148, 24, ' àìîï/ä', to_date('26-02-2004', 'dd-mm-yyyy'), to_date('27-05-2007', 'dd-mm-yyyy'), 385473659);
+values (76148, 24, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('26-02-2004', 'dd-mm-yyyy'), to_date('27-05-2007', 'dd-mm-yyyy'), 385473659);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (98393, 44, ' àìîï/ä', to_date('30-03-2003', 'dd-mm-yyyy'), to_date('26-06-2005', 'dd-mm-yyyy'), 423965681);
+values (98393, 44, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('30-03-2003', 'dd-mm-yyyy'), to_date('26-06-2005', 'dd-mm-yyyy'), 423965681);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (91757, 73, 'ùéøåú öáàé', to_date('22-04-2003', 'dd-mm-yyyy'), to_date('28-12-2006', 'dd-mm-yyyy'), 819944515);
+values (91757, 73, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('22-04-2003', 'dd-mm-yyyy'), to_date('28-12-2006', 'dd-mm-yyyy'), 819944515);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (75137, 78, ' äåøä éçéã', to_date('09-03-2004', 'dd-mm-yyyy'), to_date('16-07-2006', 'dd-mm-yyyy'), 144229452);
+values (75137, 78, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('09-03-2004', 'dd-mm-yyyy'), to_date('16-07-2006', 'dd-mm-yyyy'), 144229452);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (35314, 22, ' àìîï/ä', to_date('19-11-2002', 'dd-mm-yyyy'), to_date('01-04-2007', 'dd-mm-yyyy'), 454651229);
+values (35314, 22, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('19-11-2002', 'dd-mm-yyyy'), to_date('01-04-2007', 'dd-mm-yyyy'), 454651229);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (18712, 79, 'ðëä', to_date('04-06-2000', 'dd-mm-yyyy'), to_date('28-09-2007', 'dd-mm-yyyy'), 747336372);
+values (18712, 79, 'Ã°Ã«Ã¤', to_date('04-06-2000', 'dd-mm-yyyy'), to_date('28-09-2007', 'dd-mm-yyyy'), 747336372);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (63598, 86, ' äåøä éçéã', to_date('17-06-2003', 'dd-mm-yyyy'), to_date('17-08-2006', 'dd-mm-yyyy'), 846221927);
+values (63598, 86, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('17-06-2003', 'dd-mm-yyyy'), to_date('17-08-2006', 'dd-mm-yyyy'), 846221927);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (23584, 77, 'ùéøåú öáàé', to_date('11-06-2003', 'dd-mm-yyyy'), to_date('20-10-2006', 'dd-mm-yyyy'), 776589943);
+values (23584, 77, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('11-06-2003', 'dd-mm-yyyy'), to_date('20-10-2006', 'dd-mm-yyyy'), 776589943);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (71181, 15, ' àìîï/ä', to_date('19-02-2002', 'dd-mm-yyyy'), to_date('14-05-2007', 'dd-mm-yyyy'), 196478439);
+values (71181, 15, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('19-02-2002', 'dd-mm-yyyy'), to_date('14-05-2007', 'dd-mm-yyyy'), 196478439);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (74395, 38, 'ðëä', to_date('08-02-2003', 'dd-mm-yyyy'), to_date('23-01-2005', 'dd-mm-yyyy'), 279221286);
+values (74395, 38, 'Ã°Ã«Ã¤', to_date('08-02-2003', 'dd-mm-yyyy'), to_date('23-01-2005', 'dd-mm-yyyy'), 279221286);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (51953, 25, 'øîú äëðñä ðîåëä', to_date('14-02-2004', 'dd-mm-yyyy'), to_date('27-09-2007', 'dd-mm-yyyy'), 819944515);
+values (51953, 25, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('14-02-2004', 'dd-mm-yyyy'), to_date('27-09-2007', 'dd-mm-yyyy'), 819944515);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (22263, 62, 'ùéøåú öáàé', to_date('06-05-2004', 'dd-mm-yyyy'), to_date('06-11-2007', 'dd-mm-yyyy'), 777566944);
+values (22263, 62, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('06-05-2004', 'dd-mm-yyyy'), to_date('06-11-2007', 'dd-mm-yyyy'), 777566944);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (82829, 65, ' äåøä éçéã', to_date('11-09-2002', 'dd-mm-yyyy'), to_date('24-06-2007', 'dd-mm-yyyy'), 985575896);
+values (82829, 65, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('11-09-2002', 'dd-mm-yyyy'), to_date('24-06-2007', 'dd-mm-yyyy'), 985575896);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (61491, 78, 'ùéøåú ìàåîé', to_date('27-11-2004', 'dd-mm-yyyy'), to_date('08-09-2005', 'dd-mm-yyyy'), 914342673);
+values (61491, 78, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('27-11-2004', 'dd-mm-yyyy'), to_date('08-09-2005', 'dd-mm-yyyy'), 914342673);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (69766, 64, ' äåøä éçéã', to_date('04-08-2000', 'dd-mm-yyyy'), to_date('21-11-2005', 'dd-mm-yyyy'), 571814751);
+values (69766, 64, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('04-08-2000', 'dd-mm-yyyy'), to_date('21-11-2005', 'dd-mm-yyyy'), 571814751);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (44788, 16, 'ùéøåú ìàåîé', to_date('05-12-2000', 'dd-mm-yyyy'), to_date('31-07-2005', 'dd-mm-yyyy'), 399523162);
+values (44788, 16, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('05-12-2000', 'dd-mm-yyyy'), to_date('31-07-2005', 'dd-mm-yyyy'), 399523162);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (92295, 35, ' äåøä éçéã', to_date('14-06-2001', 'dd-mm-yyyy'), to_date('24-11-2006', 'dd-mm-yyyy'), 457297875);
+values (92295, 35, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('14-06-2001', 'dd-mm-yyyy'), to_date('24-11-2006', 'dd-mm-yyyy'), 457297875);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (31218, 17, ' äåøä éçéã', to_date('02-01-2001', 'dd-mm-yyyy'), to_date('05-07-2006', 'dd-mm-yyyy'), 615154167);
+values (31218, 17, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('02-01-2001', 'dd-mm-yyyy'), to_date('05-07-2006', 'dd-mm-yyyy'), 615154167);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (24784, 23, ' àìîï/ä', to_date('24-10-2004', 'dd-mm-yyyy'), to_date('05-02-2006', 'dd-mm-yyyy'), 464473768);
+values (24784, 23, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('24-10-2004', 'dd-mm-yyyy'), to_date('05-02-2006', 'dd-mm-yyyy'), 464473768);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (34277, 83, ' àìîï/ä', to_date('23-10-2004', 'dd-mm-yyyy'), to_date('18-04-2007', 'dd-mm-yyyy'), 426289694);
+values (34277, 83, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('23-10-2004', 'dd-mm-yyyy'), to_date('18-04-2007', 'dd-mm-yyyy'), 426289694);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (99568, 54, 'øîú äëðñä ðîåëä', to_date('13-05-2002', 'dd-mm-yyyy'), to_date('20-10-2006', 'dd-mm-yyyy'), 839743986);
+values (99568, 54, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('13-05-2002', 'dd-mm-yyyy'), to_date('20-10-2006', 'dd-mm-yyyy'), 839743986);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (75243, 85, ' àìîï/ä', to_date('11-05-2003', 'dd-mm-yyyy'), to_date('18-03-2007', 'dd-mm-yyyy'), 686989579);
+values (75243, 85, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('11-05-2003', 'dd-mm-yyyy'), to_date('18-03-2007', 'dd-mm-yyyy'), 686989579);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (48349, 57, 'øîú äëðñä ðîåëä', to_date('06-08-2004', 'dd-mm-yyyy'), to_date('01-08-2006', 'dd-mm-yyyy'), 765393268);
+values (48349, 57, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('06-08-2004', 'dd-mm-yyyy'), to_date('01-08-2006', 'dd-mm-yyyy'), 765393268);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (24661, 25, ' àìîï/ä', to_date('05-11-2000', 'dd-mm-yyyy'), to_date('09-03-2007', 'dd-mm-yyyy'), 212466261);
+values (24661, 25, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('05-11-2000', 'dd-mm-yyyy'), to_date('09-03-2007', 'dd-mm-yyyy'), 212466261);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (56935, 25, 'ùéøåú öáàé', to_date('14-01-2001', 'dd-mm-yyyy'), to_date('06-07-2005', 'dd-mm-yyyy'), 793675167);
+values (56935, 25, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('14-01-2001', 'dd-mm-yyyy'), to_date('06-07-2005', 'dd-mm-yyyy'), 793675167);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (61844, 15, ' àìîï/ä', to_date('22-04-2002', 'dd-mm-yyyy'), to_date('23-11-2007', 'dd-mm-yyyy'), 986428617);
+values (61844, 15, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('22-04-2002', 'dd-mm-yyyy'), to_date('23-11-2007', 'dd-mm-yyyy'), 986428617);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (16368, 14, 'ðëä', to_date('01-07-2001', 'dd-mm-yyyy'), to_date('24-04-2005', 'dd-mm-yyyy'), 998282368);
+values (16368, 14, 'Ã°Ã«Ã¤', to_date('01-07-2001', 'dd-mm-yyyy'), to_date('24-04-2005', 'dd-mm-yyyy'), 998282368);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (42713, 99, ' äåøä éçéã', to_date('23-11-2002', 'dd-mm-yyyy'), to_date('12-07-2006', 'dd-mm-yyyy'), 994969989);
+values (42713, 99, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('23-11-2002', 'dd-mm-yyyy'), to_date('12-07-2006', 'dd-mm-yyyy'), 994969989);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (14767, 62, 'øîú äëðñä ðîåëä', to_date('12-11-2000', 'dd-mm-yyyy'), to_date('07-03-2007', 'dd-mm-yyyy'), 627763311);
+values (14767, 62, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('12-11-2000', 'dd-mm-yyyy'), to_date('07-03-2007', 'dd-mm-yyyy'), 627763311);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (35928, 33, ' äåøä éçéã', to_date('05-07-2003', 'dd-mm-yyyy'), to_date('27-06-2007', 'dd-mm-yyyy'), 963512184);
+values (35928, 33, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('05-07-2003', 'dd-mm-yyyy'), to_date('27-06-2007', 'dd-mm-yyyy'), 963512184);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (23142, 72, 'ðëä', to_date('30-05-2003', 'dd-mm-yyyy'), to_date('02-08-2005', 'dd-mm-yyyy'), 281183263);
+values (23142, 72, 'Ã°Ã«Ã¤', to_date('30-05-2003', 'dd-mm-yyyy'), to_date('02-08-2005', 'dd-mm-yyyy'), 281183263);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (74252, 71, ' äåøä éçéã', to_date('21-01-2004', 'dd-mm-yyyy'), to_date('27-09-2005', 'dd-mm-yyyy'), 119289287);
+values (74252, 71, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('21-01-2004', 'dd-mm-yyyy'), to_date('27-09-2005', 'dd-mm-yyyy'), 119289287);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (58137, 83, 'ðëä', to_date('23-10-2004', 'dd-mm-yyyy'), to_date('24-10-2005', 'dd-mm-yyyy'), 524858663);
+values (58137, 83, 'Ã°Ã«Ã¤', to_date('23-10-2004', 'dd-mm-yyyy'), to_date('24-10-2005', 'dd-mm-yyyy'), 524858663);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (75313, 91, 'ðëä', to_date('24-02-2000', 'dd-mm-yyyy'), to_date('03-02-2006', 'dd-mm-yyyy'), 288236313);
+values (75313, 91, 'Ã°Ã«Ã¤', to_date('24-02-2000', 'dd-mm-yyyy'), to_date('03-02-2006', 'dd-mm-yyyy'), 288236313);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (75239, 15, ' äåøä éçéã', to_date('01-02-2004', 'dd-mm-yyyy'), to_date('18-09-2006', 'dd-mm-yyyy'), 613976282);
+values (75239, 15, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('01-02-2004', 'dd-mm-yyyy'), to_date('18-09-2006', 'dd-mm-yyyy'), 613976282);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (64323, 74, ' àìîï/ä', to_date('03-03-2002', 'dd-mm-yyyy'), to_date('21-12-2005', 'dd-mm-yyyy'), 249277281);
+values (64323, 74, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('03-03-2002', 'dd-mm-yyyy'), to_date('21-12-2005', 'dd-mm-yyyy'), 249277281);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (15663, 63, 'ùéøåú ìàåîé', to_date('01-04-2003', 'dd-mm-yyyy'), to_date('20-12-2007', 'dd-mm-yyyy'), 914342673);
+values (15663, 63, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('01-04-2003', 'dd-mm-yyyy'), to_date('20-12-2007', 'dd-mm-yyyy'), 914342673);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (78593, 69, 'ðëä', to_date('08-11-2001', 'dd-mm-yyyy'), to_date('14-05-2006', 'dd-mm-yyyy'), 934135551);
+values (78593, 69, 'Ã°Ã«Ã¤', to_date('08-11-2001', 'dd-mm-yyyy'), to_date('14-05-2006', 'dd-mm-yyyy'), 934135551);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (56193, 95, 'øîú äëðñä ðîåëä', to_date('28-02-2003', 'dd-mm-yyyy'), to_date('09-12-2007', 'dd-mm-yyyy'), 523942719);
+values (56193, 95, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('28-02-2003', 'dd-mm-yyyy'), to_date('09-12-2007', 'dd-mm-yyyy'), 523942719);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (16222, 46, 'øîú äëðñä ðîåëä', to_date('15-06-2002', 'dd-mm-yyyy'), to_date('25-04-2005', 'dd-mm-yyyy'), 251468686);
+values (16222, 46, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('15-06-2002', 'dd-mm-yyyy'), to_date('25-04-2005', 'dd-mm-yyyy'), 251468686);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (99947, 26, 'øîú äëðñä ðîåëä', to_date('12-07-2004', 'dd-mm-yyyy'), to_date('02-03-2007', 'dd-mm-yyyy'), 589619935);
+values (99947, 26, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('12-07-2004', 'dd-mm-yyyy'), to_date('02-03-2007', 'dd-mm-yyyy'), 589619935);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (68949, 27, 'øîú äëðñä ðîåëä', to_date('27-10-2002', 'dd-mm-yyyy'), to_date('17-09-2006', 'dd-mm-yyyy'), 871125241);
+values (68949, 27, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('27-10-2002', 'dd-mm-yyyy'), to_date('17-09-2006', 'dd-mm-yyyy'), 871125241);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (98567, 62, 'øîú äëðñä ðîåëä', to_date('26-05-2001', 'dd-mm-yyyy'), to_date('19-02-2007', 'dd-mm-yyyy'), 249417168);
+values (98567, 62, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('26-05-2001', 'dd-mm-yyyy'), to_date('19-02-2007', 'dd-mm-yyyy'), 249417168);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (74362, 25, 'ðëä', to_date('16-07-2000', 'dd-mm-yyyy'), to_date('09-12-2007', 'dd-mm-yyyy'), 288236313);
+values (74362, 25, 'Ã°Ã«Ã¤', to_date('16-07-2000', 'dd-mm-yyyy'), to_date('09-12-2007', 'dd-mm-yyyy'), 288236313);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (29177, 84, ' àìîï/ä', to_date('12-02-2001', 'dd-mm-yyyy'), to_date('16-06-2007', 'dd-mm-yyyy'), 958481673);
+values (29177, 84, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('12-02-2001', 'dd-mm-yyyy'), to_date('16-06-2007', 'dd-mm-yyyy'), 958481673);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (38688, 48, 'ðëä', to_date('15-01-2003', 'dd-mm-yyyy'), to_date('17-07-2006', 'dd-mm-yyyy'), 452723368);
+values (38688, 48, 'Ã°Ã«Ã¤', to_date('15-01-2003', 'dd-mm-yyyy'), to_date('17-07-2006', 'dd-mm-yyyy'), 452723368);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (59665, 79, 'øîú äëðñä ðîåëä', to_date('15-03-2002', 'dd-mm-yyyy'), to_date('15-03-2006', 'dd-mm-yyyy'), 529232332);
+values (59665, 79, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('15-03-2002', 'dd-mm-yyyy'), to_date('15-03-2006', 'dd-mm-yyyy'), 529232332);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (38167, 71, 'ùéøåú öáàé', to_date('28-04-2000', 'dd-mm-yyyy'), to_date('04-02-2006', 'dd-mm-yyyy'), 927419867);
+values (38167, 71, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('28-04-2000', 'dd-mm-yyyy'), to_date('04-02-2006', 'dd-mm-yyyy'), 927419867);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (56659, 61, ' àìîï/ä', to_date('19-06-2000', 'dd-mm-yyyy'), to_date('05-09-2007', 'dd-mm-yyyy'), 279221286);
+values (56659, 61, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('19-06-2000', 'dd-mm-yyyy'), to_date('05-09-2007', 'dd-mm-yyyy'), 279221286);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (64436, 78, ' àìîï/ä', to_date('26-08-2002', 'dd-mm-yyyy'), to_date('25-01-2006', 'dd-mm-yyyy'), 776252852);
+values (64436, 78, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('26-08-2002', 'dd-mm-yyyy'), to_date('25-01-2006', 'dd-mm-yyyy'), 776252852);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (93334, 15, ' äåøä éçéã', to_date('18-08-2001', 'dd-mm-yyyy'), to_date('18-02-2006', 'dd-mm-yyyy'), 614763397);
+values (93334, 15, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('18-08-2001', 'dd-mm-yyyy'), to_date('18-02-2006', 'dd-mm-yyyy'), 614763397);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (92842, 11, 'ðëä', to_date('12-05-2002', 'dd-mm-yyyy'), to_date('20-02-2005', 'dd-mm-yyyy'), 818626721);
+values (92842, 11, 'Ã°Ã«Ã¤', to_date('12-05-2002', 'dd-mm-yyyy'), to_date('20-02-2005', 'dd-mm-yyyy'), 818626721);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (64663, 34, ' äåøä éçéã', to_date('02-01-2001', 'dd-mm-yyyy'), to_date('22-10-2006', 'dd-mm-yyyy'), 119289287);
+values (64663, 34, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('02-01-2001', 'dd-mm-yyyy'), to_date('22-10-2006', 'dd-mm-yyyy'), 119289287);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (97767, 81, 'ðëä', to_date('18-10-2000', 'dd-mm-yyyy'), to_date('24-06-2007', 'dd-mm-yyyy'), 861373978);
+values (97767, 81, 'Ã°Ã«Ã¤', to_date('18-10-2000', 'dd-mm-yyyy'), to_date('24-06-2007', 'dd-mm-yyyy'), 861373978);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (75189, 62, ' äåøä éçéã', to_date('17-06-2000', 'dd-mm-yyyy'), to_date('06-03-2005', 'dd-mm-yyyy'), 878276742);
+values (75189, 62, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('17-06-2000', 'dd-mm-yyyy'), to_date('06-03-2005', 'dd-mm-yyyy'), 878276742);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (79927, 72, 'øîú äëðñä ðîåëä', to_date('24-09-2004', 'dd-mm-yyyy'), to_date('01-08-2005', 'dd-mm-yyyy'), 464734176);
+values (79927, 72, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('24-09-2004', 'dd-mm-yyyy'), to_date('01-08-2005', 'dd-mm-yyyy'), 464734176);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (93173, 44, ' äåøä éçéã', to_date('26-11-2004', 'dd-mm-yyyy'), to_date('27-08-2005', 'dd-mm-yyyy'), 526917216);
+values (93173, 44, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('26-11-2004', 'dd-mm-yyyy'), to_date('27-08-2005', 'dd-mm-yyyy'), 526917216);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (19632, 54, 'ùéøåú öáàé', to_date('04-07-2001', 'dd-mm-yyyy'), to_date('03-06-2007', 'dd-mm-yyyy'), 587947759);
+values (19632, 54, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('04-07-2001', 'dd-mm-yyyy'), to_date('03-06-2007', 'dd-mm-yyyy'), 587947759);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (17728, 26, 'ùéøåú öáàé', to_date('25-01-2003', 'dd-mm-yyyy'), to_date('07-04-2005', 'dd-mm-yyyy'), 432443852);
+values (17728, 26, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('25-01-2003', 'dd-mm-yyyy'), to_date('07-04-2005', 'dd-mm-yyyy'), 432443852);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (19651, 75, 'ðëä', to_date('10-08-2004', 'dd-mm-yyyy'), to_date('23-11-2007', 'dd-mm-yyyy'), 781714948);
+values (19651, 75, 'Ã°Ã«Ã¤', to_date('10-08-2004', 'dd-mm-yyyy'), to_date('23-11-2007', 'dd-mm-yyyy'), 781714948);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (32265, 77, ' àìîï/ä', to_date('24-06-2000', 'dd-mm-yyyy'), to_date('09-07-2007', 'dd-mm-yyyy'), 389145339);
+values (32265, 77, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('24-06-2000', 'dd-mm-yyyy'), to_date('09-07-2007', 'dd-mm-yyyy'), 389145339);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (28792, 38, 'ðëä', to_date('22-06-2000', 'dd-mm-yyyy'), to_date('27-11-2006', 'dd-mm-yyyy'), 938358622);
+values (28792, 38, 'Ã°Ã«Ã¤', to_date('22-06-2000', 'dd-mm-yyyy'), to_date('27-11-2006', 'dd-mm-yyyy'), 938358622);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (55551, 73, ' àìîï/ä', to_date('01-02-2004', 'dd-mm-yyyy'), to_date('31-01-2006', 'dd-mm-yyyy'), 118187742);
+values (55551, 73, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('01-02-2004', 'dd-mm-yyyy'), to_date('31-01-2006', 'dd-mm-yyyy'), 118187742);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (79784, 92, 'ðëä', to_date('21-12-2004', 'dd-mm-yyyy'), to_date('21-11-2005', 'dd-mm-yyyy'), 345486348);
+values (79784, 92, 'Ã°Ã«Ã¤', to_date('21-12-2004', 'dd-mm-yyyy'), to_date('21-11-2005', 'dd-mm-yyyy'), 345486348);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (41514, 23, 'øîú äëðñä ðîåëä', to_date('01-06-2003', 'dd-mm-yyyy'), to_date('27-05-2006', 'dd-mm-yyyy'), 272113621);
+values (41514, 23, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('01-06-2003', 'dd-mm-yyyy'), to_date('27-05-2006', 'dd-mm-yyyy'), 272113621);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (33458, 47, ' äåøä éçéã', to_date('26-10-2002', 'dd-mm-yyyy'), to_date('12-04-2006', 'dd-mm-yyyy'), 935358341);
+values (33458, 47, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('26-10-2002', 'dd-mm-yyyy'), to_date('12-04-2006', 'dd-mm-yyyy'), 935358341);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (82223, 54, 'ùéøåú öáàé', to_date('08-03-2000', 'dd-mm-yyyy'), to_date('20-04-2005', 'dd-mm-yyyy'), 891864598);
+values (82223, 54, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('08-03-2000', 'dd-mm-yyyy'), to_date('20-04-2005', 'dd-mm-yyyy'), 891864598);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (91567, 36, ' äåøä éçéã', to_date('19-02-2002', 'dd-mm-yyyy'), to_date('28-04-2006', 'dd-mm-yyyy'), 571814751);
+values (91567, 36, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('19-02-2002', 'dd-mm-yyyy'), to_date('28-04-2006', 'dd-mm-yyyy'), 571814751);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (72596, 66, ' àìîï/ä', to_date('14-02-2002', 'dd-mm-yyyy'), to_date('14-05-2005', 'dd-mm-yyyy'), 697658135);
+values (72596, 66, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('14-02-2002', 'dd-mm-yyyy'), to_date('14-05-2005', 'dd-mm-yyyy'), 697658135);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (87343, 82, 'øîú äëðñä ðîåëä', to_date('03-02-2003', 'dd-mm-yyyy'), to_date('25-12-2006', 'dd-mm-yyyy'), 849377551);
+values (87343, 82, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('03-02-2003', 'dd-mm-yyyy'), to_date('25-12-2006', 'dd-mm-yyyy'), 849377551);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (41521, 51, 'øîú äëðñä ðîåëä', to_date('05-06-2000', 'dd-mm-yyyy'), to_date('23-06-2006', 'dd-mm-yyyy'), 927419867);
+values (41521, 51, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('05-06-2000', 'dd-mm-yyyy'), to_date('23-06-2006', 'dd-mm-yyyy'), 927419867);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (68534, 56, 'ðëä', to_date('12-02-2001', 'dd-mm-yyyy'), to_date('25-05-2006', 'dd-mm-yyyy'), 175694676);
+values (68534, 56, 'Ã°Ã«Ã¤', to_date('12-02-2001', 'dd-mm-yyyy'), to_date('25-05-2006', 'dd-mm-yyyy'), 175694676);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (72145, 29, ' äåøä éçéã', to_date('28-12-2003', 'dd-mm-yyyy'), to_date('30-09-2007', 'dd-mm-yyyy'), 274435187);
+values (72145, 29, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('28-12-2003', 'dd-mm-yyyy'), to_date('30-09-2007', 'dd-mm-yyyy'), 274435187);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (89225, 64, ' äåøä éçéã', to_date('13-03-2000', 'dd-mm-yyyy'), to_date('01-01-2007', 'dd-mm-yyyy'), 643423966);
+values (89225, 64, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('13-03-2000', 'dd-mm-yyyy'), to_date('01-01-2007', 'dd-mm-yyyy'), 643423966);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (95616, 24, ' äåøä éçéã', to_date('01-01-2000', 'dd-mm-yyyy'), to_date('09-05-2007', 'dd-mm-yyyy'), 816748933);
+values (95616, 24, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('01-01-2000', 'dd-mm-yyyy'), to_date('09-05-2007', 'dd-mm-yyyy'), 816748933);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (81897, 15, 'ùéøåú ìàåîé', to_date('22-12-2001', 'dd-mm-yyyy'), to_date('28-10-2006', 'dd-mm-yyyy'), 578778765);
+values (81897, 15, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('22-12-2001', 'dd-mm-yyyy'), to_date('28-10-2006', 'dd-mm-yyyy'), 578778765);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (36182, 66, 'ùéøåú ìàåîé', to_date('14-04-2000', 'dd-mm-yyyy'), to_date('26-06-2007', 'dd-mm-yyyy'), 446783813);
+values (36182, 66, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('14-04-2000', 'dd-mm-yyyy'), to_date('26-06-2007', 'dd-mm-yyyy'), 446783813);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (16328, 77, 'øîú äëðñä ðîåëä', to_date('24-12-2000', 'dd-mm-yyyy'), to_date('07-04-2007', 'dd-mm-yyyy'), 432443852);
+values (16328, 77, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('24-12-2000', 'dd-mm-yyyy'), to_date('07-04-2007', 'dd-mm-yyyy'), 432443852);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (58151, 63, 'ùéøåú öáàé', to_date('28-04-2003', 'dd-mm-yyyy'), to_date('31-12-2006', 'dd-mm-yyyy'), 598366132);
+values (58151, 63, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('28-04-2003', 'dd-mm-yyyy'), to_date('31-12-2006', 'dd-mm-yyyy'), 598366132);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (23427, 57, 'ùéøåú ìàåîé', to_date('08-08-2001', 'dd-mm-yyyy'), to_date('04-07-2005', 'dd-mm-yyyy'), 436819126);
+values (23427, 57, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('08-08-2001', 'dd-mm-yyyy'), to_date('04-07-2005', 'dd-mm-yyyy'), 436819126);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (17653, 79, 'ùéøåú ìàåîé', to_date('17-12-2003', 'dd-mm-yyyy'), to_date('23-09-2005', 'dd-mm-yyyy'), 555935128);
+values (17653, 79, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('17-12-2003', 'dd-mm-yyyy'), to_date('23-09-2005', 'dd-mm-yyyy'), 555935128);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (15489, 72, ' äåøä éçéã', to_date('07-08-2002', 'dd-mm-yyyy'), to_date('06-07-2005', 'dd-mm-yyyy'), 996692122);
+values (15489, 72, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('07-08-2002', 'dd-mm-yyyy'), to_date('06-07-2005', 'dd-mm-yyyy'), 996692122);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (84919, 38, 'ùéøåú ìàåîé', to_date('14-10-2003', 'dd-mm-yyyy'), to_date('09-01-2006', 'dd-mm-yyyy'), 574133492);
+values (84919, 38, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('14-10-2003', 'dd-mm-yyyy'), to_date('09-01-2006', 'dd-mm-yyyy'), 574133492);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (95272, 37, 'ùéøåú öáàé', to_date('14-09-2001', 'dd-mm-yyyy'), to_date('28-06-2006', 'dd-mm-yyyy'), 137513264);
+values (95272, 37, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('14-09-2001', 'dd-mm-yyyy'), to_date('28-06-2006', 'dd-mm-yyyy'), 137513264);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (39735, 71, 'øîú äëðñä ðîåëä', to_date('02-09-2000', 'dd-mm-yyyy'), to_date('03-06-2007', 'dd-mm-yyyy'), 246141748);
+values (39735, 71, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('02-09-2000', 'dd-mm-yyyy'), to_date('03-06-2007', 'dd-mm-yyyy'), 246141748);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (43414, 22, 'øîú äëðñä ðîåëä', to_date('27-12-2004', 'dd-mm-yyyy'), to_date('21-04-2005', 'dd-mm-yyyy'), 135187299);
+values (43414, 22, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('27-12-2004', 'dd-mm-yyyy'), to_date('21-04-2005', 'dd-mm-yyyy'), 135187299);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (73965, 68, 'øîú äëðñä ðîåëä', to_date('06-09-2003', 'dd-mm-yyyy'), to_date('26-03-2007', 'dd-mm-yyyy'), 946694629);
+values (73965, 68, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('06-09-2003', 'dd-mm-yyyy'), to_date('26-03-2007', 'dd-mm-yyyy'), 946694629);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (36245, 37, 'øîú äëðñä ðîåëä', to_date('09-11-2004', 'dd-mm-yyyy'), to_date('13-07-2005', 'dd-mm-yyyy'), 698881133);
+values (36245, 37, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('09-11-2004', 'dd-mm-yyyy'), to_date('13-07-2005', 'dd-mm-yyyy'), 698881133);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (48764, 71, 'ùéøåú öáàé', to_date('20-09-2004', 'dd-mm-yyyy'), to_date('07-09-2005', 'dd-mm-yyyy'), 113345784);
+values (48764, 71, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('20-09-2004', 'dd-mm-yyyy'), to_date('07-09-2005', 'dd-mm-yyyy'), 113345784);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (14681, 52, 'ùéøåú ìàåîé', to_date('13-01-2001', 'dd-mm-yyyy'), to_date('11-04-2006', 'dd-mm-yyyy'), 196478439);
+values (14681, 52, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('13-01-2001', 'dd-mm-yyyy'), to_date('11-04-2006', 'dd-mm-yyyy'), 196478439);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (55472, 96, 'ðëä', to_date('14-01-2004', 'dd-mm-yyyy'), to_date('13-03-2007', 'dd-mm-yyyy'), 454651229);
+values (55472, 96, 'Ã°Ã«Ã¤', to_date('14-01-2004', 'dd-mm-yyyy'), to_date('13-03-2007', 'dd-mm-yyyy'), 454651229);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (72142, 51, 'øîú äëðñä ðîåëä', to_date('20-11-2001', 'dd-mm-yyyy'), to_date('31-03-2006', 'dd-mm-yyyy'), 537569649);
+values (72142, 51, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('20-11-2001', 'dd-mm-yyyy'), to_date('31-03-2006', 'dd-mm-yyyy'), 537569649);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (21343, 39, ' äåøä éçéã', to_date('25-09-2002', 'dd-mm-yyyy'), to_date('20-01-2007', 'dd-mm-yyyy'), 211629287);
+values (21343, 39, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('25-09-2002', 'dd-mm-yyyy'), to_date('20-01-2007', 'dd-mm-yyyy'), 211629287);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (67548, 66, 'øîú äëðñä ðîåëä', to_date('24-03-2003', 'dd-mm-yyyy'), to_date('14-10-2007', 'dd-mm-yyyy'), 913474355);
+values (67548, 66, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('24-03-2003', 'dd-mm-yyyy'), to_date('14-10-2007', 'dd-mm-yyyy'), 913474355);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (57465, 24, 'ùéøåú öáàé', to_date('25-05-2000', 'dd-mm-yyyy'), to_date('02-06-2005', 'dd-mm-yyyy'), 747312363);
+values (57465, 24, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('25-05-2000', 'dd-mm-yyyy'), to_date('02-06-2005', 'dd-mm-yyyy'), 747312363);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (41882, 58, 'ùéøåú ìàåîé', to_date('12-01-2000', 'dd-mm-yyyy'), to_date('29-11-2005', 'dd-mm-yyyy'), 436819126);
+values (41882, 58, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('12-01-2000', 'dd-mm-yyyy'), to_date('29-11-2005', 'dd-mm-yyyy'), 436819126);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (66111, 63, 'øîú äëðñä ðîåëä', to_date('18-04-2004', 'dd-mm-yyyy'), to_date('30-01-2006', 'dd-mm-yyyy'), 588855746);
+values (66111, 63, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('18-04-2004', 'dd-mm-yyyy'), to_date('30-01-2006', 'dd-mm-yyyy'), 588855746);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (14535, 95, 'ùéøåú öáàé', to_date('23-11-2001', 'dd-mm-yyyy'), to_date('18-05-2005', 'dd-mm-yyyy'), 882788466);
+values (14535, 95, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('23-11-2001', 'dd-mm-yyyy'), to_date('18-05-2005', 'dd-mm-yyyy'), 882788466);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (88755, 22, 'ùéøåú öáàé', to_date('26-10-2001', 'dd-mm-yyyy'), to_date('01-04-2005', 'dd-mm-yyyy'), 195985798);
+values (88755, 22, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('26-10-2001', 'dd-mm-yyyy'), to_date('01-04-2005', 'dd-mm-yyyy'), 195985798);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (93141, 44, 'ùéøåú öáàé', to_date('22-07-2002', 'dd-mm-yyyy'), to_date('21-05-2006', 'dd-mm-yyyy'), 618842857);
+values (93141, 44, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('22-07-2002', 'dd-mm-yyyy'), to_date('21-05-2006', 'dd-mm-yyyy'), 618842857);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (64676, 45, 'ùéøåú öáàé', to_date('14-11-2004', 'dd-mm-yyyy'), to_date('29-04-2005', 'dd-mm-yyyy'), 749566745);
+values (64676, 45, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('14-11-2004', 'dd-mm-yyyy'), to_date('29-04-2005', 'dd-mm-yyyy'), 749566745);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (21847, 38, 'ùéøåú ìàåîé', to_date('25-05-2001', 'dd-mm-yyyy'), to_date('10-10-2007', 'dd-mm-yyyy'), 963921632);
+values (21847, 38, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('25-05-2001', 'dd-mm-yyyy'), to_date('10-10-2007', 'dd-mm-yyyy'), 963921632);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (28838, 65, 'ùéøåú ìàåîé', to_date('31-07-2001', 'dd-mm-yyyy'), to_date('17-01-2005', 'dd-mm-yyyy'), 136268649);
+values (28838, 65, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('31-07-2001', 'dd-mm-yyyy'), to_date('17-01-2005', 'dd-mm-yyyy'), 136268649);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (77434, 35, 'ðëä', to_date('12-10-2001', 'dd-mm-yyyy'), to_date('08-07-2005', 'dd-mm-yyyy'), 476485619);
+values (77434, 35, 'Ã°Ã«Ã¤', to_date('12-10-2001', 'dd-mm-yyyy'), to_date('08-07-2005', 'dd-mm-yyyy'), 476485619);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (95256, 95, 'ðëä', to_date('07-09-2002', 'dd-mm-yyyy'), to_date('11-07-2005', 'dd-mm-yyyy'), 375453865);
+values (95256, 95, 'Ã°Ã«Ã¤', to_date('07-09-2002', 'dd-mm-yyyy'), to_date('11-07-2005', 'dd-mm-yyyy'), 375453865);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (58994, 31, ' äåøä éçéã', to_date('07-10-2001', 'dd-mm-yyyy'), to_date('16-11-2007', 'dd-mm-yyyy'), 385559488);
+values (58994, 31, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('07-10-2001', 'dd-mm-yyyy'), to_date('16-11-2007', 'dd-mm-yyyy'), 385559488);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (14534, 58, 'ðëä', to_date('20-05-2004', 'dd-mm-yyyy'), to_date('01-09-2005', 'dd-mm-yyyy'), 127968517);
+values (14534, 58, 'Ã°Ã«Ã¤', to_date('20-05-2004', 'dd-mm-yyyy'), to_date('01-09-2005', 'dd-mm-yyyy'), 127968517);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (96891, 28, 'ùéøåú öáàé', to_date('10-10-2003', 'dd-mm-yyyy'), to_date('02-04-2005', 'dd-mm-yyyy'), 476485619);
+values (96891, 28, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('10-10-2003', 'dd-mm-yyyy'), to_date('02-04-2005', 'dd-mm-yyyy'), 476485619);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (56214, 99, ' äåøä éçéã', to_date('13-06-2002', 'dd-mm-yyyy'), to_date('15-03-2007', 'dd-mm-yyyy'), 816748933);
+values (56214, 99, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('13-06-2002', 'dd-mm-yyyy'), to_date('15-03-2007', 'dd-mm-yyyy'), 816748933);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (37265, 59, 'ùéøåú öáàé', to_date('08-09-2004', 'dd-mm-yyyy'), to_date('13-02-2005', 'dd-mm-yyyy'), 871125241);
+values (37265, 59, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('08-09-2004', 'dd-mm-yyyy'), to_date('13-02-2005', 'dd-mm-yyyy'), 871125241);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (83369, 91, ' äåøä éçéã', to_date('26-01-2001', 'dd-mm-yyyy'), to_date('15-07-2007', 'dd-mm-yyyy'), 637992576);
+values (83369, 91, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('26-01-2001', 'dd-mm-yyyy'), to_date('15-07-2007', 'dd-mm-yyyy'), 637992576);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (95214, 86, ' äåøä éçéã', to_date('30-01-2004', 'dd-mm-yyyy'), to_date('16-02-2005', 'dd-mm-yyyy'), 592611699);
+values (95214, 86, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('30-01-2004', 'dd-mm-yyyy'), to_date('16-02-2005', 'dd-mm-yyyy'), 592611699);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (17939, 68, 'ùéøåú öáàé', to_date('19-01-2000', 'dd-mm-yyyy'), to_date('26-03-2006', 'dd-mm-yyyy'), 116453857);
+values (17939, 68, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('19-01-2000', 'dd-mm-yyyy'), to_date('26-03-2006', 'dd-mm-yyyy'), 116453857);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (55328, 82, ' àìîï/ä', to_date('17-11-2003', 'dd-mm-yyyy'), to_date('25-04-2005', 'dd-mm-yyyy'), 842582727);
+values (55328, 82, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('17-11-2003', 'dd-mm-yyyy'), to_date('25-04-2005', 'dd-mm-yyyy'), 842582727);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (12749, 42, 'ðëä', to_date('06-02-2003', 'dd-mm-yyyy'), to_date('30-01-2007', 'dd-mm-yyyy'), 665241182);
+values (12749, 42, 'Ã°Ã«Ã¤', to_date('06-02-2003', 'dd-mm-yyyy'), to_date('30-01-2007', 'dd-mm-yyyy'), 665241182);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (55453, 75, 'ùéøåú öáàé', to_date('03-04-2000', 'dd-mm-yyyy'), to_date('04-01-2007', 'dd-mm-yyyy'), 574133492);
+values (55453, 75, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('03-04-2000', 'dd-mm-yyyy'), to_date('04-01-2007', 'dd-mm-yyyy'), 574133492);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (57491, 69, 'øîú äëðñä ðîåëä', to_date('22-08-2003', 'dd-mm-yyyy'), to_date('19-05-2005', 'dd-mm-yyyy'), 887589681);
+values (57491, 69, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('22-08-2003', 'dd-mm-yyyy'), to_date('19-05-2005', 'dd-mm-yyyy'), 887589681);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (71359, 75, ' àìîï/ä', to_date('13-03-2001', 'dd-mm-yyyy'), to_date('13-10-2007', 'dd-mm-yyyy'), 882788466);
+values (71359, 75, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('13-03-2001', 'dd-mm-yyyy'), to_date('13-10-2007', 'dd-mm-yyyy'), 882788466);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (62682, 24, ' àìîï/ä', to_date('20-04-2000', 'dd-mm-yyyy'), to_date('08-11-2005', 'dd-mm-yyyy'), 464734176);
+values (62682, 24, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('20-04-2000', 'dd-mm-yyyy'), to_date('08-11-2005', 'dd-mm-yyyy'), 464734176);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (68526, 74, ' àìîï/ä', to_date('21-02-2003', 'dd-mm-yyyy'), to_date('23-02-2007', 'dd-mm-yyyy'), 795857146);
+values (68526, 74, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('21-02-2003', 'dd-mm-yyyy'), to_date('23-02-2007', 'dd-mm-yyyy'), 795857146);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (18227, 26, ' àìîï/ä', to_date('12-09-2002', 'dd-mm-yyyy'), to_date('06-02-2005', 'dd-mm-yyyy'), 747962567);
+values (18227, 26, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('12-09-2002', 'dd-mm-yyyy'), to_date('06-02-2005', 'dd-mm-yyyy'), 747962567);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (55325, 31, 'ùéøåú ìàåîé', to_date('22-01-2001', 'dd-mm-yyyy'), to_date('23-04-2005', 'dd-mm-yyyy'), 893866938);
+values (55325, 31, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('22-01-2001', 'dd-mm-yyyy'), to_date('23-04-2005', 'dd-mm-yyyy'), 893866938);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (95158, 65, ' àìîï/ä', to_date('17-09-2001', 'dd-mm-yyyy'), to_date('09-12-2007', 'dd-mm-yyyy'), 874933198);
+values (95158, 65, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('17-09-2001', 'dd-mm-yyyy'), to_date('09-12-2007', 'dd-mm-yyyy'), 874933198);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (97344, 52, ' àìîï/ä', to_date('19-01-2000', 'dd-mm-yyyy'), to_date('16-11-2005', 'dd-mm-yyyy'), 147959435);
+values (97344, 52, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('19-01-2000', 'dd-mm-yyyy'), to_date('16-11-2005', 'dd-mm-yyyy'), 147959435);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (87681, 93, ' äåøä éçéã', to_date('17-01-2003', 'dd-mm-yyyy'), to_date('27-11-2005', 'dd-mm-yyyy'), 452723368);
+values (87681, 93, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('17-01-2003', 'dd-mm-yyyy'), to_date('27-11-2005', 'dd-mm-yyyy'), 452723368);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (19681, 59, 'ðëä', to_date('21-12-2001', 'dd-mm-yyyy'), to_date('10-03-2005', 'dd-mm-yyyy'), 232362661);
+values (19681, 59, 'Ã°Ã«Ã¤', to_date('21-12-2001', 'dd-mm-yyyy'), to_date('10-03-2005', 'dd-mm-yyyy'), 232362661);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (97144, 23, ' äåøä éçéã', to_date('11-06-2000', 'dd-mm-yyyy'), to_date('25-09-2005', 'dd-mm-yyyy'), 988272792);
+values (97144, 23, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('11-06-2000', 'dd-mm-yyyy'), to_date('25-09-2005', 'dd-mm-yyyy'), 988272792);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (14399, 88, 'øîú äëðñä ðîåëä', to_date('19-05-2004', 'dd-mm-yyyy'), to_date('02-08-2006', 'dd-mm-yyyy'), 272113621);
+values (14399, 88, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('19-05-2004', 'dd-mm-yyyy'), to_date('02-08-2006', 'dd-mm-yyyy'), 272113621);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (19234, 94, 'ðëä', to_date('12-11-2001', 'dd-mm-yyyy'), to_date('05-12-2007', 'dd-mm-yyyy'), 745141472);
+values (19234, 94, 'Ã°Ã«Ã¤', to_date('12-11-2001', 'dd-mm-yyyy'), to_date('05-12-2007', 'dd-mm-yyyy'), 745141472);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (18429, 28, 'øîú äëðñä ðîåëä', to_date('17-04-2000', 'dd-mm-yyyy'), to_date('22-06-2006', 'dd-mm-yyyy'), 948653731);
+values (18429, 28, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('17-04-2000', 'dd-mm-yyyy'), to_date('22-06-2006', 'dd-mm-yyyy'), 948653731);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (34724, 22, ' äåøä éçéã', to_date('29-11-2004', 'dd-mm-yyyy'), to_date('18-03-2005', 'dd-mm-yyyy'), 213497876);
+values (34724, 22, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('29-11-2004', 'dd-mm-yyyy'), to_date('18-03-2005', 'dd-mm-yyyy'), 213497876);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (45547, 72, 'øîú äëðñä ðîåëä', to_date('13-04-2002', 'dd-mm-yyyy'), to_date('08-02-2006', 'dd-mm-yyyy'), 934135551);
+values (45547, 72, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('13-04-2002', 'dd-mm-yyyy'), to_date('08-02-2006', 'dd-mm-yyyy'), 934135551);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (39879, 88, 'ùéøåú öáàé', to_date('05-03-2003', 'dd-mm-yyyy'), to_date('22-10-2005', 'dd-mm-yyyy'), 776589943);
+values (39879, 88, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('05-03-2003', 'dd-mm-yyyy'), to_date('22-10-2005', 'dd-mm-yyyy'), 776589943);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (93271, 48, ' äåøä éçéã', to_date('20-07-2002', 'dd-mm-yyyy'), to_date('26-06-2005', 'dd-mm-yyyy'), 555935128);
+values (93271, 48, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('20-07-2002', 'dd-mm-yyyy'), to_date('26-06-2005', 'dd-mm-yyyy'), 555935128);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (76297, 87, 'øîú äëðñä ðîåëä', to_date('22-11-2004', 'dd-mm-yyyy'), to_date('25-04-2006', 'dd-mm-yyyy'), 572311562);
+values (76297, 87, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('22-11-2004', 'dd-mm-yyyy'), to_date('25-04-2006', 'dd-mm-yyyy'), 572311562);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (29771, 85, 'ùéøåú öáàé', to_date('04-06-2003', 'dd-mm-yyyy'), to_date('18-12-2005', 'dd-mm-yyyy'), 335877875);
+values (29771, 85, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('04-06-2003', 'dd-mm-yyyy'), to_date('18-12-2005', 'dd-mm-yyyy'), 335877875);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (75675, 53, 'ðëä', to_date('10-05-2000', 'dd-mm-yyyy'), to_date('12-07-2007', 'dd-mm-yyyy'), 781714948);
+values (75675, 53, 'Ã°Ã«Ã¤', to_date('10-05-2000', 'dd-mm-yyyy'), to_date('12-07-2007', 'dd-mm-yyyy'), 781714948);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (11663, 61, 'ùéøåú öáàé', to_date('27-10-2003', 'dd-mm-yyyy'), to_date('10-08-2007', 'dd-mm-yyyy'), 818382624);
+values (11663, 61, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('27-10-2003', 'dd-mm-yyyy'), to_date('10-08-2007', 'dd-mm-yyyy'), 818382624);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (21773, 74, 'ðëä', to_date('15-03-2002', 'dd-mm-yyyy'), to_date('20-11-2005', 'dd-mm-yyyy'), 589619935);
+values (21773, 74, 'Ã°Ã«Ã¤', to_date('15-03-2002', 'dd-mm-yyyy'), to_date('20-11-2005', 'dd-mm-yyyy'), 589619935);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (39771, 38, ' àìîï/ä', to_date('14-12-2003', 'dd-mm-yyyy'), to_date('11-08-2006', 'dd-mm-yyyy'), 352164395);
+values (39771, 38, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('14-12-2003', 'dd-mm-yyyy'), to_date('11-08-2006', 'dd-mm-yyyy'), 352164395);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (85384, 83, 'ùéøåú öáàé', to_date('10-09-2003', 'dd-mm-yyyy'), to_date('28-09-2005', 'dd-mm-yyyy'), 842582727);
+values (85384, 83, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('10-09-2003', 'dd-mm-yyyy'), to_date('28-09-2005', 'dd-mm-yyyy'), 842582727);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (77961, 13, 'ðëä', to_date('13-02-2001', 'dd-mm-yyyy'), to_date('25-04-2006', 'dd-mm-yyyy'), 959631963);
+values (77961, 13, 'Ã°Ã«Ã¤', to_date('13-02-2001', 'dd-mm-yyyy'), to_date('25-04-2006', 'dd-mm-yyyy'), 959631963);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (28171, 42, 'ðëä', to_date('09-01-2002', 'dd-mm-yyyy'), to_date('10-06-2005', 'dd-mm-yyyy'), 777566944);
+values (28171, 42, 'Ã°Ã«Ã¤', to_date('09-01-2002', 'dd-mm-yyyy'), to_date('10-06-2005', 'dd-mm-yyyy'), 777566944);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (99295, 36, 'ðëä', to_date('17-03-2001', 'dd-mm-yyyy'), to_date('08-09-2006', 'dd-mm-yyyy'), 958839685);
+values (99295, 36, 'Ã°Ã«Ã¤', to_date('17-03-2001', 'dd-mm-yyyy'), to_date('08-09-2006', 'dd-mm-yyyy'), 958839685);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (33284, 53, ' äåøä éçéã', to_date('11-12-2001', 'dd-mm-yyyy'), to_date('16-09-2005', 'dd-mm-yyyy'), 145443376);
+values (33284, 53, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('11-12-2001', 'dd-mm-yyyy'), to_date('16-09-2005', 'dd-mm-yyyy'), 145443376);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (18228, 19, ' äåøä éçéã', to_date('15-10-2001', 'dd-mm-yyyy'), to_date('21-09-2006', 'dd-mm-yyyy'), 898152989);
+values (18228, 19, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('15-10-2001', 'dd-mm-yyyy'), to_date('21-09-2006', 'dd-mm-yyyy'), 898152989);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (46876, 64, ' àìîï/ä', to_date('04-02-2002', 'dd-mm-yyyy'), to_date('14-10-2006', 'dd-mm-yyyy'), 776589943);
+values (46876, 64, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('04-02-2002', 'dd-mm-yyyy'), to_date('14-10-2006', 'dd-mm-yyyy'), 776589943);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (78542, 22, ' àìîï/ä', to_date('25-10-2000', 'dd-mm-yyyy'), to_date('27-06-2006', 'dd-mm-yyyy'), 446783813);
+values (78542, 22, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('25-10-2000', 'dd-mm-yyyy'), to_date('27-06-2006', 'dd-mm-yyyy'), 446783813);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (86412, 19, 'ùéøåú öáàé', to_date('04-07-2003', 'dd-mm-yyyy'), to_date('14-04-2007', 'dd-mm-yyyy'), 457536569);
+values (86412, 19, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('04-07-2003', 'dd-mm-yyyy'), to_date('14-04-2007', 'dd-mm-yyyy'), 457536569);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (86671, 98, ' äåøä éçéã', to_date('19-03-2003', 'dd-mm-yyyy'), to_date('04-10-2005', 'dd-mm-yyyy'), 553885863);
+values (86671, 98, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('19-03-2003', 'dd-mm-yyyy'), to_date('04-10-2005', 'dd-mm-yyyy'), 553885863);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (49262, 96, 'ùéøåú ìàåîé', to_date('30-04-2003', 'dd-mm-yyyy'), to_date('11-11-2005', 'dd-mm-yyyy'), 588855746);
+values (49262, 96, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('30-04-2003', 'dd-mm-yyyy'), to_date('11-11-2005', 'dd-mm-yyyy'), 588855746);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (94643, 72, 'øîú äëðñä ðîåëä', to_date('21-02-2003', 'dd-mm-yyyy'), to_date('09-07-2006', 'dd-mm-yyyy'), 762496866);
+values (94643, 72, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('21-02-2003', 'dd-mm-yyyy'), to_date('09-07-2006', 'dd-mm-yyyy'), 762496866);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (23345, 25, 'ùéøåú ìàåîé', to_date('13-08-2003', 'dd-mm-yyyy'), to_date('09-02-2005', 'dd-mm-yyyy'), 726721537);
+values (23345, 25, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('13-08-2003', 'dd-mm-yyyy'), to_date('09-02-2005', 'dd-mm-yyyy'), 726721537);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (97283, 38, ' àìîï/ä', to_date('03-07-2001', 'dd-mm-yyyy'), to_date('22-08-2007', 'dd-mm-yyyy'), 698826441);
+values (97283, 38, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('03-07-2001', 'dd-mm-yyyy'), to_date('22-08-2007', 'dd-mm-yyyy'), 698826441);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (72139, 66, 'ùéøåú ìàåîé', to_date('10-08-2001', 'dd-mm-yyyy'), to_date('25-11-2007', 'dd-mm-yyyy'), 664285891);
+values (72139, 66, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('10-08-2001', 'dd-mm-yyyy'), to_date('25-11-2007', 'dd-mm-yyyy'), 664285891);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (58954, 75, ' äåøä éçéã', to_date('26-04-2002', 'dd-mm-yyyy'), to_date('13-10-2007', 'dd-mm-yyyy'), 898152989);
+values (58954, 75, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('26-04-2002', 'dd-mm-yyyy'), to_date('13-10-2007', 'dd-mm-yyyy'), 898152989);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (34274, 47, 'ùéøåú öáàé', to_date('29-08-2000', 'dd-mm-yyyy'), to_date('30-08-2006', 'dd-mm-yyyy'), 574546683);
+values (34274, 47, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('29-08-2000', 'dd-mm-yyyy'), to_date('30-08-2006', 'dd-mm-yyyy'), 574546683);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (36342, 75, 'ùéøåú öáàé', to_date('08-12-2002', 'dd-mm-yyyy'), to_date('31-01-2006', 'dd-mm-yyyy'), 177374393);
+values (36342, 75, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('08-12-2002', 'dd-mm-yyyy'), to_date('31-01-2006', 'dd-mm-yyyy'), 177374393);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (64451, 19, ' äåøä éçéã', to_date('12-10-2001', 'dd-mm-yyyy'), to_date('20-07-2007', 'dd-mm-yyyy'), 934135551);
+values (64451, 19, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('12-10-2001', 'dd-mm-yyyy'), to_date('20-07-2007', 'dd-mm-yyyy'), 934135551);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (46151, 39, 'ðëä', to_date('16-04-2002', 'dd-mm-yyyy'), to_date('20-02-2006', 'dd-mm-yyyy'), 552836342);
+values (46151, 39, 'Ã°Ã«Ã¤', to_date('16-04-2002', 'dd-mm-yyyy'), to_date('20-02-2006', 'dd-mm-yyyy'), 552836342);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (25224, 47, 'ùéøåú ìàåîé', to_date('14-08-2000', 'dd-mm-yyyy'), to_date('10-05-2006', 'dd-mm-yyyy'), 464734176);
+values (25224, 47, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('14-08-2000', 'dd-mm-yyyy'), to_date('10-05-2006', 'dd-mm-yyyy'), 464734176);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (45853, 27, 'ðëä', to_date('16-03-2003', 'dd-mm-yyyy'), to_date('04-07-2007', 'dd-mm-yyyy'), 345486348);
+values (45853, 27, 'Ã°Ã«Ã¤', to_date('16-03-2003', 'dd-mm-yyyy'), to_date('04-07-2007', 'dd-mm-yyyy'), 345486348);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (89963, 61, 'ùéøåú öáàé', to_date('01-02-2001', 'dd-mm-yyyy'), to_date('06-12-2005', 'dd-mm-yyyy'), 372978927);
+values (89963, 61, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('01-02-2001', 'dd-mm-yyyy'), to_date('06-12-2005', 'dd-mm-yyyy'), 372978927);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (85384, 72, 'øîú äëðñä ðîåëä', to_date('26-07-2000', 'dd-mm-yyyy'), to_date('05-08-2006', 'dd-mm-yyyy'), 143878386);
+values (85384, 72, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('26-07-2000', 'dd-mm-yyyy'), to_date('05-08-2006', 'dd-mm-yyyy'), 143878386);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (44497, 14, ' äåøä éçéã', to_date('19-01-2000', 'dd-mm-yyyy'), to_date('30-09-2005', 'dd-mm-yyyy'), 128461244);
+values (44497, 14, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('19-01-2000', 'dd-mm-yyyy'), to_date('30-09-2005', 'dd-mm-yyyy'), 128461244);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (27127, 31, 'ðëä', to_date('03-11-2000', 'dd-mm-yyyy'), to_date('13-04-2007', 'dd-mm-yyyy'), 159456556);
+values (27127, 31, 'Ã°Ã«Ã¤', to_date('03-11-2000', 'dd-mm-yyyy'), to_date('13-04-2007', 'dd-mm-yyyy'), 159456556);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (74235, 57, 'ùéøåú ìàåîé', to_date('03-08-2000', 'dd-mm-yyyy'), to_date('18-11-2006', 'dd-mm-yyyy'), 691872967);
+values (74235, 57, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('03-08-2000', 'dd-mm-yyyy'), to_date('18-11-2006', 'dd-mm-yyyy'), 691872967);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (55711, 34, 'øîú äëðñä ðîåëä', to_date('02-09-2001', 'dd-mm-yyyy'), to_date('31-12-2006', 'dd-mm-yyyy'), 146126967);
+values (55711, 34, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('02-09-2001', 'dd-mm-yyyy'), to_date('31-12-2006', 'dd-mm-yyyy'), 146126967);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (97972, 75, 'ðëä', to_date('30-04-2004', 'dd-mm-yyyy'), to_date('31-08-2007', 'dd-mm-yyyy'), 445214224);
+values (97972, 75, 'Ã°Ã«Ã¤', to_date('30-04-2004', 'dd-mm-yyyy'), to_date('31-08-2007', 'dd-mm-yyyy'), 445214224);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (55616, 35, 'øîú äëðñä ðîåëä', to_date('03-06-2002', 'dd-mm-yyyy'), to_date('01-10-2006', 'dd-mm-yyyy'), 586499533);
+values (55616, 35, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('03-06-2002', 'dd-mm-yyyy'), to_date('01-10-2006', 'dd-mm-yyyy'), 586499533);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (93726, 63, 'ùéøåú ìàåîé', to_date('28-04-2004', 'dd-mm-yyyy'), to_date('28-06-2006', 'dd-mm-yyyy'), 846221927);
+values (93726, 63, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('28-04-2004', 'dd-mm-yyyy'), to_date('28-06-2006', 'dd-mm-yyyy'), 846221927);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (35516, 76, ' äåøä éçéã', to_date('04-06-2003', 'dd-mm-yyyy'), to_date('26-01-2005', 'dd-mm-yyyy'), 945839263);
+values (35516, 76, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('04-06-2003', 'dd-mm-yyyy'), to_date('26-01-2005', 'dd-mm-yyyy'), 945839263);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (35313, 22, 'ùéøåú öáàé', to_date('03-12-2003', 'dd-mm-yyyy'), to_date('28-08-2007', 'dd-mm-yyyy'), 348553139);
+values (35313, 22, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('03-12-2003', 'dd-mm-yyyy'), to_date('28-08-2007', 'dd-mm-yyyy'), 348553139);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (29457, 87, ' äåøä éçéã', to_date('10-04-2003', 'dd-mm-yyyy'), to_date('28-03-2005', 'dd-mm-yyyy'), 864724389);
+values (29457, 87, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('10-04-2003', 'dd-mm-yyyy'), to_date('28-03-2005', 'dd-mm-yyyy'), 864724389);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (39284, 73, ' äåøä éçéã', to_date('19-03-2002', 'dd-mm-yyyy'), to_date('13-08-2005', 'dd-mm-yyyy'), 427316471);
+values (39284, 73, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('19-03-2002', 'dd-mm-yyyy'), to_date('13-08-2005', 'dd-mm-yyyy'), 427316471);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (67368, 98, ' äåøä éçéã', to_date('05-08-2000', 'dd-mm-yyyy'), to_date('26-05-2006', 'dd-mm-yyyy'), 877489359);
+values (67368, 98, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('05-08-2000', 'dd-mm-yyyy'), to_date('26-05-2006', 'dd-mm-yyyy'), 877489359);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (97944, 82, 'ùéøåú öáàé', to_date('01-12-2002', 'dd-mm-yyyy'), to_date('03-11-2006', 'dd-mm-yyyy'), 389145339);
+values (97944, 82, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('01-12-2002', 'dd-mm-yyyy'), to_date('03-11-2006', 'dd-mm-yyyy'), 389145339);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (39663, 12, ' àìîï/ä', to_date('24-11-2003', 'dd-mm-yyyy'), to_date('10-11-2005', 'dd-mm-yyyy'), 385559488);
+values (39663, 12, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('24-11-2003', 'dd-mm-yyyy'), to_date('10-11-2005', 'dd-mm-yyyy'), 385559488);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (47679, 21, ' äåøä éçéã', to_date('01-01-2004', 'dd-mm-yyyy'), to_date('26-08-2007', 'dd-mm-yyyy'), 274435187);
+values (47679, 21, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('01-01-2004', 'dd-mm-yyyy'), to_date('26-08-2007', 'dd-mm-yyyy'), 274435187);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (93458, 15, ' àìîï/ä', to_date('01-08-2001', 'dd-mm-yyyy'), to_date('12-11-2005', 'dd-mm-yyyy'), 913474355);
+values (93458, 15, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('01-08-2001', 'dd-mm-yyyy'), to_date('12-11-2005', 'dd-mm-yyyy'), 913474355);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (55635, 94, ' äåøä éçéã', to_date('13-03-2000', 'dd-mm-yyyy'), to_date('20-11-2005', 'dd-mm-yyyy'), 664934526);
+values (55635, 94, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('13-03-2000', 'dd-mm-yyyy'), to_date('20-11-2005', 'dd-mm-yyyy'), 664934526);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (88636, 36, 'ùéøåú ìàåîé', to_date('30-04-2003', 'dd-mm-yyyy'), to_date('01-06-2006', 'dd-mm-yyyy'), 687312756);
+values (88636, 36, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('30-04-2003', 'dd-mm-yyyy'), to_date('01-06-2006', 'dd-mm-yyyy'), 687312756);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (85163, 93, 'øîú äëðñä ðîåëä', to_date('17-09-2002', 'dd-mm-yyyy'), to_date('03-01-2006', 'dd-mm-yyyy'), 389367138);
+values (85163, 93, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('17-09-2002', 'dd-mm-yyyy'), to_date('03-01-2006', 'dd-mm-yyyy'), 389367138);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (88198, 31, 'ùéøåú ìàåîé', to_date('19-01-2000', 'dd-mm-yyyy'), to_date('24-07-2007', 'dd-mm-yyyy'), 784898128);
+values (88198, 31, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('19-01-2000', 'dd-mm-yyyy'), to_date('24-07-2007', 'dd-mm-yyyy'), 784898128);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (13941, 32, ' àìîï/ä', to_date('01-11-2004', 'dd-mm-yyyy'), to_date('03-09-2005', 'dd-mm-yyyy'), 114983181);
+values (13941, 32, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('01-11-2004', 'dd-mm-yyyy'), to_date('03-09-2005', 'dd-mm-yyyy'), 114983181);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (37536, 68, 'ùéøåú ìàåîé', to_date('22-01-2002', 'dd-mm-yyyy'), to_date('19-10-2006', 'dd-mm-yyyy'), 246141748);
+values (37536, 68, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('22-01-2002', 'dd-mm-yyyy'), to_date('19-10-2006', 'dd-mm-yyyy'), 246141748);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (66143, 26, 'ðëä', to_date('09-06-2002', 'dd-mm-yyyy'), to_date('13-02-2005', 'dd-mm-yyyy'), 492957321);
+values (66143, 26, 'Ã°Ã«Ã¤', to_date('09-06-2002', 'dd-mm-yyyy'), to_date('13-02-2005', 'dd-mm-yyyy'), 492957321);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (95476, 81, ' äåøä éçéã', to_date('15-10-2004', 'dd-mm-yyyy'), to_date('21-09-2006', 'dd-mm-yyyy'), 698826441);
+values (95476, 81, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('15-10-2004', 'dd-mm-yyyy'), to_date('21-09-2006', 'dd-mm-yyyy'), 698826441);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (46624, 65, 'ùéøåú ìàåîé', to_date('29-08-2003', 'dd-mm-yyyy'), to_date('19-06-2005', 'dd-mm-yyyy'), 214286441);
+values (46624, 65, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('29-08-2003', 'dd-mm-yyyy'), to_date('19-06-2005', 'dd-mm-yyyy'), 214286441);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (28113, 93, ' äåøä éçéã', to_date('14-05-2003', 'dd-mm-yyyy'), to_date('19-08-2005', 'dd-mm-yyyy'), 259428855);
+values (28113, 93, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('14-05-2003', 'dd-mm-yyyy'), to_date('19-08-2005', 'dd-mm-yyyy'), 259428855);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (23258, 28, 'øîú äëðñä ðîåëä', to_date('29-05-2001', 'dd-mm-yyyy'), to_date('23-10-2006', 'dd-mm-yyyy'), 793675167);
+values (23258, 28, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('29-05-2001', 'dd-mm-yyyy'), to_date('23-10-2006', 'dd-mm-yyyy'), 793675167);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (57583, 27, 'ùéøåú ìàåîé', to_date('07-03-2002', 'dd-mm-yyyy'), to_date('08-03-2006', 'dd-mm-yyyy'), 572311562);
+values (57583, 27, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('07-03-2002', 'dd-mm-yyyy'), to_date('08-03-2006', 'dd-mm-yyyy'), 572311562);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (59343, 57, 'ùéøåú ìàåîé', to_date('14-02-2000', 'dd-mm-yyyy'), to_date('11-11-2007', 'dd-mm-yyyy'), 813198268);
+values (59343, 57, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('14-02-2000', 'dd-mm-yyyy'), to_date('11-11-2007', 'dd-mm-yyyy'), 813198268);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (38144, 61, 'ùéøåú ìàåîé', to_date('23-01-2003', 'dd-mm-yyyy'), to_date('18-03-2007', 'dd-mm-yyyy'), 435997313);
+values (38144, 61, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('23-01-2003', 'dd-mm-yyyy'), to_date('18-03-2007', 'dd-mm-yyyy'), 435997313);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (19518, 51, ' äåøä éçéã', to_date('02-09-2002', 'dd-mm-yyyy'), to_date('06-04-2007', 'dd-mm-yyyy'), 545118169);
+values (19518, 51, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('02-09-2002', 'dd-mm-yyyy'), to_date('06-04-2007', 'dd-mm-yyyy'), 545118169);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (45118, 43, ' äåøä éçéã', to_date('20-01-2002', 'dd-mm-yyyy'), to_date('24-02-2007', 'dd-mm-yyyy'), 537569649);
+values (45118, 43, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('20-01-2002', 'dd-mm-yyyy'), to_date('24-02-2007', 'dd-mm-yyyy'), 537569649);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (52385, 11, 'øîú äëðñä ðîåëä', to_date('06-11-2004', 'dd-mm-yyyy'), to_date('19-01-2005', 'dd-mm-yyyy'), 683777489);
+values (52385, 11, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('06-11-2004', 'dd-mm-yyyy'), to_date('19-01-2005', 'dd-mm-yyyy'), 683777489);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (51712, 92, 'ùéøåú öáàé', to_date('31-01-2004', 'dd-mm-yyyy'), to_date('13-01-2007', 'dd-mm-yyyy'), 146634974);
+values (51712, 92, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('31-01-2004', 'dd-mm-yyyy'), to_date('13-01-2007', 'dd-mm-yyyy'), 146634974);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (76576, 45, 'ùéøåú ìàåîé', to_date('08-11-2000', 'dd-mm-yyyy'), to_date('02-03-2006', 'dd-mm-yyyy'), 687312756);
+values (76576, 45, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('08-11-2000', 'dd-mm-yyyy'), to_date('02-03-2006', 'dd-mm-yyyy'), 687312756);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (15776, 45, ' àìîï/ä', to_date('18-10-2003', 'dd-mm-yyyy'), to_date('25-10-2006', 'dd-mm-yyyy'), 489596624);
+values (15776, 45, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('18-10-2003', 'dd-mm-yyyy'), to_date('25-10-2006', 'dd-mm-yyyy'), 489596624);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (61244, 34, ' àìîï/ä', to_date('03-07-2004', 'dd-mm-yyyy'), to_date('01-07-2007', 'dd-mm-yyyy'), 986428617);
+values (61244, 34, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('03-07-2004', 'dd-mm-yyyy'), to_date('01-07-2007', 'dd-mm-yyyy'), 986428617);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (32145, 79, 'øîú äëðñä ðîåëä', to_date('24-05-2003', 'dd-mm-yyyy'), to_date('26-02-2005', 'dd-mm-yyyy'), 932133821);
+values (32145, 79, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('24-05-2003', 'dd-mm-yyyy'), to_date('26-02-2005', 'dd-mm-yyyy'), 932133821);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (59294, 91, ' àìîï/ä', to_date('23-10-2004', 'dd-mm-yyyy'), to_date('24-07-2006', 'dd-mm-yyyy'), 546747511);
+values (59294, 91, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('23-10-2004', 'dd-mm-yyyy'), to_date('24-07-2006', 'dd-mm-yyyy'), 546747511);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (69353, 58, ' äåøä éçéã', to_date('25-12-2000', 'dd-mm-yyyy'), to_date('04-05-2006', 'dd-mm-yyyy'), 664285891);
+values (69353, 58, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('25-12-2000', 'dd-mm-yyyy'), to_date('04-05-2006', 'dd-mm-yyyy'), 664285891);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (21261, 23, 'ùéøåú öáàé', to_date('16-11-2001', 'dd-mm-yyyy'), to_date('16-02-2005', 'dd-mm-yyyy'), 195985798);
+values (21261, 23, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('16-11-2001', 'dd-mm-yyyy'), to_date('16-02-2005', 'dd-mm-yyyy'), 195985798);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (84367, 78, ' àìîï/ä', to_date('20-02-2000', 'dd-mm-yyyy'), to_date('26-03-2005', 'dd-mm-yyyy'), 791228183);
+values (84367, 78, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('20-02-2000', 'dd-mm-yyyy'), to_date('26-03-2005', 'dd-mm-yyyy'), 791228183);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (72932, 43, ' àìîï/ä', to_date('11-02-2002', 'dd-mm-yyyy'), to_date('31-05-2005', 'dd-mm-yyyy'), 195283793);
+values (72932, 43, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('11-02-2002', 'dd-mm-yyyy'), to_date('31-05-2005', 'dd-mm-yyyy'), 195283793);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (15642, 41, 'ùéøåú öáàé', to_date('23-12-2003', 'dd-mm-yyyy'), to_date('27-10-2006', 'dd-mm-yyyy'), 265557194);
+values (15642, 41, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('23-12-2003', 'dd-mm-yyyy'), to_date('27-10-2006', 'dd-mm-yyyy'), 265557194);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (98771, 72, ' àìîï/ä', to_date('30-04-2001', 'dd-mm-yyyy'), to_date('11-08-2006', 'dd-mm-yyyy'), 814759218);
+values (98771, 72, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('30-04-2001', 'dd-mm-yyyy'), to_date('11-08-2006', 'dd-mm-yyyy'), 814759218);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (32481, 92, 'ðëä', to_date('12-01-2000', 'dd-mm-yyyy'), to_date('19-07-2005', 'dd-mm-yyyy'), 546765217);
+values (32481, 92, 'Ã°Ã«Ã¤', to_date('12-01-2000', 'dd-mm-yyyy'), to_date('19-07-2005', 'dd-mm-yyyy'), 546765217);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (15198, 56, ' àìîï/ä', to_date('27-09-2002', 'dd-mm-yyyy'), to_date('24-05-2005', 'dd-mm-yyyy'), 114983181);
+values (15198, 56, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('27-09-2002', 'dd-mm-yyyy'), to_date('24-05-2005', 'dd-mm-yyyy'), 114983181);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (45839, 55, 'ùéøåú ìàåîé', to_date('19-02-2001', 'dd-mm-yyyy'), to_date('01-04-2007', 'dd-mm-yyyy'), 281183263);
+values (45839, 55, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('19-02-2001', 'dd-mm-yyyy'), to_date('01-04-2007', 'dd-mm-yyyy'), 281183263);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (58843, 99, 'ùéøåú ìàåîé', to_date('25-12-2004', 'dd-mm-yyyy'), to_date('06-10-2006', 'dd-mm-yyyy'), 141511782);
+values (58843, 99, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('25-12-2004', 'dd-mm-yyyy'), to_date('06-10-2006', 'dd-mm-yyyy'), 141511782);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (13699, 91, 'øîú äëðñä ðîåëä', to_date('13-05-2002', 'dd-mm-yyyy'), to_date('15-08-2006', 'dd-mm-yyyy'), 692885158);
+values (13699, 91, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('13-05-2002', 'dd-mm-yyyy'), to_date('15-08-2006', 'dd-mm-yyyy'), 692885158);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (75161, 21, 'ðëä', to_date('12-05-2000', 'dd-mm-yyyy'), to_date('14-11-2007', 'dd-mm-yyyy'), 643423966);
+values (75161, 21, 'Ã°Ã«Ã¤', to_date('12-05-2000', 'dd-mm-yyyy'), to_date('14-11-2007', 'dd-mm-yyyy'), 643423966);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (83199, 79, ' äåøä éçéã', to_date('15-09-2000', 'dd-mm-yyyy'), to_date('13-03-2007', 'dd-mm-yyyy'), 363851854);
+values (83199, 79, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('15-09-2000', 'dd-mm-yyyy'), to_date('13-03-2007', 'dd-mm-yyyy'), 363851854);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (17712, 83, 'ùéøåú ìàåîé', to_date('19-04-2001', 'dd-mm-yyyy'), to_date('02-07-2005', 'dd-mm-yyyy'), 693771112);
+values (17712, 83, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('19-04-2001', 'dd-mm-yyyy'), to_date('02-07-2005', 'dd-mm-yyyy'), 693771112);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (75527, 61, ' äåøä éçéã', to_date('10-03-2002', 'dd-mm-yyyy'), to_date('25-06-2007', 'dd-mm-yyyy'), 983332176);
+values (75527, 61, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('10-03-2002', 'dd-mm-yyyy'), to_date('25-06-2007', 'dd-mm-yyyy'), 983332176);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (58377, 82, ' àìîï/ä', to_date('12-02-2001', 'dd-mm-yyyy'), to_date('18-02-2007', 'dd-mm-yyyy'), 232362661);
+values (58377, 82, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('12-02-2001', 'dd-mm-yyyy'), to_date('18-02-2007', 'dd-mm-yyyy'), 232362661);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (28894, 39, ' äåøä éçéã', to_date('16-06-2001', 'dd-mm-yyyy'), to_date('05-01-2006', 'dd-mm-yyyy'), 674886982);
+values (28894, 39, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('16-06-2001', 'dd-mm-yyyy'), to_date('05-01-2006', 'dd-mm-yyyy'), 674886982);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (52367, 45, 'øîú äëðñä ðîåëä', to_date('09-12-2003', 'dd-mm-yyyy'), to_date('04-11-2006', 'dd-mm-yyyy'), 143878386);
+values (52367, 45, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('09-12-2003', 'dd-mm-yyyy'), to_date('04-11-2006', 'dd-mm-yyyy'), 143878386);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (16997, 56, ' àìîï/ä', to_date('06-07-2001', 'dd-mm-yyyy'), to_date('07-12-2007', 'dd-mm-yyyy'), 987532457);
+values (16997, 56, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('06-07-2001', 'dd-mm-yyyy'), to_date('07-12-2007', 'dd-mm-yyyy'), 987532457);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (33961, 61, 'ùéøåú öáàé', to_date('14-10-2000', 'dd-mm-yyyy'), to_date('21-09-2006', 'dd-mm-yyyy'), 134725436);
+values (33961, 61, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('14-10-2000', 'dd-mm-yyyy'), to_date('21-09-2006', 'dd-mm-yyyy'), 134725436);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (56941, 68, 'øîú äëðñä ðîåëä', to_date('11-08-2001', 'dd-mm-yyyy'), to_date('13-10-2005', 'dd-mm-yyyy'), 385473659);
+values (56941, 68, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('11-08-2001', 'dd-mm-yyyy'), to_date('13-10-2005', 'dd-mm-yyyy'), 385473659);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (68624, 96, ' àìîï/ä', to_date('08-01-2000', 'dd-mm-yyyy'), to_date('01-05-2007', 'dd-mm-yyyy'), 326159627);
+values (68624, 96, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('08-01-2000', 'dd-mm-yyyy'), to_date('01-05-2007', 'dd-mm-yyyy'), 326159627);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (63439, 41, ' àìîï/ä', to_date('03-08-2004', 'dd-mm-yyyy'), to_date('07-02-2005', 'dd-mm-yyyy'), 112672359);
+values (63439, 41, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('03-08-2004', 'dd-mm-yyyy'), to_date('07-02-2005', 'dd-mm-yyyy'), 112672359);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (29281, 79, ' äåøä éçéã', to_date('11-09-2002', 'dd-mm-yyyy'), to_date('22-03-2005', 'dd-mm-yyyy'), 144273597);
+values (29281, 79, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('11-09-2002', 'dd-mm-yyyy'), to_date('22-03-2005', 'dd-mm-yyyy'), 144273597);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (68716, 32, 'ùéøåú ìàåîé', to_date('07-10-2001', 'dd-mm-yyyy'), to_date('08-04-2005', 'dd-mm-yyyy'), 577492217);
+values (68716, 32, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('07-10-2001', 'dd-mm-yyyy'), to_date('08-04-2005', 'dd-mm-yyyy'), 577492217);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (45866, 53, ' àìîï/ä', to_date('27-03-2003', 'dd-mm-yyyy'), to_date('26-07-2007', 'dd-mm-yyyy'), 159456556);
+values (45866, 53, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('27-03-2003', 'dd-mm-yyyy'), to_date('26-07-2007', 'dd-mm-yyyy'), 159456556);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (57245, 45, ' äåøä éçéã', to_date('05-08-2003', 'dd-mm-yyyy'), to_date('30-01-2006', 'dd-mm-yyyy'), 389145339);
+values (57245, 45, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('05-08-2003', 'dd-mm-yyyy'), to_date('30-01-2006', 'dd-mm-yyyy'), 389145339);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (25322, 71, 'øîú äëðñä ðîåëä', to_date('27-10-2004', 'dd-mm-yyyy'), to_date('05-06-2006', 'dd-mm-yyyy'), 461317518);
+values (25322, 71, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('27-10-2004', 'dd-mm-yyyy'), to_date('05-06-2006', 'dd-mm-yyyy'), 461317518);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (12313, 94, ' äåøä éçéã', to_date('13-09-2003', 'dd-mm-yyyy'), to_date('05-07-2005', 'dd-mm-yyyy'), 141511782);
+values (12313, 94, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('13-09-2003', 'dd-mm-yyyy'), to_date('05-07-2005', 'dd-mm-yyyy'), 141511782);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (94837, 64, ' àìîï/ä', to_date('11-05-2003', 'dd-mm-yyyy'), to_date('02-05-2007', 'dd-mm-yyyy'), 249417168);
+values (94837, 64, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('11-05-2003', 'dd-mm-yyyy'), to_date('02-05-2007', 'dd-mm-yyyy'), 249417168);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (15198, 68, ' äåøä éçéã', to_date('30-04-2002', 'dd-mm-yyyy'), to_date('30-11-2007', 'dd-mm-yyyy'), 243125164);
+values (15198, 68, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('30-04-2002', 'dd-mm-yyyy'), to_date('30-11-2007', 'dd-mm-yyyy'), 243125164);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (15396, 64, 'øîú äëðñä ðîåëä', to_date('06-12-2000', 'dd-mm-yyyy'), to_date('14-10-2005', 'dd-mm-yyyy'), 172196718);
+values (15396, 64, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('06-12-2000', 'dd-mm-yyyy'), to_date('14-10-2005', 'dd-mm-yyyy'), 172196718);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (63256, 12, 'øîú äëðñä ðîåëä', to_date('30-04-2003', 'dd-mm-yyyy'), to_date('25-11-2006', 'dd-mm-yyyy'), 986428617);
+values (63256, 12, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('30-04-2003', 'dd-mm-yyyy'), to_date('25-11-2006', 'dd-mm-yyyy'), 986428617);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (39989, 18, ' àìîï/ä', to_date('16-02-2000', 'dd-mm-yyyy'), to_date('14-08-2007', 'dd-mm-yyyy'), 523194253);
+values (39989, 18, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('16-02-2000', 'dd-mm-yyyy'), to_date('14-08-2007', 'dd-mm-yyyy'), 523194253);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (72813, 63, 'øîú äëðñä ðîåëä', to_date('24-09-2001', 'dd-mm-yyyy'), to_date('15-09-2006', 'dd-mm-yyyy'), 113345784);
+values (72813, 63, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('24-09-2001', 'dd-mm-yyyy'), to_date('15-09-2006', 'dd-mm-yyyy'), 113345784);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (27577, 51, 'ðëä', to_date('31-08-2001', 'dd-mm-yyyy'), to_date('28-06-2006', 'dd-mm-yyyy'), 983332176);
+values (27577, 51, 'Ã°Ã«Ã¤', to_date('31-08-2001', 'dd-mm-yyyy'), to_date('28-06-2006', 'dd-mm-yyyy'), 983332176);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (36426, 32, 'ðëä', to_date('24-03-2002', 'dd-mm-yyyy'), to_date('21-12-2007', 'dd-mm-yyyy'), 692885158);
+values (36426, 32, 'Ã°Ã«Ã¤', to_date('24-03-2002', 'dd-mm-yyyy'), to_date('21-12-2007', 'dd-mm-yyyy'), 692885158);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (71726, 37, 'ùéøåú ìàåîé', to_date('12-08-2000', 'dd-mm-yyyy'), to_date('14-03-2005', 'dd-mm-yyyy'), 878976731);
+values (71726, 37, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('12-08-2000', 'dd-mm-yyyy'), to_date('14-03-2005', 'dd-mm-yyyy'), 878976731);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (63789, 35, 'ùéøåú öáàé', to_date('15-04-2002', 'dd-mm-yyyy'), to_date('12-06-2006', 'dd-mm-yyyy'), 183457173);
+values (63789, 35, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('15-04-2002', 'dd-mm-yyyy'), to_date('12-06-2006', 'dd-mm-yyyy'), 183457173);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (36498, 61, 'ùéøåú öáàé', to_date('12-12-2002', 'dd-mm-yyyy'), to_date('15-09-2006', 'dd-mm-yyyy'), 572311562);
+values (36498, 61, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('12-12-2002', 'dd-mm-yyyy'), to_date('15-09-2006', 'dd-mm-yyyy'), 572311562);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (78939, 24, ' äåøä éçéã', to_date('17-06-2003', 'dd-mm-yyyy'), to_date('21-12-2007', 'dd-mm-yyyy'), 588954191);
+values (78939, 24, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('17-06-2003', 'dd-mm-yyyy'), to_date('21-12-2007', 'dd-mm-yyyy'), 588954191);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (59569, 17, 'ðëä', to_date('09-06-2000', 'dd-mm-yyyy'), to_date('01-08-2007', 'dd-mm-yyyy'), 958481673);
+values (59569, 17, 'Ã°Ã«Ã¤', to_date('09-06-2000', 'dd-mm-yyyy'), to_date('01-08-2007', 'dd-mm-yyyy'), 958481673);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (18187, 85, ' àìîï/ä', to_date('26-08-2004', 'dd-mm-yyyy'), to_date('21-09-2007', 'dd-mm-yyyy'), 513496241);
+values (18187, 85, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('26-08-2004', 'dd-mm-yyyy'), to_date('21-09-2007', 'dd-mm-yyyy'), 513496241);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (87876, 98, 'ùéøåú ìàåîé', to_date('20-02-2000', 'dd-mm-yyyy'), to_date('16-12-2006', 'dd-mm-yyyy'), 871976242);
+values (87876, 98, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('20-02-2000', 'dd-mm-yyyy'), to_date('16-12-2006', 'dd-mm-yyyy'), 871976242);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (47628, 88, ' àìîï/ä', to_date('04-08-2003', 'dd-mm-yyyy'), to_date('17-03-2007', 'dd-mm-yyyy'), 996692122);
+values (47628, 88, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('04-08-2003', 'dd-mm-yyyy'), to_date('17-03-2007', 'dd-mm-yyyy'), 996692122);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (39436, 85, 'ùéøåú ìàåîé', to_date('10-07-2000', 'dd-mm-yyyy'), to_date('24-12-2007', 'dd-mm-yyyy'), 498595597);
+values (39436, 85, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('10-07-2000', 'dd-mm-yyyy'), to_date('24-12-2007', 'dd-mm-yyyy'), 498595597);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (43939, 79, 'ùéøåú ìàåîé', to_date('10-02-2001', 'dd-mm-yyyy'), to_date('05-10-2007', 'dd-mm-yyyy'), 498595597);
+values (43939, 79, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('10-02-2001', 'dd-mm-yyyy'), to_date('05-10-2007', 'dd-mm-yyyy'), 498595597);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (32699, 56, 'ðëä', to_date('08-10-2002', 'dd-mm-yyyy'), to_date('03-04-2007', 'dd-mm-yyyy'), 719786493);
+values (32699, 56, 'Ã°Ã«Ã¤', to_date('08-10-2002', 'dd-mm-yyyy'), to_date('03-04-2007', 'dd-mm-yyyy'), 719786493);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (92647, 74, 'ùéøåú ìàåîé', to_date('18-03-2004', 'dd-mm-yyyy'), to_date('08-09-2005', 'dd-mm-yyyy'), 511824734);
+values (92647, 74, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('18-03-2004', 'dd-mm-yyyy'), to_date('08-09-2005', 'dd-mm-yyyy'), 511824734);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (83263, 88, ' äåøä éçéã', to_date('24-03-2002', 'dd-mm-yyyy'), to_date('03-12-2005', 'dd-mm-yyyy'), 245536542);
+values (83263, 88, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('24-03-2002', 'dd-mm-yyyy'), to_date('03-12-2005', 'dd-mm-yyyy'), 245536542);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (29883, 62, 'ùéøåú öáàé', to_date('27-08-2001', 'dd-mm-yyyy'), to_date('09-04-2005', 'dd-mm-yyyy'), 136362534);
+values (29883, 62, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('27-08-2001', 'dd-mm-yyyy'), to_date('09-04-2005', 'dd-mm-yyyy'), 136362534);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (38284, 13, 'ùéøåú öáàé', to_date('29-10-2000', 'dd-mm-yyyy'), to_date('30-11-2005', 'dd-mm-yyyy'), 658667536);
+values (38284, 13, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('29-10-2000', 'dd-mm-yyyy'), to_date('30-11-2005', 'dd-mm-yyyy'), 658667536);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (25173, 67, 'ùéøåú ìàåîé', to_date('14-04-2002', 'dd-mm-yyyy'), to_date('21-05-2007', 'dd-mm-yyyy'), 726721537);
+values (25173, 67, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('14-04-2002', 'dd-mm-yyyy'), to_date('21-05-2007', 'dd-mm-yyyy'), 726721537);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (49244, 95, 'ùéøåú ìàåîé', to_date('15-01-2000', 'dd-mm-yyyy'), to_date('16-10-2005', 'dd-mm-yyyy'), 796488261);
+values (49244, 95, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('15-01-2000', 'dd-mm-yyyy'), to_date('16-10-2005', 'dd-mm-yyyy'), 796488261);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (67863, 44, 'ùéøåú öáàé', to_date('04-10-2004', 'dd-mm-yyyy'), to_date('02-06-2007', 'dd-mm-yyyy'), 435997313);
+values (67863, 44, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('04-10-2004', 'dd-mm-yyyy'), to_date('02-06-2007', 'dd-mm-yyyy'), 435997313);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (17254, 37, 'ðëä', to_date('21-11-2004', 'dd-mm-yyyy'), to_date('19-10-2006', 'dd-mm-yyyy'), 116688813);
+values (17254, 37, 'Ã°Ã«Ã¤', to_date('21-11-2004', 'dd-mm-yyyy'), to_date('19-10-2006', 'dd-mm-yyyy'), 116688813);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (77261, 81, 'ùéøåú ìàåîé', to_date('16-02-2000', 'dd-mm-yyyy'), to_date('13-07-2005', 'dd-mm-yyyy'), 598366132);
+values (77261, 81, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('16-02-2000', 'dd-mm-yyyy'), to_date('13-07-2005', 'dd-mm-yyyy'), 598366132);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (35636, 37, 'ùéøåú ìàåîé', to_date('18-03-2002', 'dd-mm-yyyy'), to_date('03-04-2006', 'dd-mm-yyyy'), 749383727);
+values (35636, 37, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('18-03-2002', 'dd-mm-yyyy'), to_date('03-04-2006', 'dd-mm-yyyy'), 749383727);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (23693, 96, 'øîú äëðñä ðîåëä', to_date('18-03-2004', 'dd-mm-yyyy'), to_date('11-04-2007', 'dd-mm-yyyy'), 296873554);
+values (23693, 96, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('18-03-2004', 'dd-mm-yyyy'), to_date('11-04-2007', 'dd-mm-yyyy'), 296873554);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (52878, 55, 'ùéøåú ìàåîé', to_date('31-07-2003', 'dd-mm-yyyy'), to_date('20-10-2006', 'dd-mm-yyyy'), 665368626);
+values (52878, 55, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('31-07-2003', 'dd-mm-yyyy'), to_date('20-10-2006', 'dd-mm-yyyy'), 665368626);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (79286, 82, 'øîú äëðñä ðîåëä', to_date('06-12-2001', 'dd-mm-yyyy'), to_date('28-01-2005', 'dd-mm-yyyy'), 112672359);
+values (79286, 82, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('06-12-2001', 'dd-mm-yyyy'), to_date('28-01-2005', 'dd-mm-yyyy'), 112672359);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (97515, 83, 'ùéøåú öáàé', to_date('11-12-2000', 'dd-mm-yyyy'), to_date('25-03-2006', 'dd-mm-yyyy'), 627146635);
+values (97515, 83, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('11-12-2000', 'dd-mm-yyyy'), to_date('25-03-2006', 'dd-mm-yyyy'), 627146635);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (28491, 46, 'ùéøåú öáàé', to_date('01-08-2004', 'dd-mm-yyyy'), to_date('23-07-2007', 'dd-mm-yyyy'), 414253853);
+values (28491, 46, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('01-08-2004', 'dd-mm-yyyy'), to_date('23-07-2007', 'dd-mm-yyyy'), 414253853);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (89891, 33, 'øîú äëðñä ðîåëä', to_date('28-02-2003', 'dd-mm-yyyy'), to_date('31-05-2007', 'dd-mm-yyyy'), 379629386);
+values (89891, 33, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('28-02-2003', 'dd-mm-yyyy'), to_date('31-05-2007', 'dd-mm-yyyy'), 379629386);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (29228, 96, ' äåøä éçéã', to_date('12-01-2000', 'dd-mm-yyyy'), to_date('20-11-2005', 'dd-mm-yyyy'), 281183263);
+values (29228, 96, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('12-01-2000', 'dd-mm-yyyy'), to_date('20-11-2005', 'dd-mm-yyyy'), 281183263);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (33312, 13, ' äåøä éçéã', to_date('24-01-2000', 'dd-mm-yyyy'), to_date('17-04-2006', 'dd-mm-yyyy'), 521943786);
+values (33312, 13, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('24-01-2000', 'dd-mm-yyyy'), to_date('17-04-2006', 'dd-mm-yyyy'), 521943786);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (72892, 83, 'ùéøåú ìàåîé', to_date('02-02-2004', 'dd-mm-yyyy'), to_date('28-02-2007', 'dd-mm-yyyy'), 126858493);
+values (72892, 83, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('02-02-2004', 'dd-mm-yyyy'), to_date('28-02-2007', 'dd-mm-yyyy'), 126858493);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (82833, 74, ' àìîï/ä', to_date('03-04-2000', 'dd-mm-yyyy'), to_date('02-12-2005', 'dd-mm-yyyy'), 147959435);
+values (82833, 74, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('03-04-2000', 'dd-mm-yyyy'), to_date('02-12-2005', 'dd-mm-yyyy'), 147959435);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (11269, 88, 'ùéøåú ìàåîé', to_date('16-05-2000', 'dd-mm-yyyy'), to_date('24-04-2007', 'dd-mm-yyyy'), 588692828);
+values (11269, 88, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¬Ã Ã¥Ã®Ã©', to_date('16-05-2000', 'dd-mm-yyyy'), to_date('24-04-2007', 'dd-mm-yyyy'), 588692828);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (15347, 25, ' äåøä éçéã', to_date('15-04-2004', 'dd-mm-yyyy'), to_date('24-12-2005', 'dd-mm-yyyy'), 511824734);
+values (15347, 25, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('15-04-2004', 'dd-mm-yyyy'), to_date('24-12-2005', 'dd-mm-yyyy'), 511824734);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (12123, 38, 'ðëä', to_date('09-01-2000', 'dd-mm-yyyy'), to_date('10-01-2007', 'dd-mm-yyyy'), 335877875);
+values (12123, 38, 'Ã°Ã«Ã¤', to_date('09-01-2000', 'dd-mm-yyyy'), to_date('10-01-2007', 'dd-mm-yyyy'), 335877875);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (35969, 73, 'ðëä', to_date('16-12-2004', 'dd-mm-yyyy'), to_date('16-07-2005', 'dd-mm-yyyy'), 665241182);
+values (35969, 73, 'Ã°Ã«Ã¤', to_date('16-12-2004', 'dd-mm-yyyy'), to_date('16-07-2005', 'dd-mm-yyyy'), 665241182);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (18339, 46, ' àìîï/ä', to_date('27-11-2002', 'dd-mm-yyyy'), to_date('11-07-2006', 'dd-mm-yyyy'), 865477728);
+values (18339, 46, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('27-11-2002', 'dd-mm-yyyy'), to_date('11-07-2006', 'dd-mm-yyyy'), 865477728);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (22699, 71, ' äåøä éçéã', to_date('26-06-2000', 'dd-mm-yyyy'), to_date('22-12-2006', 'dd-mm-yyyy'), 146634974);
+values (22699, 71, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('26-06-2000', 'dd-mm-yyyy'), to_date('22-12-2006', 'dd-mm-yyyy'), 146634974);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (63474, 58, ' äåøä éçéã', to_date('14-01-2003', 'dd-mm-yyyy'), to_date('05-09-2006', 'dd-mm-yyyy'), 553885863);
+values (63474, 58, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('14-01-2003', 'dd-mm-yyyy'), to_date('05-09-2006', 'dd-mm-yyyy'), 553885863);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (77777, 93, ' àìîï/ä', to_date('08-11-2002', 'dd-mm-yyyy'), to_date('16-07-2007', 'dd-mm-yyyy'), 531315627);
+values (77777, 93, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('08-11-2002', 'dd-mm-yyyy'), to_date('16-07-2007', 'dd-mm-yyyy'), 531315627);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (74384, 74, 'øîú äëðñä ðîåëä', to_date('25-10-2003', 'dd-mm-yyyy'), to_date('09-05-2005', 'dd-mm-yyyy'), 749383727);
+values (74384, 74, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('25-10-2003', 'dd-mm-yyyy'), to_date('09-05-2005', 'dd-mm-yyyy'), 749383727);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (39418, 49, ' äåøä éçéã', to_date('09-08-2002', 'dd-mm-yyyy'), to_date('09-05-2006', 'dd-mm-yyyy'), 144273597);
+values (39418, 49, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('09-08-2002', 'dd-mm-yyyy'), to_date('09-05-2006', 'dd-mm-yyyy'), 144273597);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (34869, 26, ' äåøä éçéã', to_date('28-10-2002', 'dd-mm-yyyy'), to_date('22-12-2007', 'dd-mm-yyyy'), 783476834);
+values (34869, 26, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('28-10-2002', 'dd-mm-yyyy'), to_date('22-12-2007', 'dd-mm-yyyy'), 783476834);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (29395, 71, ' àìîï/ä', to_date('16-09-2000', 'dd-mm-yyyy'), to_date('01-05-2005', 'dd-mm-yyyy'), 846747472);
+values (29395, 71, ' Ã Ã¬Ã®Ã¯/Ã¤', to_date('16-09-2000', 'dd-mm-yyyy'), to_date('01-05-2005', 'dd-mm-yyyy'), 846747472);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (45957, 92, 'øîú äëðñä ðîåëä', to_date('29-10-2002', 'dd-mm-yyyy'), to_date('12-06-2005', 'dd-mm-yyyy'), 291532951);
+values (45957, 92, 'Ã¸Ã®Ãº Ã¤Ã«Ã°Ã±Ã¤ Ã°Ã®Ã¥Ã«Ã¤', to_date('29-10-2002', 'dd-mm-yyyy'), to_date('12-06-2005', 'dd-mm-yyyy'), 291532951);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (55191, 18, ' äåøä éçéã', to_date('02-02-2003', 'dd-mm-yyyy'), to_date('18-03-2006', 'dd-mm-yyyy'), 574546683);
+values (55191, 18, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('02-02-2003', 'dd-mm-yyyy'), to_date('18-03-2006', 'dd-mm-yyyy'), 574546683);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (41953, 29, ' äåøä éçéã', to_date('30-01-2004', 'dd-mm-yyyy'), to_date('07-10-2007', 'dd-mm-yyyy'), 175694676);
+values (41953, 29, ' Ã¤Ã¥Ã¸Ã¤ Ã©Ã§Ã©Ã£', to_date('30-01-2004', 'dd-mm-yyyy'), to_date('07-10-2007', 'dd-mm-yyyy'), 175694676);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (67637, 76, 'ùéøåú öáàé', to_date('23-11-2001', 'dd-mm-yyyy'), to_date('26-04-2007', 'dd-mm-yyyy'), 537569649);
+values (67637, 76, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('23-11-2001', 'dd-mm-yyyy'), to_date('26-04-2007', 'dd-mm-yyyy'), 537569649);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (56816, 22, 'ùéøåú öáàé', to_date('14-01-2000', 'dd-mm-yyyy'), to_date('02-12-2007', 'dd-mm-yyyy'), 133183683);
+values (56816, 22, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('14-01-2000', 'dd-mm-yyyy'), to_date('02-12-2007', 'dd-mm-yyyy'), 133183683);
 
 insert into SIVAN.DISCOUNT (DISCOUNT_ID, DISCOUNT_PERCENT, DISCOUNT_TYPE, DISCOUNT_START, DISCOUNT_END, RESIDENT_ID)
-values (11923, 96, 'ùéøåú öáàé', to_date('25-12-2004', 'dd-mm-yyyy'), to_date('24-06-2007', 'dd-mm-yyyy'), 592611699);
+values (11923, 96, 'Ã¹Ã©Ã¸Ã¥Ãº Ã¶Ã¡Ã Ã©', to_date('25-12-2004', 'dd-mm-yyyy'), to_date('24-06-2007', 'dd-mm-yyyy'), 592611699);
 
 commit;
 
