@@ -166,3 +166,13 @@ Desc Command
 <img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/reconstruction.png" width="50%">
 </p>
 
+# שאילתות:
+## 4 שאילתות select:
+### שאילתה מס' 1:
+#### צילום הרצה:
+<p align="middle">
+<img src=" " width="50%">
+</p>
+
+#### צילום תוצאה:
+
