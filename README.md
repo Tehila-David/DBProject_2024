@@ -171,45 +171,45 @@ Desc Command
 ### שאילתה מס' 1:
 #### צילום הרצה:
 <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/select%231_%D7%94%D7%A8%D7%A6%D7%94.png" width="50%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/select%231_%D7%94%D7%A8%D7%A6%D7%94.png" width="40%">
 </p>
 
 #### צילום תוצאה:
 <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/select%231_%D7%AA%D7%95%D7%A6%D7%90%D7%94.png" width="50%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/select%231_%D7%AA%D7%95%D7%A6%D7%90%D7%94.png" width="40%">
 </p>
 
 ### שאילתה מס' 2:
 #### צילום הרצה:
 <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/select%232_%D7%94%D7%A8%D7%A6%D7%94.png" width="50%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/select%232_%D7%94%D7%A8%D7%A6%D7%94.png" width="40%">
 </p>
 
 #### צילום תוצאה:
 <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/select%232_%D7%AA%D7%95%D7%A6%D7%90%D7%94.png" width="50%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/select%232_%D7%AA%D7%95%D7%A6%D7%90%D7%94.png" width="40%">
 </p>
 
 ### שאילתה מס' 3:
 #### צילום הרצה:
 <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/select%233_%D7%94%D7%A8%D7%A6%D7%94.png" width="50%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/select%233_%D7%94%D7%A8%D7%A6%D7%94.png" width="40%">
 </p>
 
 #### צילום תוצאה:
 <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/select%233_%D7%AA%D7%95%D7%A6%D7%90%D7%94.png" width="50%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/select%233_%D7%AA%D7%95%D7%A6%D7%90%D7%94.png" width="40%">
 </p>
 
 ### שאילתה מס' 4:
 #### צילום הרצה:
 <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/select%234_%D7%94%D7%A8%D7%A6%D7%94.png" width="50%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/select%234_%D7%94%D7%A8%D7%A6%D7%94.png" width="40%">
 </p>
 
 #### צילום תוצאה:
 <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/select%234_%D7%AA%D7%95%D7%A6%D7%90%D7%94.png" width="30%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/select%234_%D7%AA%D7%95%D7%A6%D7%90%D7%94.png" width="40%">
 </p>
 
 
