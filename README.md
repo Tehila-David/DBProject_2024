@@ -175,4 +175,9 @@ Desc Command
 </p>
 
 #### צילום תוצאה:
+<p align="middle">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/select%231_%D7%AA%D7%95%D7%A6%D7%90%D7%94.png" width="50%">
+</p>
+
+
 
