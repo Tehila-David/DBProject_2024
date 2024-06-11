@@ -347,7 +347,7 @@ Desc Command
 
 ## 3 אילוצים
 ### אילוץ מס' 1
-#### פקודת alter table
+#### פקודת alter table DEFAULT
  <p align="middle">
 <img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint1%20-%20default%20-%20code%20.png" width="40%">
 </p>
@@ -359,7 +359,7 @@ Desc Command
 
 
 ### אילוץ מס' 2
-#### פקודת alter table
+#### פקודת alter table CHECK
  <p align="middle">
 <img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint2%20-code.png " width="40%">
 </p>
@@ -371,15 +371,15 @@ Desc Command
 
 
 ### אילוץ מס' 3
-#### פקודת alter table
+#### פקודת alter table NOT NULL
  <p align="middle">
-<img src="" width="40%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint3%20-code%20-%20null.png" width="40%">
 </p>
 
 #### הכנסת נתונים אשר סותרים את האילוץ
  
  <p align="middle">
-<img src="" width="95%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint3%20-error-%20null.png" width="95%">
 </p>
 
 
