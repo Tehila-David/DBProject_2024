@@ -341,7 +341,15 @@ Desc Command
 השאילתה מקבלת כפרמטרים את סוג הנכס וטווח תאריכים של החוב ומחזירה רשימה של פרטי החוב וגודל הנכס עבור סינון סוג הנכס וטווח תאריכים המתקבלים כפרמטר.
 
 #### צילום הרצה
+<p align="middle">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/paramSelect%232_%D7%94%D7%A8%D7%A6%D7%94.png" width="60%">
+</p>
+
 #### צילום תוצאה
+<p align="middle">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/paramSelect%232_%D7%AA%D7%95%D7%A6%D7%90%D7%94.png" width="60%">
+</p>
+
 
 ### שאילתה מס' 3
 #### תיאור מילולי
@@ -360,7 +368,7 @@ Desc Command
 <img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint1%20-%20default%20-%20code%20.png" width="40%">
 </p>
 
-#### הכנסת נתונים אשר סותרים את האילוץ
+#### הכנסת נתונים אשר מוכיחים את קיום האילוץ
  <p align="middle">
 <img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint1%20-%20default.png" width="95%">
 </p>
