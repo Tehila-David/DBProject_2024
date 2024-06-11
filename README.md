@@ -354,7 +354,7 @@ Desc Command
 
 #### הכנסת נתונים אשר סותרים את האילוץ
  <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint1%20-error.png " width="80%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint1%20-error.png " width="95%">
 </p>
 
 
@@ -366,8 +366,9 @@ Desc Command
 
 #### הכנסת נתונים אשר סותרים את האילוץ
  <p align="middle">
-<img src=" https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint2%20-error.png" width="80%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint2%20-error.png" width="95%">
 </p>
+
 
 ### אילוץ מס' 3
 #### פקודת alter table
@@ -378,7 +379,7 @@ Desc Command
 #### הכנסת נתונים אשר סותרים את האילוץ
  
  <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint3%20-error.png " width="80%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint3%20-error.png " width="95%">
 </p>
 
 
