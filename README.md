@@ -349,7 +349,7 @@ Desc Command
 ### אילוץ מס' 1
 #### פקודת alter table
  <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint1%20-%20default%20-%20code%20.png" width="40%">
+<img src="" width="40%">
 </p>
 
 #### הכנסת נתונים אשר סותרים את האילוץ
