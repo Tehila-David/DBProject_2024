@@ -348,7 +348,12 @@ Desc Command
 ## 3 אילוצים
 ### אילוץ מס' 1
 #### פקודת alter table
+ <p align="middle">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint1%20-code.png " width="40%">
+</p>
+
 #### הכנסת נתונים אשר סותרים את האילוץ
+
 
 ### אילוץ מס' 2
 #### פקודת alter table
