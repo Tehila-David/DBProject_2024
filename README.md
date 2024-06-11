@@ -354,7 +354,7 @@ Desc Command
 
 #### הכנסת נתונים אשר סותרים את האילוץ
  <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint1%20-error.png " width="95%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint1%20-error1.png" width="95%">
 </p>
 
 
