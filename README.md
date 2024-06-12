@@ -357,7 +357,15 @@ Desc Command
 השאילתה מקבלת כפרמטרים את סוג ההנחה ומינימום אחוזי ההנחה. ומחזירה את שמות התושבים וסוג הנכס שקיבלו עליו אחוזי הנחה יותר מהמינימום שהתקבל לסוג ההנחה הנבחר. ממוין בסדר עולה לפי אחוזי ההנחה.
 
 #### צילום הרצה
+<p align="middle">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/paramSelect%233_%D7%94%D7%A8%D7%A6%D7%94.PNG" width="60%">
+</p>
+
 #### צילום תוצאה
+<p align="middle">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/paramSelect%233_%D7%AA%D7%95%D7%A6%D7%90%D7%94.PNG" width="60%">
+</p>
+
 
 ### שאילתה מס' 4
 #### תיאור מילולי
