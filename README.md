@@ -387,7 +387,7 @@ Desc Command
 ### אילוץ מס' 1
 #### תיאור האילוץ
 
-#### פקודת alter table DEFAULT
+#### פקודת DEFAULT - alter table 
  <p align="middle">
 <img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint1%20-%20default%20-%20code%20.png" width="40%">
 </p>
@@ -400,7 +400,7 @@ Desc Command
 
 ### אילוץ מס' 2
 #### תיאור האילוץ
-#### פקודת alter table CHECK
+#### פקודת CHECK - alter table 
  <p align="middle">
 <img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint2%20-code.png " width="40%">
 </p>
@@ -413,7 +413,7 @@ Desc Command
 
 ### אילוץ מס' 3
 #### תיאור האילוץ
-#### פקודת alter table NOT NULL
+#### פקודת NOT NULL - alter table  
  <p align="middle">
 <img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint3%20-code%20-%20null.png" width="40%">
 </p>
