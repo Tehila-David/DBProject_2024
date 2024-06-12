@@ -386,6 +386,7 @@ Desc Command
 ## 3 אילוצים
 ### אילוץ מס' 1
 #### תיאור האילוץ
+בטבלה Payment בשדה payment_type הערך ברירת מחדל הוא "credit".
 
 #### פקודת DEFAULT - alter table 
  <p align="middle">
