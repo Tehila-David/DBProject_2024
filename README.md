@@ -294,9 +294,9 @@ Desc Command
 </p>
 
  #### צילום אחרי המחיקה
- ניתן לראות לאחר הרצה של select שלא קיימות רשומות מסוג זה
+ ניתן לראות לאחר הרצה של select שלא קיימות רשומות מסוג זה.
  <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/Delete%231_after.png" width="70%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/Delete%231_after!.png" width="70%">
 </p>
 
 
