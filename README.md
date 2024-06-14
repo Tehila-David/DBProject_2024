@@ -294,6 +294,7 @@ Desc Command
 </p>
 
  #### צילום אחרי המחיקה
+ ניצן לראות שרשומה מספר 346 נמחקה מטבלת Debt
  <p align="middle">
 <img src=" " width="40%">
 </p>
