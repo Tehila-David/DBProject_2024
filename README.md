@@ -403,7 +403,7 @@ Desc Command
 #### תיאור האילוץ
 #### פקודת CHECK - alter table 
  <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint2%20-code.png " width="40%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint2%20-code%40.png" width="40%">
 </p>
 
 #### הכנסת נתונים אשר סותרים את האילוץ
