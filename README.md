@@ -408,7 +408,7 @@ Desc Command
 
 #### הכנסת נתונים אשר סותרים את האילוץ
  <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint2%20-error.png" width="85%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint2%20-error%40.png" width="85%">
 </p>
 
 
@@ -416,7 +416,7 @@ Desc Command
 #### תיאור האילוץ
 #### פקודת NOT NULL - alter table  
  <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint3%20-code%20-%20null.png" width="40%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint3%20-code%20-%20null.png" width="50%">
 </p>
 
 #### הכנסת נתונים אשר סותרים את האילוץ
