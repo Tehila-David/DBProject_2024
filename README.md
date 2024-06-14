@@ -306,18 +306,19 @@ Desc Command
  
  #### צילום הרצה
  <p align="middle">
-<img src=" " width="40%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/Delete%232_%D7%94%D7%A8%D7%A6%D7%94.png" width="80%">
 </p>
 
  #### צילום לפני המחיקה
- ניתן לראות לאחר הרצה של select שלא קיימות רשומות מסוג זה
+
  <p align="middle">
-<img src=" " width="40%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/Delete%232_before.png" width="70%">
 </p>
 
  #### צילום אחרי המחיקה
+ ניתן לראות לאחר הרצה של select שלא קיימות רשומות מסוג זה
  <p align="middle">
-<img src=" " width="40%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/Delete%232_after.png" width="70%">
 </p>
 
 ## 4 שאילתות select עם פרמטרים
