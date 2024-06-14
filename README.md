@@ -290,7 +290,7 @@ Desc Command
 
  #### צילום לפני המחיקה
  <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/Delete%231_before%40.png" width="70%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/Delete%231_before.png" width="70%">
 </p>
 
  #### צילום אחרי המחיקה
