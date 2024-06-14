@@ -386,7 +386,7 @@ Desc Command
 ## 3 אילוצים
 ### אילוץ מס' 1
 #### תיאור האילוץ
-בטבלה Payment בשדה payment_type הערך ברירת מחדל הוא "credit".
+בטבלת Payment בשדה payment_type הערך ברירת מחדל הוא "credit".
 
 #### פקודת DEFAULT - alter table 
  <p align="middle">
@@ -401,6 +401,7 @@ Desc Command
 
 ### אילוץ מס' 2
 #### תיאור האילוץ
+בטבלת Discount תאריך סיום ההנחה יותר מאוחר מתאריך תחילת תוקף ההנחה
 #### פקודת CHECK - alter table 
  <p align="middle">
 <img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint2%20-code%40.png" width="40%">
@@ -414,6 +415,7 @@ Desc Command
 
 ### אילוץ מס' 3
 #### תיאור האילוץ
+בטבלת Tax_account שדה tax_price חייב להכיל ערך (שאינו NULL)
 #### פקודת NOT NULL - alter table  
  <p align="middle">
 <img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint3%20-code%20-%20null.png" width="50%">
