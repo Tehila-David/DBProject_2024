@@ -263,25 +263,25 @@ Desc Command
 
 #### צילום הרצה
 <p align="middle">
-<img src=" " width="40%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/Update%232_%D7%94%D7%A8%D7%A6%D7%94.png" width="40%">
 </p>
 
 
 #### צילום לפני העדכון
 <p align="middle">
-<img src=" " width="40%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/Update%232_before.png" width="40%">
 </p>
 
 
 #### צילום אחרי העדכון
 <p align="middle">
-<img src=" " width="40%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/Update%232_after.png" width="40%">
 </p>
 
  ## 2 שאילתות delete
  ### שאילתה מס' 1
  #### תיאור מילולי
- מדור חובות באגף שומה וגבייה החליטו למחוק חובות שתאריך התשלום האחרון היה לפני שנת 2010 עבור סוג נכס 'דירה'.
+ מדור חובות באגף שומה וגבייה החליטו למחוק חובות שתאריך התשלום האחרון היה לפני שנת 2011 עבור סוג נכס 'דירה'.
  
  #### צילום הרצה
  <p align="middle">
