@@ -69,7 +69,6 @@ from (
    
 ###### UPDATE Queries ######  
 
-
 # Querie 1
 -- Update the bonus  based on asset_type for specific assets
 update Asset
