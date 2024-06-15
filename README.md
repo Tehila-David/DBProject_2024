@@ -430,7 +430,7 @@ where d1.discount_id  in (
 <img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/Delete%232_after.png" width="70%">
 </p>
 
-# 4 שאילתות select עם פרמטרים
+# שאילתות עם פרמטרים
 ### שאילתה מס' 1
  
 ```SQL
@@ -544,7 +544,7 @@ ORDER BY payment_amount DESC
 </p>
 
 
-# 3 אילוצים
+# אילוצים
 ### אילוץ מס' 1
 #### תיאור האילוץ
 בטבלת Payment בשדה payment_type הערך ברירת מחדל הוא "credit".
