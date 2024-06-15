@@ -579,13 +579,13 @@ ORDER BY payment_amount DESC
 בטבלת Tax_account שדה tax_price חייב להכיל ערך (שאינו NULL)
 #### פקודת NOT NULL - alter table  
  <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint3%20-code%20-%20null.png" width="50%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint3%20-code%20-%20null.png" width="35%">
 </p>
 
 #### הכנסת נתונים אשר סותרים את האילוץ
  
  <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint3%20-error-%20null.png" width="95%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/constraint3%20-error-%20null.png" width="80%">
 </p>
 
 
