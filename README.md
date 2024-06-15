@@ -434,6 +434,13 @@ where d1.discount_id  in (
 ### שאילתה מס' 1
  
 ```SQL
+select resident_fname, resident_lname, resident_phone, asset_type, asset_area
+from asset
+natural join ownership
+natural join resident
+where asset_type = &<name="asset_type" list="Hotel,office,land,Apartment" type="string" required= "true" >
+                   and asset_area >= &<name="minimum_area" type="integer"  required= "true">
+order by asset_purchase DESC
 ```
 #### תיאור מילולי
 מנהל אגף שומה וגבייה מעוניין לדעת איזה תושבים הם בעלי נכס מסוים לפי סוגו ושטחו.
@@ -453,6 +460,14 @@ where d1.discount_id  in (
 ### שאילתה מס' 2
  
 ```SQL
+select debt_id, asset_type, asset_area,debt_price, debt_last_date  
+from asset
+natural join tax_account
+natural join debt 
+where asset_type = &<name="asset_type" list="Hotel,office,land,Apartment" type="string" required= "true" > 
+     and debt_last_date between 
+                            &<name=d_from type="date" required= "true"> and &<name=d_to type="date" required= "true">
+order by debt_last_date DESC
 ```
 #### תיאור מילולי
 מנהל מדור חובות מעוניין לדעת על רשימת פרטי חובות עבור סוג נכס מסוים.
@@ -472,6 +487,18 @@ where d1.discount_id  in (
 ### שאילתה מס' 3
  
 ```SQL
+SELECT resident_fname, discount_type, discount_percent, asset_type
+FROM Resident 
+natural join Discount
+natural join Ownership
+natural join asset
+WHERE discount_type = &<name = "type discount" type = "string" hint= "Enter type of discount" 
+       list = "disability,MilitaryService,lowIncome,NationalService,widow/er,singleParent" required = "true">
+       and discount_percent >= &<name="minimum_percent" type="integer" hint= "Enter minimum  of percents discount"
+           required= "true">            
+GROUP BY discount_type, discount_percent, resident_fname, asset_type
+ORDER BY discount_percent 
+
 ```
 #### תיאור מילולי
 מנהל מדור הנחות מעונין לדעת כמה אחוזי הנחה מקבלים לסוג הנחה מסוים.
@@ -491,6 +518,16 @@ where d1.discount_id  in (
 ### שאילתה מס' 4
  
 ```SQL
+SELECT resident_fname, payment_type, payment_amount, payment_date,asset_type, tax_id
+FROM Tax_account 
+natural join Payment
+natural join Asset
+natural join Ownership
+natural join Resident
+WHERE payment_type = &<name = "type of payment" type = "string" list="Credit,Cash,Check" required = "true">
+      AND asset_type = &<name = "type of asset" type = "string" list="Hotel,office,land,Apartment" required = "true">       
+ORDER BY payment_amount DESC
+
 ```
 #### תיאור מילולי
 מדור חשבונות מעוניינים לעשות סקר על סוגי אמצעי תשלום על חשבונות ארנונה. 
