@@ -200,6 +200,16 @@ where ROWNUM <= 20;
 ### שאילתה מס' 2
 
 ```SQL
+select asset_type,
+       ROUND(AVG(asset_area), 2) AS avg_area,
+       ROUND(AVG(tax_price), 2) AS avg_tax_price
+from (
+    -- select asset type, asset area, and tax price by joining Asset and Tax_Account tables
+    select a.asset_type, a.asset_area, t.tax_price
+    from Asset a 
+    natural join  Tax_Account t)
+group by asset_type
+order by asset_type;
 ```
 #### תיאור מילולי
 האחראי מטעם הסטטיסטיקות בעיריית ירושלים מעונין לדעת את ממוצע מחיר ארנונה עבור סוגי נכסים שונים עבור סקר בנושא חשבונות ארנונה.
@@ -219,6 +229,21 @@ where ROWNUM <= 20;
 ### שאילתה מס' 3
 
 ```SQL
+select discount_type, resident_count, discount_year
+from (
+    -- Calculate the yearly discount types with the highest resident count
+    select discount_type,
+    EXTRACT(YEAR from discount_start) AS discount_year,
+    COUNT(DISTINCT resident_id) AS resident_count,
+          RANK() OVER (
+               PARTITION BY EXTRACT(YEAR from discount_start) 
+               order by COUNT(DISTINCT resident_id) DESC
+                       ) AS discount_rank
+    from Discount    
+    group by discount_type, EXTRACT(YEAR from discount_start)
+) 
+where discount_rank = 1 --chose the highest--
+order by discount_year, resident_count DESC;  
 ```
 #### תיאור מילולי
 האחראי במדור חשבונות באגף שומה וגבייה מעוניין לדעת מהו סוג ההנחה הכי נפוץ בשנים מסוימות.
@@ -237,6 +262,16 @@ where ROWNUM <= 20;
 ### שאילתה מס' 4
 
 ```SQL
+select tax_id, asset_type, payment_amount
+from (
+   select tax_id, asset_type, payment_amount
+   from Payment p
+   natural join Tax_Account t
+   natural join Asset a
+   where EXTRACT(YEAR from p.payment_date)=2023 
+   order by  p.payment_amount DESC)
+   where ROWNUM <= 10;
+   
 ```
 #### תיאור מילולי
 הלשכה המרכזית לסטטיסטיקה עורכת מידי שנה סקר לאיזה סוג נכס מחיר הארנונה הכי גבוה.
@@ -256,6 +291,21 @@ where ROWNUM <= 20;
 ### שאילתה מס' 1
 
 ```SQL
+update Asset
+set bonus = CASE
+    when asset_type = 'Apartment' then 20
+    when asset_type = 'land' then 15
+    when asset_type = 'office' then 30
+    when asset_type = 'Hotel' then 25    
+    else bonus 
+END 
+where asset_id in (select asset_id
+                   from Asset a 
+                   natural join Ownership o
+                   natural join Resident r
+                   where a.asset_purchase > ADD_MONTHS(SYSDATE, -48)-- Purchased within the last 4 years
+                         and r.resident_joining < ADD_MONTHS(SYSDATE, -60));-- Resident joined over 5 years ago
+
 ```
 #### תיאור מילולי
 ראש אגף שומה וגבייה מעוניין להעניק הטבות מס או הנחות בארנונה לתושבים ותיקים. לכן הוא מעונין לעדכן את הבונוס (אחוז החזר כספי עבור סוג נכס) של התושבים שהצטרפו לעיריית ירושלים לפני 5 שנים ורכשו ב 4 שנים האחרונות את הנכס.
@@ -284,6 +334,15 @@ where ROWNUM <= 20;
 ### שאילתה מס' 2
 
 ```SQL
+update Debt
+set debt_price = debt_price * 2  -- increase by 200%
+where debt_id in (
+    select debt_id
+    from Debt d
+    natural join Tax_Account t
+    natural join Asset a
+    where  EXTRACT(YEAR from d.debt_last_date) > 2022 and  a.asset_type = 'Hotel'
+);
 ```
 #### תיאור מילולי
 מדור חובות באגף שומה וגבייה החליטו לעדכן את מחיר החוב לחשבון ארנונה עבור תושבים שתאריך התשלום האחרון של החוב שלהם היה בשנת 2022 ומעלה.
@@ -311,6 +370,15 @@ where ROWNUM <= 20;
  ### שאילתה מס' 1
  
 ```SQL
+delete from Debt d
+where exists (
+    select 1
+    from Tax_Account 
+    natural join Asset 
+    where d.tax_id = tax_id
+        and asset_type = 'Apartment'
+           and EXTRACT(YEAR from d.debt_last_date) < 2011
+);
 ```
  #### תיאור מילולי
  מדור חובות באגף שומה וגבייה החליטו למחוק חובות שתאריך התשלום האחרון היה לפני שנת 2011 עבור סוג נכס 'דירה'.
@@ -335,6 +403,12 @@ where ROWNUM <= 20;
  ### שאילתה מס' 2
   
 ```SQL
+delete from Discount d1
+where d1.discount_id  in (
+    select d.discount_id
+    from Discount d
+    where d.discount_type ='MilitaryService' and  EXTRACT(YEAR from d.discount_end) < 2022 )
+    
 ```
  #### תיאור מילולי
  האחראי לגבי הנחות לחשבונות ארנונה החליט למחוק את כל ההנחות שהסתיימו לפני שנת 2022 ושסוג ההנחה שווה ל – MilitaryService (שירות צבאי).
