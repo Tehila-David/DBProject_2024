@@ -622,6 +622,22 @@ ORDER BY payment_amount DESC
 ```
 #### תיאור הפרוצדורה
 מקבלת מזהה חשבון, סכום הארנונה התקופתי (מקבלת מהפונקציה) ומעדכנת את tax_price ביישות חשבון ארנונה ומוסיפה רשומה חדשה לdebt.
+##### לפני הרצת הפרוצדורה
+<p align="middle">
+<img src="" width="80%">
+</p>
+
+##### אחרי הרצת הפרוצדורה
+###### UPDATE TAX_ACCOUNT
+<p align="middle">
+<img src="" width="80%">
+</p>
+
+###### ADD DEBT
+<p align="middle">
+<img src="" width="80%">
+</p>
+
 ### פרוצדורה מס' 2 - pay_debt
 ```SQL
 ```
@@ -634,12 +650,12 @@ ORDER BY payment_amount DESC
 
 ##### אחרי הרצת הפרוצדורה 
 
-DELETE DEBT
+###### DELETE DEBT
  <p align="middle">
 <img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/%D7%A4%D7%A8%D7%95%D7%A6%D7%93%D7%95%D7%A8%D7%94%232%20before%20delete%20debt.png" width="80%">
 </p>
 
-ADD PAYMENT
+###### ADD PAYMENT
  <p align="middle">
 <img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/%D7%A4%D7%A8%D7%95%D7%A6%D7%93%D7%95%D7%A8%D7%94%232%20-%20add%20payment.PNG" width="80%">
 </p>
