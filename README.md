@@ -595,11 +595,12 @@ ORDER BY payment_amount DESC
 #### תיאור הפונקציה
 פונקציה המקבלת מזהה נכס ומחשבת את המס עבור הנכס בהתבסס על השטח, הסוג שלו וכל ההנחות שהוא קיבל עבור נכס זה. אם מספר הנכס שהתקבל כפרמטר לפונקציה אינו קיים בטבלה של Asset הפונקציה זורקת חריגה שהנכס לא נמצא. ומחזירה את הסכום הסופי לתשלום.
  <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/%D7%A4%D7%95%D7%A0%D7%A7%D7%A6%D7%99%D7%94%231%20-%20%D7%AA%D7%95%D7%A6%D7%90%D7%94.PNG" width="80%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/%D7%A4%D7%95%D7%A0%D7%A7%D7%A6%D7%99%D7%94%231%20-%20%D7%AA%D7%95%D7%A6%D7%90%D7%94.PNG" width="60%">
 </p>
 
+
  <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/%D7%A4%D7%95%D7%A0%D7%A7%D7%A6%D7%99%D7%94%231%20-%20output.PNG" width="80%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/%D7%A4%D7%95%D7%A0%D7%A7%D7%A6%D7%99%D7%94%231%20-%20output.PNG" width="60%">
 </p>
 
 ### פונקציה מס' 2 - get_resident_debt_history
