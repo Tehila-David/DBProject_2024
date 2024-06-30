@@ -624,18 +624,18 @@ ORDER BY payment_amount DESC
 מקבלת מזהה חשבון, סכום הארנונה התקופתי (מקבלת מהפונקציה) ומעדכנת את tax_price ביישות חשבון ארנונה ומוסיפה רשומה חדשה לdebt.
 ##### לפני הרצת הפרוצדורה
 <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/%D7%A4%D7%A8%D7%95%D7%A6%D7%93%D7%95%D7%A8%D7%94%231%20-%20%D7%97%D7%A9%D7%91%D7%95%D7%9F%20%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94%20%D7%9C%D7%A4%D7%A0%D7%99.PNG " width="80%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/%D7%A4%D7%A8%D7%95%D7%A6%D7%93%D7%95%D7%A8%D7%94%231%20-%20%D7%97%D7%A9%D7%91%D7%95%D7%9F%20%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94%20%D7%9C%D7%A4%D7%A0%D7%99.PNG " width="60%">
 </p>
 
 ##### אחרי הרצת הפרוצדורה
 ##### UPDATE TAX_ACCOUNT
 <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/%D7%A4%D7%A8%D7%95%D7%A6%D7%93%D7%95%D7%A8%D7%94%231%20-%20%D7%97%D7%A9%D7%91%D7%95%D7%9F%20%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94%20%D7%90%D7%97%D7%A8%D7%99.PNG " width="80%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/%D7%A4%D7%A8%D7%95%D7%A6%D7%93%D7%95%D7%A8%D7%94%231%20-%20%D7%97%D7%A9%D7%91%D7%95%D7%9F%20%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94%20%D7%90%D7%97%D7%A8%D7%99.PNG " width="60%">
 </p>
 
 ##### ADD DEBT
 <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/%D7%A4%D7%A8%D7%95%D7%A6%D7%93%D7%95%D7%A8%D7%94%231%20-%20%D7%94%D7%95%D7%A1%D7%A4%D7%AA%20%D7%97%D7%95%D7%91%20%D7%97%D7%93%D7%A9.PNG" width="80%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/%D7%A4%D7%A8%D7%95%D7%A6%D7%93%D7%95%D7%A8%D7%94%231%20-%20%D7%94%D7%95%D7%A1%D7%A4%D7%AA%20%D7%97%D7%95%D7%91%20%D7%97%D7%93%D7%A9.PNG" width="60%">
 </p>
 
 ### פרוצדורה מס' 2 - pay_debt
