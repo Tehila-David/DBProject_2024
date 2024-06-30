@@ -653,7 +653,7 @@ ORDER BY payment_amount DESC
 
 ##### DELETE DEBT
  <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/%D7%A4%D7%A8%D7%95%D7%A6%D7%93%D7%95%D7%A8%D7%94%232%20before%20delete%20debt.png" width="80%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/%D7%A4%D7%A8%D7%95%D7%A6%D7%93%D7%95%D7%A8%D7%94%232%20-%20delete%20debt.PNG" width="80%">
 </p>
 
 ##### ADD PAYMENT
