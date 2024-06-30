@@ -597,6 +597,13 @@ ORDER BY payment_amount DESC
 ```SQL
 ```
 #### תיאור הפונקציה
+##### אחרי הרצת הפונקציה עבור resident_id: 258439593
+
+
+<p align="middle">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/%D7%A4%D7%95%D7%A0%D7%A7%D7%A6%D7%99%D7%94%232%20-%20output.PNG" width="80%">
+</p>
+
 
 # פרוצדורות 
 ### פרוצדורה מס' 1
@@ -607,6 +614,22 @@ ORDER BY payment_amount DESC
 ```SQL
 ```
 #### תיאור הפרוצדורה
+##### לפני הרצת הפרוצדורה
+ <p align="middle">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/%D7%A4%D7%A8%D7%95%D7%A6%D7%93%D7%95%D7%A8%D7%94%232%20before%20delete%20debt.png" width="80%">
+</p>
+
+##### אחרי הרצת הפרוצדורה 
+
+DELETE DEBT
+ <p align="middle">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/%D7%A4%D7%A8%D7%95%D7%A6%D7%93%D7%95%D7%A8%D7%94%232%20before%20delete%20debt.png" width="80%">
+</p>
+
+ADD PAYMENT
+ <p align="middle">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/%D7%A4%D7%A8%D7%95%D7%A6%D7%93%D7%95%D7%A8%D7%94%232%20-%20add%20payment.PNG" width="80%">
+</p>
 
 # תוכניות
 ### תוכנית מס' 1
