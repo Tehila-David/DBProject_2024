@@ -589,7 +589,7 @@ ORDER BY payment_amount DESC
 </p>
 
 # פונקציות 
-### פונקציה מס' 1 - calculate_ monthly_tax
+### פונקציה מס' 1 - calculate_monthly_tax
 ```SQL
 ```
 #### תיאור הפונקציה
