@@ -672,6 +672,35 @@ END;
 
 ### פונקציה מס' 2 - get_resident_debt_history
 ```SQL
+CREATE OR REPLACE FUNCTION get_resident_debt_history(p_resident_id resident.resident_id%type)
+RETURN SYS_REFCURSOR IS
+    v_result SYS_REFCURSOR; -- Declare a cursor variable to store the query result
+    Debt_not_found EXCEPTION; -- Custom exception for when no debt is found
+BEGIN
+    -- Open the cursor and populate it with the query result
+    OPEN v_result FOR
+        SELECT debt_id, debt_price, debt_create, asset_address, tax_id
+        FROM Debt d
+        NATURAL JOIN Tax_Account 
+        NATURAL JOIN Asset 
+        NATURAL JOIN Ownership 
+        WHERE resident_id = p_resident_id
+        ORDER BY debt_create DESC;
+        
+    -- Check if the cursor is empty (no rows found)
+    IF v_result%NOTFOUND THEN
+        CLOSE v_result;
+        RAISE Debt_not_found; -- Raise the custom exception
+    END IF;   
+    
+    RETURN v_result; -- Return the cursor containing the debt history
+    
+EXCEPTION
+    -- Handle the custom exception
+    WHEN Debt_not_found THEN
+      dbms_output.put_line('Error: Debt not found');
+      
+END;
 ```
 #### תיאור הפונקציה
 פונקציה המקבלת מזהה תושב ומחזירה את היסטורית החובות עבור תושב זה. אם לא קיימים חובות עבור תושב זה אז תיזרק חריגה שלא קיימים חובות. 
@@ -686,6 +715,75 @@ END;
 # פרוצדורות 
 ### פרוצדורה מס' 1 - update_tax_price
 ```SQL
+CREATE OR REPLACE PROCEDURE update_tax_price (
+    p_tax_id IN NUMBER, 
+    p_amount IN NUMBER
+)
+IS
+    v_remaining_amount NUMBER := p_amount;  -- Initialize remaining amount to the given amount
+    v_debt_to_pay NUMBER;  -- Variable to hold debt amount
+    v_debt_id debt.debt_id%TYPE;  -- Variable to hold generated debt ID
+    tax_account_not_found EXCEPTION;  -- Exception for tax account not found
+    v_exists NUMBER;  -- Flag to check existence of debt ID
+    
+    -- Cursor to fetch tax price from tax_account
+    CURSOR c_tax_account_price IS
+        SELECT tax_price
+        FROM tax_account
+        WHERE tax_id = p_tax_id;
+        
+BEGIN
+    -- Open cursor to fetch tax price
+    OPEN c_tax_account_price;
+    FETCH c_tax_account_price INTO v_debt_to_pay;
+  
+    -- Check if tax account exists
+    IF c_tax_account_price%NOTFOUND THEN
+        CLOSE c_tax_account_price;
+        raise tax_account_not_found;  -- Raise exception if tax account not found
+    END IF;
+    CLOSE c_tax_account_price;
+    
+    v_debt_id := 1000000000;  -- Start with initial debt ID
+    
+    -- Loop to find a unique debt ID
+    LOOP
+        -- Check if debt ID already exists in Debt table
+        SELECT COUNT(*)
+        INTO v_exists
+        FROM Debt
+        WHERE debt_id = v_debt_id;
+        
+        -- Exit loop if debt ID does not exist in Debt table
+        IF v_exists = 0 THEN
+            EXIT;
+        END IF;
+        
+        v_debt_id := v_debt_id + 1;  -- Increment debt ID for the next check
+    END LOOP;
+    
+    -- Output message for the created unique debt ID
+    dbms_output.put_line('Unique Key - debt_id is created: ' || v_debt_id);
+    
+    -- Insert into Debt table
+    INSERT INTO Debt (debt_id, debt_price, debt_create, debt_last_date, tax_id)
+    VALUES (v_debt_id, v_debt_to_pay, TRUNC(SYSDATE), ADD_MONTHS(TRUNC(SYSDATE), 12), p_tax_id);
+  
+    -- Update tax_price in Tax_Account table
+    UPDATE Tax_Account
+    SET tax_price = v_remaining_amount
+    WHERE tax_id = p_tax_id;
+    
+    COMMIT;  -- Commit transaction
+    
+    -- Output message for successful tax price update
+    DBMS_OUTPUT.PUT_LINE('Tax price updated successfully for tax_id: ' || p_tax_id );
+    
+EXCEPTION
+    WHEN tax_account_not_found THEN
+        dbms_output.put_line('Error: Tax Account not found');  -- Handle exception for tax account not found
+END update_tax_price;
+
 ```
 #### תיאור הפרוצדורה
 מקבלת מזהה חשבון, סכום הארנונה התקופתי (מקבלת מהפונקציה) ומעדכנת את tax_price ביישות חשבון ארנונה ומוסיפה רשומה חדשה לdebt.
@@ -707,6 +805,72 @@ END;
 
 ### פרוצדורה מס' 2 - pay_debt
 ```SQL
+CREATE OR REPLACE PROCEDURE pay_debt(p_debt_id IN debt.debt_id%TYPE)
+IS  
+    v_tax_id tax_account.tax_id%TYPE;
+    v_payment_amount NUMBER;
+    v_payment_id Payment.Payment_Id%TYPE;
+    v_exists NUMBER; -- Flag for finding payment_id
+    debt_not_found EXCEPTION;
+    
+    -- Cursor to get debt details (debt amount and account id)
+    CURSOR c_debt_pay IS
+    SELECT tax_id, debt_price
+    FROM debt
+    WHERE debt_id = p_debt_id;
+    
+BEGIN
+    v_payment_id := 1000000000;
+    
+    -- Open cursor to fetch debt
+    OPEN c_debt_pay;
+    FETCH c_debt_pay INTO v_tax_id, v_payment_amount;
+    
+    -- If debt doesn't exist
+    IF c_debt_pay%NOTFOUND THEN
+        CLOSE c_debt_pay;
+        RAISE debt_not_found;  -- Raise exception if debt not found
+    END IF;
+    CLOSE c_debt_pay;
+
+    -- Loop to find a unique payment ID
+    LOOP
+        -- Check if payment ID already exists in payment table
+        SELECT COUNT(*)
+        INTO v_exists
+        FROM Payment
+        WHERE payment_id = v_payment_id;
+        
+        -- Exit loop if payment ID does not exist in Payment table
+        IF v_exists = 0 THEN
+            EXIT;
+        END IF;
+        
+        v_payment_id := v_payment_id + 1;  -- Increment payment ID for the next check
+    END LOOP;
+    
+    -- Output message for the created unique payment ID
+    DBMS_OUTPUT.PUT_LINE('Unique Key - payment_id is created: ' || v_payment_id);
+
+    -- Add a new record to the payment table with the debt amount
+    INSERT INTO payment (payment_id, payment_amount, payment_type, payment_date, payment_receipt, tax_id)
+    VALUES (v_payment_id, v_payment_amount, 'Credit', TRUNC(SYSDATE), ADD_MONTHS(TRUNC(SYSDATE), 1), v_tax_id);
+    
+    -- Delete the record from the debt table
+    DELETE FROM debt
+    WHERE debt_id = p_debt_id;
+
+    DBMS_OUTPUT.PUT_LINE('Debt and Payment updated successfully for tax_id: ' || v_tax_id 
+    || ' Debt_id ' || p_debt_id ||' payment_id ' || v_payment_id);
+    
+    -- Commit the changes
+    COMMIT;
+
+EXCEPTION
+   WHEN debt_not_found THEN
+        DBMS_OUTPUT.PUT_LINE('Error: Debt not found');  
+END;
+
 ```
 #### תיאור הפרוצדורה
 פרוצדורה המקבלת מזהה חוב debt_id ומוסיפה לטבלת PAYMENT רשומה חדשה עם סכום החוב ומוחקת מטבלת DEBT את הרשומה עם המזהה debt_id
@@ -730,6 +894,49 @@ END;
 # תוכניות
 ### תוכנית מס' 1
 ```SQL
+--Program#1
+DECLARE
+    p_asset_id asset.asset_id%TYPE;
+    p_tax_id tax_account.tax_id%TYPE; 
+    v_monthly_tax NUMBER;
+    v_amount NUMBER;
+    
+BEGIN
+    -- Query to randomly select an asset_id
+    SELECT asset_id
+    INTO p_asset_id
+    FROM ( SELECT asset_id
+           FROM Asset
+           ORDER BY DBMS_RANDOM.VALUE )
+    WHERE ROWNUM = 1;
+
+    -- Call the calculate_monthly_tax function to get the monthly tax
+    v_monthly_tax := calculate_monthly_tax(p_asset_id);
+    
+    DBMS_OUTPUT.PUT_LINE('The monthly tax for asset_id ' || p_asset_id || ' is: ' || v_monthly_tax);
+
+    -- Find the tax account id associated with this asset and store it in a variable
+    SELECT tax_id
+    INTO p_tax_id
+    FROM Tax_account
+    NATURAL JOIN ASSET
+    WHERE asset_id = p_asset_id;
+
+    -- Set the amount to update in the tax
+    v_amount := v_monthly_tax;  -- In this case, we assume the amount is the calculated monthly tax
+
+    -- Call the update_tax_price procedure to update the price
+    update_tax_price(p_tax_id, v_amount);
+    
+    DBMS_OUTPUT.PUT_LINE('Tax price update completed successfully');
+    
+EXCEPTION
+    -- Handle any unexpected errors
+    WHEN OTHERS THEN
+        DBMS_OUTPUT.PUT_LINE('An unexpected error occurred: ' || SQLERRM);
+        ROLLBACK;  -- Rollback transaction for any errors
+END;
+
 ```
 #### תיאור התוכנית
 תוכנית המעדכנת חשבונות ארנונה כל תקופה (חודשיים).
@@ -744,6 +951,62 @@ END;
 
 ### תוכנית מס' 2
 ```SQL
+--Program#2
+DECLARE
+    p_resident_id Resident.Resident_Id%TYPE;
+    v_cursor SYS_REFCURSOR;
+    v_debt_id debt.debt_id%TYPE;
+    v_debt_price debt.debt_price%TYPE;
+    v_debt_create debt.debt_create%TYPE;
+    v_asset_address asset.asset_address%TYPE;
+    v_tax_id tax_account.tax_id%TYPE;
+    
+    debt_id_deleted debt.debt_id%TYPE;
+BEGIN
+    -- Query to randomly select a resident ID who has debts
+    SELECT resident_id
+    INTO p_resident_id
+    FROM ( SELECT resident_id
+           FROM Resident
+           WHERE resident_id IN (SELECT resident_id 
+                                 FROM debt
+                                 NATURAL JOIN tax_account
+                                 NATURAL JOIN asset
+                                 NATURAL JOIN ownership
+                                 NATURAL JOIN resident)
+    ORDER BY DBMS_RANDOM.VALUE)
+    WHERE ROWNUM = 1;
+    
+    -- Call the function to get the debt history of the resident
+    v_cursor := get_resident_debt_history(p_resident_id);
+    
+    DBMS_OUTPUT.PUT_LINE('List of debts for Resident ID: ' || p_resident_id);
+    
+    -- Loop through the cursor to display debt information
+    LOOP
+        FETCH v_cursor INTO v_debt_id, v_debt_price, v_debt_create, v_asset_address, v_tax_id;
+        EXIT WHEN v_cursor%NOTFOUND;
+        
+        DBMS_OUTPUT.PUT_LINE('Debt ID: ' || v_debt_id || ', Debt Price: ' || v_debt_price ||
+                             ', Debt Create Date: ' || v_debt_create || ', Asset Address: ' ||
+                             v_asset_address || ', Tax ID: ' || v_tax_id);
+    END LOOP;
+    CLOSE v_cursor;
+    
+    -- Store the last fetched debt_id to be deleted
+    debt_id_deleted := v_debt_id;
+    DBMS_OUTPUT.PUT_LINE('Debt ID to be deleted from the Debt table: ' || debt_id_deleted);
+    
+    -- Call the procedure to pay the debt
+    pay_debt(debt_id_deleted);
+    
+    DBMS_OUTPUT.PUT_LINE('Debt with ID ' || debt_id_deleted || ' has been paid.');
+    
+EXCEPTION
+    -- Handle any unexpected errors
+    WHEN OTHERS THEN
+        DBMS_OUTPUT.PUT_LINE('An error occurred: ' || SQLERRM);
+END;
 ```
 #### תיאור התוכנית
 תוכנית המבצעת תשלום חוב לתושב מסוים.
