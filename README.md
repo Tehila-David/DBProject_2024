@@ -945,7 +945,7 @@ END;
 הדפסה של סכום המס שהתושב צריך לשלם ומזהה החוב החדש ועדכון tax_price.
 ##### Output
 <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/program%231_output.PNG" width="60%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/program%231_output.PNG" width="70%">
 </p>
 
 
@@ -1015,7 +1015,7 @@ END;
 הדפסת מזהה התושב, מזהה החוב שנמחק ומזהה תשלום חדש.
 ##### Output
 <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/program%232_output.PNG" width="60%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/program%232_output.PNG" width="80%">
 </p>
 
 
