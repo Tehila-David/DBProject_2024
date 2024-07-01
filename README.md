@@ -670,6 +670,10 @@ ORDER BY payment_amount DESC
 הפעלת פונקציה 1 - calculate_ monthly_tax - מקבלת כפרמטר מזהה נכס רנדומלי.
 הפעלת פרוצדורה 1 - update_tax_price - מקבלת מזהה חשבון ארנונה וסכום המס (שחזר מהפונקציה).
 הדפסה של סכום המס שהתושב צריך לשלם ומזהה החוב החדש ועדכון tax_price.
+##### Output
+<p align="middle">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/program%231_output.PNG" width="60%">
+</p>
 
 
 ### תוכנית מס' 2
@@ -680,6 +684,10 @@ ORDER BY payment_amount DESC
 הפעלת פונקציה 2 - get_resident_debt_history - מקבלת כפרמטר מזהה תושב רנדומלי.
 הפעלת פרוצדורה 2 - pay_debt - מקבלת מזהה חוב (אם קיימים מספר חובות אז משלמים את החוב האחרון).
 הדפסת מזהה התושב, מזהה החוב שנמחק ומזהה תשלום חדש.
+##### Output
+<p align="middle">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/program%232_output.PNG" width="60%">
+</p>
 
 
 
