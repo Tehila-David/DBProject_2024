@@ -670,6 +670,9 @@ END;
 <img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/%D7%A4%D7%95%D7%A0%D7%A7%D7%A6%D7%99%D7%94%231%20-%20output.PNG" width="60%">
 </p>
 
+##### זריקת EXCEPTION
+
+
 ### פונקציה מס' 2 - get_resident_debt_history
 ```SQL
 CREATE OR REPLACE FUNCTION get_resident_debt_history(p_resident_id resident.resident_id%type)
@@ -710,6 +713,9 @@ END;
 <p align="middle">
 <img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/%D7%A4%D7%95%D7%A0%D7%A7%D7%A6%D7%99%D7%94%232%20-%20output.PNG" width="80%">
 </p>
+
+##### זריקת EXCEPTION
+
 
 
 # פרוצדורות 
@@ -803,6 +809,9 @@ END update_tax_price;
 <img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/%D7%A4%D7%A8%D7%95%D7%A6%D7%93%D7%95%D7%A8%D7%94%231%20-%20%D7%94%D7%95%D7%A1%D7%A4%D7%AA%20%D7%97%D7%95%D7%91%20%D7%97%D7%93%D7%A9.PNG" width="60%">
 </p>
 
+##### זריקת EXCEPTION
+
+
 ### פרוצדורה מס' 2 - pay_debt
 ```SQL
 CREATE OR REPLACE PROCEDURE pay_debt(p_debt_id IN debt.debt_id%TYPE)
@@ -890,6 +899,9 @@ END;
  <p align="middle">
 <img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/%D7%A4%D7%A8%D7%95%D7%A6%D7%93%D7%95%D7%A8%D7%94%232%20-%20add%20payment.PNG" width="80%">
 </p>
+
+##### זריקת EXCEPTION
+
 
 # תוכניות
 ### תוכנית מס' 1
