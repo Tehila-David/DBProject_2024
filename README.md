@@ -726,7 +726,7 @@ END;
 <img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/Get_resident_debt_exception2.png" width="60%">
 </p>
  <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/Get_resident_debt_exception2.png" width="60%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/Get_resident_debt_exception1.png" width="60%">
 </p>
 
 
