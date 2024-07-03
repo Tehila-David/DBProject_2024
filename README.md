@@ -671,6 +671,12 @@ END;
 </p>
 
 ##### זריקת EXCEPTION
+ <p align="middle">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/calculate_monthly_tax_exception1.png" width="60%">
+</p>
+ <p align="middle">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/calculate_monthly_tax_exception2.png" width="60%">
+</p>
 
 
 ### פונקציה מס' 2 - get_resident_debt_history
