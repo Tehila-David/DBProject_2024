@@ -38,6 +38,5 @@ EXCEPTION
     -- Handle any unexpected errors
     WHEN OTHERS THEN
         DBMS_OUTPUT.PUT_LINE('An unexpected error occurred: ' || SQLERRM);
-        ROLLBACK;  -- Rollback transaction for any errors
 END;
 
