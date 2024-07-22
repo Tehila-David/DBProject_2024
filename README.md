@@ -1091,6 +1091,28 @@ END;
 • יישות PRINCIPAL (מנהל) יורשת מיישות Resident (תושב) מאגף גבייה.
 •	נוסיף קשר יחיד ליחיד בין יישות PRINCIPAL (מנהל) ליישות ACADEMIC_INSTITUTION (מוסד אקדמי) מאגף חינוך. 
 
+### יישום ההחלטות ב PLSQL
+#### יישות TEACHER
+1.	הוספנו את הרשומות שהופיעו ביישות TEACHER ליישות Resident
+2.	ביישות TEACHER שיננו את השדה ID להיות מפתח זר מיישות Resident.
+#### יישות PRINCIPAL
+1.	ניצור יישות PRINCIPAL עם השדות הבאים: INSTITUTIONID, RESIDENT_ID, PRINCIPAL _id. שדה RESIDENT_ID מפתח זר מיישות RESIDENT, שדה INSTITUTIONID מפתח זר מיישות ACADEMIC_INSTITUTION.
+2.	הוספת רשומות ביישות PRINCIPAL
+3.	הוספת תושבים שהם מנהלים ליישות RESIDENT
+4.	הוספת חשבונות ארנונה של המנהלים ביישות tax_account
+#### ביישות ASSET
+הוספת 400 נכסים שהם מוסודת חינוכיים.
+#### ביישות DISCOUNT
+הוספת רשומות ליישות DISCOUNT עבור מורים (מורים שהם תושבי ירושלים המלמדים במוסדות חינכויים בירושלים).
+
+
+
+
+
+
+
+
+
 
 
 
