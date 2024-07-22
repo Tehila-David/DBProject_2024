@@ -1124,6 +1124,19 @@ END;
 שאילתה שמציגה את סך כל מסי הנכסים לכל מנהל, ממוינת מהגבוה לנמוך. (בהנחה שמנהל יכול לנהל כמה מוסדות חינוך)
 השדות שיוצגו: מזהה מנהל, מספר נכסים של המנהל, סכום חשבונות ארנונה לכל הנכסים, ממוצע חשבונות ארנונה
 #### קוד השאילתה
+```SQL
+SELECT 
+    principal_id,
+    COUNT(DISTINCT asset_id) AS number_of_assets,
+    SUM(tax_price) AS total_tax,
+    AVG(tax_price) AS average_tax_per_asset
+FROM 
+    view_tax_account
+GROUP BY 
+    principal_id
+ORDER BY 
+    total_tax DESC;
+```
 #### פלט
 <p align="middle">
 <img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/%D7%A9%D7%90%D7%99%D7%9C%D7%AA%D7%94%231_view%231_%D7%A4%D7%9C%D7%98.PNG" width="70%">
