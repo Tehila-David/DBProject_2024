@@ -1114,6 +1114,10 @@ END;
 השדות שיוצגו: מזהה מנהל, מזהה מוסד, מזהה נכס(מוסד חינוכי), כתובת נכס, סוג נכס, מזהה חשבון ארנונה, מחיר חשבון ארנונה.
 
 #### שליפת נתונים
+```SQL
+select * from view_tax_account
+```
+
 <p align="middle">
 <img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/view%231_%D7%A9%D7%9C%D7%99%D7%A4%D7%AA%20%D7%A0%D7%AA%D7%95%D7%A0%D7%99%D7%9D.PNG" width="70%">
 </p>
@@ -1172,6 +1176,9 @@ ORDER BY
 ### טבלת VIEW מס' 2 - מנקודת מבט של הפרויקט שקיבלנו – אגף חינוך
 #### תיאור מילולי 
 #### שליפת נתונים
+```SQL
+select * from view_Education_Department
+```
 <p align="middle">
 <img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/view%232_%D7%A9%D7%9C%D7%99%D7%A4%D7%AA%20%D7%A0%D7%AA%D7%95%D7%A0%D7%99%D7%9D.PNG" width="70%">
 </p>
