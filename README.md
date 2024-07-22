@@ -1057,12 +1057,27 @@ END;
 
 # אינטגרציה - אגף שומה וגביה & אגף חינוך
 ## תרשים DSD של אגף חינוך
+<p align="middle">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/DSD_%D7%90%D7%92%D7%A3%20%D7%97%D7%99%D7%A0%D7%95%D7%9A.PNG" width="60%">
+</p>
 
 ## תרשים ERD של אגף חינוך
+<p align="middle">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/ERD_%D7%90%D7%92%D7%A3%20%D7%97%D7%99%D7%A0%D7%95%D7%9A.PNG" width="60%">
+</p>
+
 
 ## תרשים ERD משותף לאחר האינטגרציה
+<p align="middle">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/ERD_%D7%9E%D7%A9%D7%95%D7%AA%D7%A3%20%D7%9C%D7%90%D7%97%D7%A8%20%D7%90%D7%99%D7%A0%D7%98%D7%92%D7%A8%D7%A6%D7%99%D7%94.jpg" width="60%">
+</p>
+
 
 ## תרשים DSD משותף לאחר האינטגרציה
+<p align="middle">
+<img src="" width="80%">
+</p>
+
 
 ##  החלטות שנעשו בשלב האינטגרציה
 
