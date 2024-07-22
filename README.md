@@ -1107,23 +1107,55 @@ FROM Teacher t;
 
 2.	ביישות TEACHER שיננו את השדה ID להיות מפתח זר מיישות Resident.
 ```SQL
+--In a teacher entity, changing the ID field to be a foreign key from a resident table
 alter table TEACHER 
 add foreign key (iD)
 references RESIDENT (Resident_ID);
+```
+ 3. ביישות TEACHER הסרנו את השדות FirstName, LastName.
+```SQL
+--In the TEACHER entity we removed the fields FirstName, LastName.
+ALTER TABLE TEACHER DROP COLUMN FirstName;
+ALTER TABLE TEACHER DROP COLUMN LastName;
 ```
 
 
 #### יישות PRINCIPAL
 1.	ניצור יישות PRINCIPAL עם השדות הבאים: INSTITUTIONID, RESIDENT_ID, PRINCIPAL _id. שדה RESIDENT_ID מפתח זר מיישות RESIDENT, שדה INSTITUTIONID מפתח זר מיישות ACADEMIC_INSTITUTION.
+```SQL
+--Creating a Principal table
+CREATE TABLE Principal (
+    Principal_id NUMBER PRIMARY KEY,
+    Resident_ID NUMBER,
+    Institution_ID NUMBER,
+    FOREIGN KEY (Resident_ID) REFERENCES Resident(Resident_ID),
+    FOREIGN KEY (Institution_ID) REFERENCES ACADEMIC_INSTITUTION(InstitutionID)
+);
+```
 2.	הוספת רשומות ביישות PRINCIPAL
-3.	הוספת תושבים שהם מנהלים ליישות RESIDENT
-4.	הוספת חשבונות ארנונה של המנהלים ביישות tax_account
+```SQL
+--Adding PRINCIPAL
+INSERT INTO PRINCIPAL (Resident_ID, Institution_ID)
+SELECT r.resident_id, a.institutionid
+FROM resident r, ACADEMIC_INSTITUTION a
+where r.resident_id BETWEEN 1000000 AND 9999999;
+```
+
+
+3.	הוספת תושבים שהם מנהלים ליישות RESIDENT ע"י Data Generator
+4.	הוספת חשבונות ארנונה של המנהלים ביישות tax_account ע"י Data Generator
 #### יישות ASSET
-הוספת 400 נכסים שהם מוסודת חינוכיים.
+הוספת 400 נכסים שהם מוסודת חינוכיים ע"י Data Generator
 #### יישות DISCOUNT
 הוספת רשומות ליישות DISCOUNT עבור מורים (מורים שהם תושבי ירושלים המלמדים במוסדות חינכויים בירושלים).
+```SQL
+--Adding discounts for teachers
+INSERT INTO Discount (Discount_ID, Discount_percent,Discount_Type,Discount_Start,Discount_End,Resident_Id)
+SELECT t.id+100, 40, 'teacher',  TRUNC(SYSDATE),ADD_MONTHS(TRUNC(SYSDATE), 24),t.id
+FROM Teacher t;
+```
 #### יישות OWNERSHIP
-הוספנו ביישות OWNERSHIP את המנהלים והנכסים שלהם.
+הוספנו ביישות OWNERSHIP את המנהלים והנכסים שלהם ע"י Data Generator
 
 
 ### טבלת VIEW מס' 1 - מנקודת מבט שלנו – אגף שומה וגביה
