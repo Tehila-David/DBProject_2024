@@ -1181,16 +1181,31 @@ ORDER BY
 אגף החינוך בירושלים רוצה לשלוח מכתבים לטקס פרס אות הוכרה עבור מנהלים מבוגרים שעברו את גיל הפנסיה ומנהלים מוסדות עם מעל 100 מורים בירושלים. 
 השדות שיוצגו:שם פרטי של המנהל, שם משפחה של המנהל, כתובת בית, שם המסגרת החינוכית 
 #### קוד השאילתה
+```SQL
+select principal_fname,principal_lname,r.resident_address as principal_address,academic_institution_name
+from view_Education_Department, principal p natural join resident r 
+where academic_institution_id=p.institution_id and
+      EXTRACT(YEAR from principal_birth) < 1970 and num_teachers >100 
+order by principal_fname;
+```
 #### פלט
 <p align="middle">
 <img src="" width="80%">
 </p>
+
 
 ### שאילתה מס' 2 על VIEW מס' 2
 #### תיאור מילולי
 אגף החינוך רוצה לתקצב מוסדות חינוך שבהם יש ריכוז גבוה יותר של תלמידים. האגף רוצה ליצור קשר עם מנהלים שיהיו זכאים לתקציב. התקציב יינתן למוסדות חינוך שהיחס בין תלמידים למורים  קטן מ – 5 .
 השדות שיוצגו:שם פרטי של המנהל, שם משפחה של המנהל, שם מוסד חינוכי, סוג המוסד החינוכי
 #### קוד השאילתה
+```SQL
+select principal_fname,principal_lname,principal_phone,academic_institution_name,academic_institution_kind
+from view_Education_Department
+where CEIL((num_teachers / num_students) * 100)<5 
+order by principal_fname;
+```
+
 #### פלט
 <p align="middle">
 <img src="" width="80%">
