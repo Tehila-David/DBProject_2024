@@ -1091,10 +1091,28 @@ END;
 2. יישות PRINCIPAL (מנהל) יורשת מיישות Resident (תושב) מאגף גבייה.
 3. נוסיף קשר יחיד ליחיד בין יישות PRINCIPAL (מנהל) ליישות ACADEMIC_INSTITUTION (מוסד אקדמי) מאגף חינוך. 
 
-### יישום ההחלטות ב PLSQL
+### הסבר מילולי של תהליך האינטגרציה והסבר הפקודות
 #### יישות TEACHER
 1.	הוספנו את הרשומות שהופיעו ביישות TEACHER ליישות Resident
+ ```SQL
+--Adding the records from the TEACHER entity to the resident entity
+INSERT INTO Resident (Resident_ID, resident_fname, resident_lname, resident_birth, resident_address, resident_phone, resident_joining)
+SELECT t.id, t.firstname, t.lastname,
+       to_date('01-01-1970','dd-mm,yyyy') AS resident_birth,
+       'Unknown Address' AS resident_address,
+       t.phone,
+       TRUNC(SYSDATE) AS resident_joining
+FROM Teacher t;
+ ```
+
 2.	ביישות TEACHER שיננו את השדה ID להיות מפתח זר מיישות Resident.
+```SQL
+alter table TEACHER 
+add foreign key (iD)
+references RESIDENT (Resident_ID);
+```
+
+
 #### יישות PRINCIPAL
 1.	ניצור יישות PRINCIPAL עם השדות הבאים: INSTITUTIONID, RESIDENT_ID, PRINCIPAL _id. שדה RESIDENT_ID מפתח זר מיישות RESIDENT, שדה INSTITUTIONID מפתח זר מיישות ACADEMIC_INSTITUTION.
 2.	הוספת רשומות ביישות PRINCIPAL
