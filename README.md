@@ -1147,6 +1147,23 @@ ORDER BY
 שאילתה המציגה את מספר המנהלים לכל מוסד חינוכי ואת מחיר הארנונה למוסד זה.
 השדות שיוצגו: מזהה מוסד, שם מוסד, כתובת מוסד, מחיר ארנונה למוסד זה, מספר המנהלים למוסד זה
 #### קוד השאילתה
+```SQL
+SELECT 
+    vta.institution_id,
+    ai.name,
+    ai.address,
+    SUM(vta.tax_price) AS tax_price,
+    COUNT(DISTINCT vta.principal_id) AS principal_count
+FROM 
+    view_tax_account vta
+JOIN 
+    ACADEMIC_INSTITUTION ai ON vta.institution_id = ai.institutionid
+GROUP BY 
+    vta.institution_id, ai.name, ai.address
+ORDER BY 
+    principal_count DESC;
+```
+
 #### פלט
 <p align="middle">
 <img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/%D7%A9%D7%90%D7%99%D7%9C%D7%AA%D7%94%232_view%231_%D7%A4%D7%9C%D7%98.PNG" width="70%">
