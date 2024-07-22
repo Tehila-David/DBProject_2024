@@ -1115,7 +1115,7 @@ END;
 
 #### שליפת נתונים
 <p align="middle">
-<img src="" width="80%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/view%231_%D7%A9%D7%9C%D7%99%D7%A4%D7%AA%20%D7%A0%D7%AA%D7%95%D7%A0%D7%99%D7%9D.PNG" width="70%">
 </p>
 
 
@@ -1126,7 +1126,7 @@ END;
 #### קוד השאילתה
 #### פלט
 <p align="middle">
-<img src="" width="80%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/%D7%A9%D7%90%D7%99%D7%9C%D7%AA%D7%94%231_view%231_%D7%A4%D7%9C%D7%98.PNG" width="70%">
 </p>
 
 ### שאילתה מס' 2 על VIEW מס' 1
@@ -1136,7 +1136,7 @@ END;
 #### קוד השאילתה
 #### פלט
 <p align="middle">
-<img src="" width="80%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/%D7%A9%D7%90%D7%99%D7%9C%D7%AA%D7%94%232_view%231_%D7%A4%D7%9C%D7%98.PNG" width="70%">
 </p>
 
 ### טבלת VIEW מס' 2 - מנקודת מבט של הפרויקט שקיבלנו – אגף חינוך
