@@ -32,12 +32,6 @@ CREATE TABLE Principal (
 );
 
 
---Adding records to discount entity for teachers
-INSERT INTO Discount (Discount_ID, Discount_percent, Discount_type, Discount_start, Discount_end, resident_id)
-SELECT discountIDFunc, 30, 'Teacher', TRUNC(SYSDATE),ADD_MONTHS(TRUNC(SYSDATE), 24),t.id
-FROM Teacher t;
-
-
 
 --Adding PRINCIPAL
 INSERT INTO PRINCIPAL (Resident_ID, Institution_ID)
