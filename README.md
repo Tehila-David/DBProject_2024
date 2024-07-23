@@ -1132,7 +1132,7 @@ CREATE TABLE Principal (
     FOREIGN KEY (Institution_ID) REFERENCES ACADEMIC_INSTITUTION(InstitutionID)
 );
 ```
-2. 	הוספת תושבים שהם מנהלים ליישות RESIDENT ע"י Data Generator (resident_id = מזהה תושב שוהא מנהל יכיל 7 ספרות כלומר מס' רנדומלי בין 1000000 ל 9999999)
+2. 	הוספת תושבים שהם מנהלים ליישות RESIDENT ע"י Data Generator (resident_id = מזהה תושב שהוא מנהל יכיל 7 ספרות כלומר מס' רנדומלי בין 1000000 ל 9999999)
 3.	הוספת רשומות ביישות PRINCIPAL
 ```SQL
 --Adding PRINCIPAL
