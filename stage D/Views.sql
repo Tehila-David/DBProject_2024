@@ -9,10 +9,10 @@ SELECT
     t.tax_id,
     t.tax_price
 FROM ACADEMIC_INSTITUTION a, principal p,ownership o, Asset a1,tax_account t
-where a.institutionid=p.institution_id AND p.resident_id = o.resident_id AND o.asset_id = a1.asset_id AND t.tax_id = a1.tax_id
+where a.institutionid=p.institution_id AND p.resident_id = o.resident_id AND o.asset_id = a1.asset_id AND t.tax_id = a1.tax_id;
 
---שליפת נתונים מ VIEW #1
-select * from view_tax_account
+-- VIEW #1
+select * from view_tax_account;
 
 --Query 1 - A query showing the total property taxes for each manager, sorted from highest to lowest
 SELECT 
@@ -62,8 +62,8 @@ select
 from academic_institution a , principal p natural join resident r
 where a.institutionid=p.institution_id;
 
---שליפת נתונים מ VIEW #2
-select * from view_Education_Department
+-- VIEW #2
+select * from view_Education_Department;
 
 
 --Query 1 - The query shows the older managers who have passed the retirement age and the educational institutions they teach 
