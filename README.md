@@ -1063,7 +1063,7 @@ END;
 
 ## תרשים ERD של אגף חינוך
 <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/ERD%20Education.png" width="80%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/ERD_Education.png" width="80%">
 </p>
 
 
