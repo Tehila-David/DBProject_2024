@@ -1069,7 +1069,7 @@ END;
 
 ## תרשים ERD משותף לאחר האינטגרציה
 <p align="middle">
-<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/ERD_AFTER%D6%B9_INTGRATE1.png" width="80%">
+<img src="https://github.com/Tehila-David/DBProject_324926419_324866037/blob/main/Photos/ERD_AFTER%D6%B9_INTG_RATE.png" width="80%">
 </p>
 
 
